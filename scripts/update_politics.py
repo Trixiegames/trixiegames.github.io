@@ -11,6 +11,7 @@ import re
 import subprocess
 import xml.etree.ElementTree as ET
 from restore_context import importance
+from edition_archive import archive_edition
 
 ROOT = Path(__file__).resolve().parents[1]
 DEST = ROOT / 'politicky-prehled'
@@ -102,6 +103,10 @@ def publish(rows, now, unavailable):
     payload = json.dumps(data, ensure_ascii=False).replace('<','\\u003c')
     page, count = re.subn(r'(<script id="initial-data" type="application/json">).*?(</script>)', lambda m:m[1]+payload+m[2], page, flags=re.S)
     assert count == 1
+    previous = DEST / 'data.json'
+    if previous.exists():
+        archive_edition(DEST, json.loads(previous.read_text()))
+    archive_edition(DEST, data)
     (DEST/'data.json').write_text(json.dumps(data, ensure_ascii=False, indent=2)+'\n')
     (DEST/'index.html').write_text(page)
     print(f'Published {len(rows)} articles; checked at {now.isoformat()}; unavailable feeds: {unavailable}')

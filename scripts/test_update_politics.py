@@ -1,9 +1,25 @@
 import unittest
+import json
+import tempfile
+from pathlib import Path
+from edition_archive import archive_edition
 from datetime import datetime, timezone
 from update_politics import parse_feed, select, render_card
 from restore_context import importance
 
 class UpdateTests(unittest.TestCase):
+    def test_archive_preserves_old_editions_and_deduplicates(self):
+        with tempfile.TemporaryDirectory() as folder:
+            first = dict(updated_at='2026-11-09T17:00:00+00:00', articles=[{'title':'Původní titulek'}])
+            latest = dict(updated_at='2026-11-10T09:00:00+00:00', articles=[])
+            path = archive_edition(folder, first)
+            archive_edition(folder, latest)
+            archive_edition(folder, dict(first, articles=[{'title':'Změněný titulek'}]))
+            self.assertEqual(json.loads(path.read_text())['articles'][0]['title'], 'Původní titulek')
+            index = json.loads((Path(folder)/'archive/index.json').read_text())
+            self.assertEqual(len(index), 2)
+            self.assertEqual(index[0]['updated_at'], latest['updated_at'])
+
     def test_only_recent_political_articles(self):
         body = '<rss><channel>' + ''.join(f'<item><title>{title}</title><link>https://ct24.ceskatelevize.cz/clanek/{section}/{i}</link><description>Krátká anotace článku.</description><pubDate>{date}</pubDate></item>' for i, (title, section, date) in enumerate([
             ('Vláda projedná návrh', 'domaci', 'Tue, 10 Nov 2026 08:00:00 GMT'),

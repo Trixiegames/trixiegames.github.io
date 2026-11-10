@@ -1,6 +1,8 @@
 'use strict';
 let data = JSON.parse(document.getElementById('initial-data').textContent);
 let category = 'all';
+let latestData = data, viewingArchive = false, selectionRequest = 0;
+let archiveEntries = [];
 const $ = selector => document.querySelector(selector);
 const buttons = [...document.querySelectorAll('[data-filter]')];
 const dateFormat = new Intl.DateTimeFormat('cs-CZ', {timeZone:'Europe/Prague', dateStyle:'long'});
@@ -14,7 +16,7 @@ function element(tag, text, className) {
 }
 function render() {
   const now = Date.now();
-  const articles = data.articles.filter(a => {
+  const articles = viewingArchive ? data.articles : data.articles.filter(a => {
     const published = Date.parse(a.published_at);
     return Number.isFinite(published) && published <= now && published >= now - 86400000;
   });
@@ -56,6 +58,13 @@ function render() {
   status.classList.toggle('warning', stale || Boolean(data.unavailable_sources?.length));
   status.textContent = stale ? 'Aktualizace se opozdila. Zobrazen je čas poslední úspěšné kontroly; články starší než 24 hodin se nezobrazují.' :
     'Automatická kontrola každou hodinu · Články zveřejněné za posledních 24 hodin · Časy v pásmu Praha.';
+  $('#editionLabel').textContent = viewingArchive ? 'Archivní vydání' : 'Poslední úspěšná aktualizace';
+  $('#sectionLabel').textContent = viewingArchive ? 'Archiv přehledu' : 'Aktuální přehled';
+  $('#editionNote').textContent = viewingArchive ? 'Obsah uložený v uvedený čas.' : 'Starší vydání najdete v archivu.';
+  if (viewingArchive) {
+    status.classList.remove('warning');
+    status.textContent = 'Archivní vydání z ' + fullFormat.format(updated) + ' · Zobrazen je tehdejší výběr článků. Pro dnešní zprávy zvolte aktuální vydání.';
+  }
   if (data.unavailable_sources?.length) status.textContent += ' Při poslední kontrole nebyl dostupný zdroj: ' + data.unavailable_sources.join(', ') + '.';
   filter();
 }
@@ -68,7 +77,7 @@ function filter() {
   });
   $('#count').textContent = count + ' ' + (count === 1 ? 'zpráva' : count >= 2 && count <= 4 ? 'zprávy' : 'zpráv');
   $('#empty').hidden = count !== 0;
-  $('#empty').textContent = data.articles.length ? 'Pro tento filtr nejsou dostupné aktuální zprávy.' : 'Za posledních 24 hodin nebyly nalezeny články odpovídající výběru.';
+  $('#empty').textContent = data.articles.length ? 'Tomuto filtru neodpovídá žádná zpráva ve vybraném vydání.' : 'Za posledních 24 hodin nebyly nalezeny články odpovídající výběru.';
 }
 buttons.forEach(button => button.addEventListener('click', () => {
   category = button.dataset.filter;
@@ -82,14 +91,55 @@ async function refresh() {
     if (!response.ok) throw new Error('HTTP ' + response.status);
     const next = await response.json();
     if (!Array.isArray(next.articles) || !Number.isFinite(Date.parse(next.updated_at))) throw new Error('Invalid edition');
-    data = next;
-    render();
+    latestData = next;
+    if (!viewingArchive) { data = next; render(); }
   } catch (error) {
     // Preserve the real successful update time and keep expiry checks running.
     console.warn('Aktuální vydání se nepodařilo načíst.', error);
   }
 }
-render(); refresh();
+async function loadArchive() {
+  try {
+    const response = await fetch('archive/index.json', {cache:'no-store'});
+    if (!response.ok) throw new Error('Archive unavailable');
+    const entries = await response.json();
+    if (!Array.isArray(entries)) throw new Error('Invalid archive');
+    archiveEntries = entries.filter(e => /^archive\/\d{4}-\d{2}-\d{2}\/[\d-]+\.json$/.test(e.path) && Number.isFinite(Date.parse(e.updated_at)));
+    const select = $('#edition'), selected = select.value;
+    const options = [element('option', 'Aktuální vydání')]; options[0].value = 'current';
+    for (const entry of archiveEntries) {
+      const option = element('option', fullFormat.format(new Date(entry.updated_at)) + ' · ' + entry.count + ' zpráv');
+      option.value = entry.path; options.push(option);
+    }
+    select.replaceChildren(...options);
+    select.value = options.some(o => o.value === selected) ? selected : 'current';
+    $('#archiveMessage').textContent = archiveEntries.length ? 'Dostupná vydání od ' + fullFormat.format(new Date(archiveEntries[archiveEntries.length-1].updated_at)) + '.' : 'Archiv se naplní po první aktualizaci.';
+  } catch (error) {
+    $('#archiveMessage').textContent = 'Seznam archivu se nepodařilo načíst. Aktuální přehled je dostupný.';
+  }
+}
+$('#edition').addEventListener('change', async event => {
+  const value = event.target.value, request = ++selectionRequest;
+  if (value === 'current') { viewingArchive = false; data = latestData; render(); return; }
+  const entry = archiveEntries.find(e => e.path === value);
+  if (!entry) return;
+  try {
+    $('#archiveMessage').textContent = 'Načítání vydání…';
+    const response = await fetch(entry.path, {cache:'no-store'});
+    if (!response.ok) throw new Error('Edition unavailable');
+    const edition = await response.json();
+    if (!Array.isArray(edition.articles) || edition.updated_at !== entry.updated_at) throw new Error('Invalid edition');
+    if (request !== selectionRequest) return;
+    viewingArchive = true; data = edition; render();
+    $('#archiveMessage').textContent = 'Zobrazeno uložené vydání z ' + fullFormat.format(new Date(edition.updated_at)) + '.';
+  } catch (error) {
+    if (request !== selectionRequest) return;
+    $('#edition').value = viewingArchive ? archiveEntries.find(e => e.updated_at === data.updated_at)?.path || 'current' : 'current';
+    $('#archiveMessage').textContent = 'Vydání se nepodařilo načíst. Zůstává předchozí přehled.';
+  }
+});
+render(); refresh(); loadArchive();
+setInterval(loadArchive, 5 * 60000);
 setInterval(refresh, 5 * 60000);
 setInterval(render, 60000);
 document.addEventListener('visibilitychange', () => { if (!document.hidden) refresh(); });

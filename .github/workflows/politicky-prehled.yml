@@ -7,6 +7,8 @@ on:
     branches: [main]
     paths:
       - 'scripts/update_politics.py'
+      - 'scripts/edition_archive.py'
+      - 'scripts/restore_context.py'
       - 'scripts/test_update_politics.py'
       - '.github/workflows/politicky-prehled.yml'
 permissions:
@@ -32,7 +34,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add politicky-prehled/index.html politicky-prehled/data.json
+          git add politicky-prehled/index.html politicky-prehled/data.json politicky-prehled/archive
           git diff --cached --quiet && exit 0
           git commit -m 'Obnov aktuální politický přehled'
           git pull --rebase origin main
