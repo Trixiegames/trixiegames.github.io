@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T10:16:24.648068+00:00",
+  "updated_at": "2026-11-10T10:19:24.926391+00:00",
   "window_hours": 24,
   "articles": [
     {
@@ -10,6 +10,16 @@
       "published_at": "2026-11-10T10:14:00+00:00",
       "url": "https://www.idnes.cz/zpravy/zahranicni/usa-rusko-a-ukrajina-zahaji-jednani-o-konci-valky-ucast-evropy-je-nejasna.A261110_074245_zahranicni_pluh",
       "importance": "Vývoj souvisí s bezpečností obyvatel a možnostmi diplomatického řešení. Oznámení nebo návrh je třeba odlišovat od dohody, která se skutečně dodržuje.",
+      "importance_kind": "topic_context"
+    },
+    {
+      "title": "„Jde o velmi silné indicie.“ Ministr odhalil, co našli v počítači krakovského vraha",
+      "summary": "Polský ministr spravedlnosti Waldemar Żurek v úterý odhalil další podrobnosti o střelci, který v sobotu zabil v centru Krakova šest lidí. Pachatel podle něj na…",
+      "source": "Aktuálně.cz",
+      "category": "svet",
+      "published_at": "2026-11-10T11:13:00+01:00",
+      "url": "https://zpravy.aktualne.cz/zahranici/jde-o-velmi-silne-indicie-ministr-odhalil-co-nasli-v-pocitaci-krakovskeho-vraha/r~aaa29c2efbcdff3aa43f8cb4ebf425d0/",
+      "importance": "Zpráva pomáhá sledovat priority a odpovědnost představitelů státu. Pro praktický dopad je důležité, které výroky se promění v konkrétní rozhodnutí.",
       "importance_kind": "topic_context"
     },
     {
@@ -153,26 +163,6 @@
       "importance_kind": "topic_context"
     },
     {
-      "title": "Jan Čižinský opět povede Prahu 7. Zastupitelé ho po složení slibu zvolili počtvrté v řadě",
-      "summary": "Zastupitelé Prahy 7 počtvrté v řadě zvolili starostou Jana Čižinského z Prahy sobě. Jeho uskupení získalo v říjnových komunálních volbách zhruba 57 procent hlasů. Chce…",
-      "source": "iROZHLAS",
-      "category": "domaci",
-      "published_at": "2026-11-10T10:01:00+01:00",
-      "url": "https://www.irozhlas.cz/zpravy-domov/jan-cizinsky-opet-povede-prahu-7-zastupitele-ho-po-slozeni-slibu-zvolili_2611101001_aru",
-      "importance": "Výsledek voleb a navazující jednání určují, kdo bude rozhodovat o veřejných penězích a prioritách. Samotný volební zisk ještě nezaručuje účast na vedení.",
-      "importance_kind": "topic_context"
-    },
-    {
-      "title": "Kam dopadne dron, tam seberou vzorek. Češi pomáhají mapovat dopady války na životní prostředí",
-      "summary": "Pokračující ruské útoky na ukrajinské podniky a čerpací stanice mají kromě jiného potenciálně nesmírně nebezpečný dopad na životní prostředí. Situaci dlouhodobě mapuje české ekologické sdružení…",
-      "source": "iROZHLAS",
-      "category": "svet",
-      "published_at": "2026-11-10T10:00:00+01:00",
-      "url": "https://www.irozhlas.cz/zpravy-svet/kam-dopadne-dron-tam-seberou-vzorek-cesi-pomahaji-mapovat-dopady-valky-na_2611101000_jos",
-      "importance": "Vývoj souvisí s bezpečností obyvatel a možnostmi diplomatického řešení. Oznámení nebo návrh je třeba odlišovat od dohody, která se skutečně dodržuje.",
-      "importance_kind": "topic_context"
-    },
-    {
       "title": "Děsí mě, jak liberální demokraté hájí demokracii, říká v Rozstřelu Bělohradský",
       "summary": "Evropou se šíří vlna protivládních protestů. Ve Francii vyšly do ulic stovky tisíc lidí, demonstruje se také v Itálii, Německu, ale i v Česku, kde…",
       "source": "iDNES.cz",
@@ -293,16 +283,6 @@
       "importance_kind": "topic_context"
     },
     {
-      "title": "Úspory a investice do bydlení. Richard Vereš z hnutí ANO je novým primátorem Ostravy",
-      "summary": "Richard Vereš z hnutí ANO je primátorem Ostravy. Spolu se Starosty pro Ostravu a hnutím Ostravak drží nová koalice pohodlnou většinu. Vedení moravskoslezské metropole chce…",
-      "source": "iROZHLAS",
-      "category": "domaci",
-      "published_at": "2026-11-10T07:25:00+01:00",
-      "url": "https://www.irozhlas.cz/zpravy-domov/uspory-a-investice-do-bydleni-richard-veres-z-hnuti-ano-je-novym-primatorem_2611100705_aln",
-      "importance": "Téma je součástí domácí politické debaty; pro veřejnost je podstatné, koho se týká a jaké konkrétní kroky příslušné instituce podniknou.",
-      "importance_kind": "topic_context"
-    },
-    {
       "title": "Median: ANO si polepšilo na 32 %, STAN má 18,5 % a ODS 10,5 %",
       "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
       "source": "ČTK / České noviny",
@@ -343,36 +323,6 @@
       "importance_kind": "topic_context"
     },
     {
-      "title": "Ruské reakce na midterms: očekávání dalšího ,mírového úsilí‘ i obvinění části Kongresu z rusofobie",
-      "summary": "Rusko v reakci na výsledky midterms a prohru republikánů zdůrazňuje, že americký prezident Donald Trump zůstává u moci, a zároveň Kreml odmítá, že by změna…",
-      "source": "iROZHLAS",
-      "category": "svet",
-      "published_at": "2026-11-10T06:20:00+01:00",
-      "url": "https://www.irozhlas.cz/zpravy-svet/usa-rusko-vztahy-midterms_2611100620_ula",
-      "importance": "Vývoj souvisí s bezpečností obyvatel a možnostmi diplomatického řešení. Oznámení nebo návrh je třeba odlišovat od dohody, která se skutečně dodržuje.",
-      "importance_kind": "topic_context"
-    },
-    {
-      "title": "ONLINE: Poprvé od února u jednacího stolu. Rozhovory Ukrajiny, Ruska a USA probíhají v Abú Zabí",
-      "summary": "Ve Spojených arabských emirátech v úterý 10. listopadu začnou dvoudenní americko-rusko-ukrajinská jednání o ukončení války, kterou proti Ukrajině Moskva rozpoutala v roce 2022. Nejasnosti panují…",
-      "source": "iROZHLAS",
-      "category": "svet",
-      "published_at": "2026-11-10T06:09:00+01:00",
-      "url": "https://www.irozhlas.cz/zpravy-svet/online-v-abu-zabi-zacinaji-jednani-ukrajiny-usa-a-ruska-ucast-evropskych-zemi_2611100609_tez",
-      "importance": "Vývoj souvisí s bezpečností obyvatel a možnostmi diplomatického řešení. Oznámení nebo návrh je třeba odlišovat od dohody, která se skutečně dodržuje.",
-      "importance_kind": "topic_context"
-    },
-    {
-      "title": "Takhle vyhrávat nikdy nebudeme. Jsme nečitelní, pálí expremiér Fiala. Už i vedení ODS ví, že má problém",
-      "summary": "Pohled na graf víkendového volebního modelu agentury Kantar CZ nemohl potěšit žádného člena Občanské demokratické strany, o to méně pak její vedení. ODS prohrála volby,…",
-      "source": "iROZHLAS",
-      "category": "domaci",
-      "published_at": "2026-11-10T05:00:00+01:00",
-      "url": "https://www.irozhlas.cz/zpravy-domov/takhle-vyhravat-nikdy-nebudeme-jsme-necitelni-pali-expremier-fiala-uz-i-vedeni_2611100500_jgr",
-      "importance": "Zpráva pomáhá sledovat priority a odpovědnost představitelů státu. Pro praktický dopad je důležité, které výroky se promění v konkrétní rozhodnutí.",
-      "importance_kind": "topic_context"
-    },
-    {
       "title": "Trump přivedl před novináře možného mluvčího Whitea, ten nabídku odmítl",
       "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
       "source": "ČTK / České noviny",
@@ -380,16 +330,6 @@
       "published_at": "2026-11-10T02:51:00+01:00",
       "url": "https://www.ceskenoviny.cz/zpravy/trump-privedl-pred-novinare-mozneho-mluvciho-whitea-ten-nabidku-odmitl/2899813",
       "importance": "Zpráva doplňuje obraz mezinárodního dění. Její širší význam závisí na dalších krocích zúčastněných států a institucí.",
-      "importance_kind": "topic_context"
-    },
-    {
-      "title": "Američané volili svými peněženkami, tvrdí Neumann. Lizec: Vliv měl i postoj USA k válce na Ukrajině",
-      "summary": "Američtí republikáni prezidenta Donalda Trumpa analyzují příčiny drtivé porážky ve volbách. „Ukrajinská otázka tam hrála zcela minimální roli. Američané skutečně volili spíše svými peněženkami než…",
-      "source": "iROZHLAS",
-      "category": "svet",
-      "published_at": "2026-11-10T00:10:00+01:00",
-      "url": "https://www.irozhlas.cz/zpravy-svet/americane-volili-svymi-penezenkami-tvrdi-neumann-lizec-vliv-mel-i-postoj-usa-k_2611100010_ako",
-      "importance": "Vývoj souvisí s bezpečností obyvatel a možnostmi diplomatického řešení. Oznámení nebo návrh je třeba odlišovat od dohody, která se skutečně dodržuje.",
       "importance_kind": "topic_context"
     }
   ],
@@ -412,8 +352,8 @@
       "feeds_total": 2,
       "status": "ok",
       "candidates": 21,
-      "selected": 7,
-      "free_articles_checked": 7
+      "selected": 0,
+      "free_articles_checked": 0
     },
     {
       "name": "ČTK / České noviny",
@@ -431,7 +371,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 13,
+      "candidates": 12,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -451,9 +391,9 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 7,
-      "selected": 5,
-      "free_articles_checked": 6
+      "candidates": 8,
+      "selected": 6,
+      "free_articles_checked": 7
     },
     {
       "name": "Deník",
@@ -551,7 +491,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 15,
+      "candidates": 14,
       "selected": 0,
       "free_articles_checked": 0
     }
