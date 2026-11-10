@@ -6,12 +6,6 @@ on:
   push:
     branches: [main]
     paths:
-      - 'scripts/update_politics.py'
-      - 'scripts/source_reader.py'
-      - 'politicky-prehled/sources.json'
-      - 'scripts/edition_archive.py'
-      - 'scripts/restore_context.py'
-      - 'scripts/test_update_politics.py'
       - '.github/workflows/politicky-prehled.yml'
 permissions:
   contents: write
@@ -25,23 +19,38 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+      - name: Load canonical application source
+        uses: actions/checkout@v4
+        with:
+          repository: davhab-dev/Politicky-prehled
+          ref: main
+          path: .politicky-prehled-source
+          persist-credentials: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Check freshness and filtering logic
-        run: python -m unittest discover -s scripts -p 'test_update_politics.py'
+      - name: Preserve published editions
+        run: |
+          rsync -a politicky-prehled/archive/ .politicky-prehled-source/archive/
+          cp politicky-prehled/data.json .politicky-prehled-source/data.json
+      - name: Check application
+        run: |
+          python -m unittest discover -s .politicky-prehled-source/scripts -p 'test_update_politics.py'
+          node --check .politicky-prehled-source/app.js
       - name: Fetch current articles
-        run: python scripts/update_politics.py
+        run: python .politicky-prehled-source/scripts/update_politics.py
+      - name: Prepare public application
+        run: |
+          rsync -a --delete --exclude='.git' --exclude='.github' --exclude='scripts' --exclude='README.md' --exclude='.gitignore' .politicky-prehled-source/ politicky-prehled/
       - name: Save latest edition
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add politicky-prehled/index.html politicky-prehled/data.json politicky-prehled/archive
+          git add politicky-prehled
           git diff --cached --quiet && exit 0
-          git commit -m 'Obnov aktuální politický přehled'
+          git commit -m 'Obnov Politický přehled ze samostatného repozitáře'
           git pull --rebase origin main
           git push origin HEAD:main
-      # GITHUB_TOKEN commits do not trigger branch-based Pages builds themselves.
       - name: Publish refreshed edition on GitHub Pages
         env:
           GH_TOKEN: ${{ github.token }}
