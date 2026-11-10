@@ -1,23 +1,7 @@
 {
-  "updated_at": "2026-11-10T09:27:22.056824+00:00",
+  "updated_at": "2026-11-10T09:29:04.417841+00:00",
   "window_hours": 24,
   "articles": [
-    {
-      "title": "Jan Čižinský opět povede Prahu 7. Zastupitelé ho po složení slibu zvolili počtvrté v řadě",
-      "summary": "Zastupitelé Prahy 7 počtvrté v řadě zvolili starostou Jana Čižinského z Prahy sobě. Jeho uskupení získalo v říjnových komunálních volbách zhruba 57 procent hlasů. Chce…",
-      "source": "iROZHLAS",
-      "category": "domaci",
-      "published_at": "2026-11-10T10:01:00+01:00",
-      "url": "https://www.irozhlas.cz/zpravy-domov/jan-cizinsky-opet-povede-prahu-7-zastupitele-ho-po-slozeni-slibu-zvolili_2611101001_aru"
-    },
-    {
-      "title": "Kam dopadne dron, tam seberou vzorek. Češi pomáhají mapovat dopady války na životní prostředí",
-      "summary": "Pokračující ruské útoky na ukrajinské podniky a čerpací stanice mají kromě jiného potenciálně nesmírně nebezpečný dopad na životní prostředí. Situaci dlouhodobě mapuje české ekologické sdružení…",
-      "source": "iROZHLAS",
-      "category": "svet",
-      "published_at": "2026-11-10T10:00:00+01:00",
-      "url": "https://www.irozhlas.cz/zpravy-svet/kam-dopadne-dron-tam-seberou-vzorek-cesi-pomahaji-mapovat-dopady-valky-na_2611101000_jos"
-    },
     {
       "title": "Babiš se nezúčastní oslav 17. listopadu, s částí vlády bude v Izraeli",
       "summary": "Premiér Andrej Babiš (ANO) se příští týden nezúčastní oslav 17. listopadu v Praze. Od 16. do 18. listopadu navštíví Izrael na pozvání předsedy tamní vlády…",
@@ -49,14 +33,6 @@
       "category": "svet",
       "published_at": "2026-11-10T07:38:34+00:00",
       "url": "https://ct24.ceskatelevize.cz/clanek/svet/usa-stahly-sve-letouny-z-dalsi-britske-zakladny-kvuli-iranske-hrozbe-pise-wsj-379459"
-    },
-    {
-      "title": "Úspory a investice do bydlení. Richard Vereš z hnutí ANO je novým primátorem Ostravy",
-      "summary": "Richard Vereš z hnutí ANO je primátorem Ostravy. Spolu se Starosty pro Ostravu a hnutím Ostravak drží nová koalice pohodlnou většinu. Vedení moravskoslezské metropole chce…",
-      "source": "iROZHLAS",
-      "category": "domaci",
-      "published_at": "2026-11-10T07:25:00+01:00",
-      "url": "https://www.irozhlas.cz/zpravy-domov/uspory-a-investice-do-bydleni-richard-veres-z-hnuti-ano-je-novym-primatorem_2611100705_aln"
     },
     {
       "title": "Ve Vysoké u Příbramě půjdou lidé volit znovu, hlasování je podle soudu neplatné",
