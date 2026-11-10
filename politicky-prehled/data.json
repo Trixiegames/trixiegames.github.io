@@ -1,7 +1,87 @@
 {
-  "updated_at": "2026-11-10T10:19:24.926391+00:00",
+  "updated_at": "2026-11-10T10:59:51.947961+00:00",
   "window_hours": 24,
   "articles": [
+    {
+      "title": "„Typické vydírání.“ Babiš a Fico kritizovali Merze kvůli tlaku na financování Ukrajiny",
+      "summary": "Premiéři Česka a Slovenska Andrej Babiš a Robert Fico se ohradili vůči výzvě německého kancléře Friedricha Merze, aby se všechny země Evropské unie bez výjimky…",
+      "source": "Aktuálně.cz",
+      "category": "svet",
+      "published_at": "2026-11-10T11:56:00+01:00",
+      "url": "https://zpravy.aktualne.cz/zahranici/typicke-vydirani-babis-a-fico-kritizovali-merze-kvuli-tlaku-na-financovani-ukrajiny/r~aaa29f55eed036555703a418f7e67380/",
+      "importance": "Vývoj souvisí s bezpečností obyvatel a možnostmi diplomatického řešení. Oznámení nebo návrh je třeba odlišovat od dohody, která se skutečně dodržuje.",
+      "importance_kind": "topic_context"
+    },
+    {
+      "title": "Sněmovna zahájí disciplinární řízení s Ševčíkem. Kvůli výkřikům o menopauze",
+      "summary": "Mandátový a imunitní výbor zahájí disciplinární řízení s poslancem za SPD Miroslavem Ševčíkem kvůli jeho výrokům o menopauze, kterými častoval poslankyni STAN Michaelu Šebelovou. Podle…",
+      "source": "iDNES.cz",
+      "category": "domaci",
+      "published_at": "2026-11-10T10:53:00+00:00",
+      "url": "https://www.idnes.cz/zpravy/domaci/sevcik-snemovna-menopauza-vykriky-rizeni.A261110_112307_domaci_tty",
+      "importance": "Téma je součástí domácí politické debaty; pro veřejnost je podstatné, koho se týká a jaké konkrétní kroky příslušné instituce podniknou.",
+      "importance_kind": "topic_context"
+    },
+    {
+      "title": "Babiš a Fico se ohradili vůči výzvě Merze k finanční podpoře Ukrajiny",
+      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
+      "source": "ČTK / České noviny",
+      "category": "svet",
+      "published_at": "2026-11-10T11:42:00+01:00",
+      "url": "https://www.ceskenoviny.cz/zpravy/babis-a-fico-se-ohradili-vuci-vyzve-merze-k-financni-podpore-ukrajiny/2899954",
+      "importance": "Vývoj souvisí s bezpečností obyvatel a možnostmi diplomatického řešení. Oznámení nebo návrh je třeba odlišovat od dohody, která se skutečně dodržuje.",
+      "importance_kind": "topic_context"
+    },
+    {
+      "title": "Pavel přivítal na Hradě maďarského prezidenta, proberou energetiku i V4",
+      "summary": "Prezident Petr Pavel s manželkou Evou dnes dopoledne na Pražském hradě přivítali maďarskou hlavu státu Andráse Baku s chotí Katalin Kövesdiovou. Prezidenti budou hovořit o…",
+      "source": "iDNES.cz",
+      "category": "domaci",
+      "published_at": "2026-11-10T10:28:00+00:00",
+      "url": "https://www.idnes.cz/zpravy/domaci/pavel-prezident-andras-baka-cesko-madarsko.A261110_111802_domaci_aoc",
+      "importance": "Zpráva pomáhá sledovat priority a odpovědnost představitelů státu. Pro praktický dopad je důležité, které výroky se promění v konkrétní rozhodnutí.",
+      "importance_kind": "topic_context"
+    },
+    {
+      "title": "Harry a Meghan jsou v Bruselu. „Hluboce zdrcená“ vévodkyně zrušila plánovaný projev",
+      "summary": "Manželka prince Harryho, Meghan Markleová, nakonec nevystoupí na zasedání Evropského parlamentu v Bruselu věnovaném otázkám bezpečnosti dětí na internetu. Mělo jít o její první veřejné…",
+      "source": "Aktuálně.cz",
+      "category": "svet",
+      "published_at": "2026-11-10T11:27:00+01:00",
+      "url": "https://zpravy.aktualne.cz/zahranici/harry-a-meghan-dorazili-do-bruselu-na-akci-vsak-promluvil-jen-princ-harry/r~aaa294c388e5bd59cd69d3f2b984afa4/",
+      "importance": "Zpráva doplňuje obraz mezinárodního dění. Její širší význam závisí na dalších krocích zúčastněných států a institucí.",
+      "importance_kind": "topic_context"
+    },
+    {
+      "title": "EK: Poválečné uspořádání v Evropě musí respektovat suverenitu a celistvost",
+      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
+      "source": "ČTK / České noviny",
+      "category": "svet",
+      "published_at": "2026-11-10T11:22:00+01:00",
+      "url": "https://www.ceskenoviny.cz/zpravy/ek-povalecne-usporadani-v-evrope-musi-respektovat-suverenitu-a-celistvost/2896477",
+      "importance": "Zpráva doplňuje obraz mezinárodního dění. Její širší význam závisí na dalších krocích zúčastněných států a institucí.",
+      "importance_kind": "topic_context"
+    },
+    {
+      "title": "Oslavy 17. listopadu bez Babiše, Macinky či Zůny. Jedou do Izraele",
+      "summary": "Premiér Andrej Babiš (ANO) navštíví od 16. do 18. listopadu Izrael na pozvání předsedy tamní vlády Benjamina Netanjahua. Bilaterální jednání se zaměří zejména na spolupráci…",
+      "source": "iDNES.cz",
+      "category": "domaci",
+      "published_at": "2026-11-10T10:20:00+00:00",
+      "url": "https://www.idnes.cz/zpravy/domaci/babis-izrael-navsteva-listopad-oslavy.A261110_093629_domaci_aoc",
+      "importance": "Termín zahraniční návštěvy ukazuje, jak premiér rozděluje pozornost mezi mezinárodní jednání a připomínku demokratických změn v Česku.",
+      "importance_kind": "topic_context"
+    },
+    {
+      "title": "Střelec z Krakova se zajímal o norského vraha Breivika, zjistila policie",
+      "summary": "Krakovský střelec, který zabil tři členy své rodiny a šest náhodných kolemjdoucích, se zajímal o norského neonacistického extremistu Anderse Breivika. V úterý to řekl ministr…",
+      "source": "iDNES.cz",
+      "category": "svet",
+      "published_at": "2026-11-10T10:18:00+00:00",
+      "url": "https://www.idnes.cz/zpravy/zahranicni/polsko-krakov-strelec-utok-anders-breivik-krajni-pravice.A261110_105501_zahranicni_kha",
+      "importance": "Zpráva doplňuje obraz mezinárodního dění. Její širší význam závisí na dalších krocích zúčastněných států a institucí.",
+      "importance_kind": "topic_context"
+    },
     {
       "title": "V Abú Zabí začaly rozhovory o Ukrajině. Řeší se i bezpečnostní rámec pro Evropu",
       "summary": "Ve Spojených arabských emirátech v úterý začaly dvoudenní americko-rusko-ukrajinská jednání o ukončení války. Ukrajinský vyjednavač a šéf civilní rozvědky Rustem Umerov informoval o úvodní schůzce…",
@@ -43,42 +123,12 @@
       "importance_kind": "topic_context"
     },
     {
-      "title": "„Jede se schovat.“ Opozice tepe Babiše za neúčast na oslavách 17. listopadu",
-      "summary": "Opozice ostře kritizuje rozhodnutí premiéra Andreje Babiše (ANO) nezúčastnit se oslav 17. listopadu. Premiér bude v té době spolu s ministrem zahraničí Petrem Macinkou (Motoristé)…",
-      "source": "iDNES.cz",
-      "category": "domaci",
-      "published_at": "2026-11-10T10:04:00+00:00",
-      "url": "https://www.idnes.cz/zpravy/domaci/opozice-kupka-havel-babis-17-listopad.A261110_103559_domaci_mul",
-      "importance": "Téma je součástí domácí politické debaty; pro veřejnost je podstatné, koho se týká a jaké konkrétní kroky příslušné instituce podniknou.",
-      "importance_kind": "topic_context"
-    },
-    {
       "title": "Střelec z Krakova, který zabil devět lidí, se zajímal o Breivika, řekl ministr",
       "summary": "Krakovský střelec, který zabil tři členy své rodiny a šest náhodných kolemjdoucích, se zajímal o norského neonacistického extremistu Anderse Breivika. Podle agentury PAP to řekl…",
       "source": "Deník",
       "category": "svet",
       "published_at": "2026-11-10T11:00:45+01:00",
       "url": "https://www.denik.cz/evropa/strelec-z-krakova-ktery-zabil-devet-lidi-se-zajimal-o-breivika-rekl-ministr/",
-      "importance": "Zpráva pomáhá sledovat priority a odpovědnost představitelů státu. Pro praktický dopad je důležité, které výroky se promění v konkrétní rozhodnutí.",
-      "importance_kind": "topic_context"
-    },
-    {
-      "title": "Oslavy 17. listopadu bez Babiše, Macinky či Zůny. Jedou do Izraele",
-      "summary": "Premiér Andrej Babiš (ANO) navštíví od 16. do 18. listopadu Izrael na pozvání předsedy tamní vlády Benjamina Netanjahua. Bilaterální jednání se zaměří zejména na spolupráci…",
-      "source": "iDNES.cz",
-      "category": "domaci",
-      "published_at": "2026-11-10T09:59:00+00:00",
-      "url": "https://www.idnes.cz/zpravy/domaci/babis-izrael-navsteva-listopad-oslavy.A261110_093629_domaci_aoc",
-      "importance": "Termín zahraniční návštěvy ukazuje, jak premiér rozděluje pozornost mezi mezinárodní jednání a připomínku demokratických změn v Česku.",
-      "importance_kind": "topic_context"
-    },
-    {
-      "title": "Pavel přivítal na Hradě prezidenta Baku, proberou energetiku i V4",
-      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
-      "source": "ČTK / České noviny",
-      "category": "domaci",
-      "published_at": "2026-11-10T10:51:00+01:00",
-      "url": "https://www.ceskenoviny.cz/zpravy/pavel-privital-na-hrade-prezidenta-baku-proberou-energetiku-i-v4/2896038",
       "importance": "Zpráva pomáhá sledovat priority a odpovědnost představitelů státu. Pro praktický dopad je důležité, které výroky se promění v konkrétní rozhodnutí.",
       "importance_kind": "topic_context"
     },
@@ -113,18 +163,8 @@
       "importance_kind": "topic_context"
     },
     {
-      "title": "To mohl říct jen zženštilý muž. Macinkův výrok o hokejistkách rezonuje i v Rusku",
-      "summary": "Výroky českého ministra zahraničí Petra Macinky o ruských hokejistkách vyvolaly reakci také v Moskvě. Mluvčí ruského ministerstva zahraničí Marija Zacharovová prohlásila, že slova mohl pronést…",
-      "source": "iDNES.cz",
-      "category": "svet",
-      "published_at": "2026-11-10T09:32:00+00:00",
-      "url": "https://www.idnes.cz/zpravy/zahranicni/zzenstily-muz-pustila-se-mluvci-ruske-diplomacie-do-macinky-kvuli-hokejistkam.A261110_101326_zahranicni_ichuc",
-      "importance": "Zpráva doplňuje obraz mezinárodního dění. Její širší význam závisí na dalších krocích zúčastněných států a institucí.",
-      "importance_kind": "topic_context"
-    },
-    {
       "title": "V Abú Dhabí začalo jednání o cestě k ukončení ruské války na Ukrajině",
-      "summary": "V Abú Dhabí v úterý začalo jednání o cestě k ukončení ruské války proti Ukrajině. Ukrajinský vyjednavač a šéf civilní rozvědky Rustem Umerov na síti…",
+      "summary": "V Abú Dhabí v úterý začalo jednání o cestě k ukončení ruské války proti Ukrajině. Ukrajinský vyjednavač a šéf civilní rozvědky Rustem Umerov informoval o…",
       "source": "ČT24",
       "category": "svet",
       "published_at": "2026-11-10T09:30:52+00:00",
@@ -163,16 +203,6 @@
       "importance_kind": "topic_context"
     },
     {
-      "title": "Děsí mě, jak liberální demokraté hájí demokracii, říká v Rozstřelu Bělohradský",
-      "summary": "Evropou se šíří vlna protivládních protestů. Ve Francii vyšly do ulic stovky tisíc lidí, demonstruje se také v Itálii, Německu, ale i v Česku, kde…",
-      "source": "iDNES.cz",
-      "category": "domaci",
-      "published_at": "2026-11-10T09:00:00+00:00",
-      "url": "https://www.idnes.cz/zpravy/domaci/vaclav-belohradsky-rozstrel-eu-moloch-liberalni-demokracie-protesty-televize.A261109_144436_domaci_vov",
-      "importance": "Téma je součástí domácí politické debaty; pro veřejnost je podstatné, koho se týká a jaké konkrétní kroky příslušné instituce podniknou.",
-      "importance_kind": "topic_context"
-    },
-    {
       "title": "Babiš se nezúčastní oslav 17. listopadu. Věří, že to přispěje k uklidnění",
       "summary": "Premiér Andrej Babiš (ANO) se příští týden nezúčastní oslav 17. listopadu v Praze. Od 16. do 18. listopadu navštíví Izrael na pozvání předsedy tamní vlády…",
       "source": "Deník",
@@ -203,16 +233,6 @@
       "importance_kind": "topic_context"
     },
     {
-      "title": "„Věděls, že je špionka?“ Nevěra šéfa Nvidie otřásá Amerikou. Šetří ho FBI, Trump mu věří",
-      "summary": "Vztah ředitele společnosti Nvidia Jensena Huanga s ženou podezřelou ze špionáže pro Čínu vyšetřuje americký Federální úřad pro vyšetřování (FBI), oznámil v pondělí prezident Donald…",
-      "source": "Aktuálně.cz",
-      "category": "svet",
-      "published_at": "2026-11-10T09:24:00+01:00",
-      "url": "https://zpravy.aktualne.cz/zahranici/vysetrovani-kolem-sefa-nvidie-otraslo-technologickym-svetem-trump-mu-ale-veri/r~aaa29a550e3f078fdaa1d4107a00266e/",
-      "importance": "Případ propojuje národní bezpečnost s mezinárodními vztahy. Podezření ani zahájené vyšetřování samy o sobě neprokazují vinu.",
-      "importance_kind": "topic_context"
-    },
-    {
       "title": "Vztah šéfa Nvidie s ženou podezřelou ze špionáže pro Čínu vyšetřuje FBI, řekl Trump",
       "summary": "Vztah ředitele společnosti Nvidia Jensena Huanga s ženou podezřelou ze špionáže pro Čínu vyšetřuje americký Federální úřad pro vyšetřování (FBI), oznámil v pondělí americký prezident…",
       "source": "ČT24",
@@ -230,16 +250,6 @@
       "published_at": "2026-11-10T08:20:22+00:00",
       "url": "https://ct24.ceskatelevize.cz/clanek/domaci/korecky-doufa-v-moudrost-nejvyssiho-soudu-v-kauze-spd-mikulasova-dovolani-vita-379454",
       "importance": "Jde o hranice politické kampaně a svobody projevu. Pro právní výsledek je podstatné rozhodnutí soudu, nikoli názory komentátorů.",
-      "importance_kind": "topic_context"
-    },
-    {
-      "title": "Vyslanci USA hovoří o bezpečnostním rámci pro Ukrajinu i Evropu",
-      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
-      "source": "ČTK / České noviny",
-      "category": "svet",
-      "published_at": "2026-11-10T09:19:00+01:00",
-      "url": "https://www.ceskenoviny.cz/zpravy/vyslanci-usa-hovori-o-bezpecnostnim-ramci-pro-ukrajinu-i-evropu/2896477",
-      "importance": "Vývoj souvisí s bezpečností obyvatel a možnostmi diplomatického řešení. Oznámení nebo návrh je třeba odlišovat od dohody, která se skutečně dodržuje.",
       "importance_kind": "topic_context"
     },
     {
@@ -311,26 +321,6 @@
       "url": "https://denikn.cz/newsletter/2251260/kauza-kolem-plakatu-spd-miri-k-nejvyssimu-soudu-utocnik-z-krakova-zemrel-v-nemocnici-macinka-se-omluvil-za-vyjadreni-o-hokejistkach/",
       "importance": "Jde o hranice politické kampaně a svobody projevu. Pro právní výsledek je podstatné rozhodnutí soudu, nikoli názory komentátorů.",
       "importance_kind": "topic_context"
-    },
-    {
-      "title": "Válka s Íránem je z vojenského hlediska fakticky u konce, prohlásil Trump",
-      "summary": "Americký prezident Donald Trump řekl, že válka s Íránem je z vojenského hlediska fakticky u konce a nyní Spojené státy udržují současný stav. Podle agentury…",
-      "source": "Deník",
-      "category": "svet",
-      "published_at": "2026-11-10T06:26:58+01:00",
-      "url": "https://www.denik.cz/svet/valka-se-iranem-je-z-vojenskeho-hlediska-fakticky-u-konce-prohlasil-trump/",
-      "importance": "Vývoj souvisí s bezpečností obyvatel a možnostmi diplomatického řešení. Oznámení nebo návrh je třeba odlišovat od dohody, která se skutečně dodržuje.",
-      "importance_kind": "topic_context"
-    },
-    {
-      "title": "Trump přivedl před novináře možného mluvčího Whitea, ten nabídku odmítl",
-      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
-      "source": "ČTK / České noviny",
-      "category": "svet",
-      "published_at": "2026-11-10T02:51:00+01:00",
-      "url": "https://www.ceskenoviny.cz/zpravy/trump-privedl-pred-novinare-mozneho-mluvciho-whitea-ten-nabidku-odmitl/2899813",
-      "importance": "Zpráva doplňuje obraz mezinárodního dění. Její širší význam závisí na dalších krocích zúčastněných států a institucí.",
-      "importance_kind": "topic_context"
     }
   ],
   "unavailable_sources": [],
@@ -341,7 +331,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 21,
+      "candidates": 19,
       "selected": 5,
       "free_articles_checked": 7
     },
@@ -362,7 +352,7 @@
       "feeds_total": 2,
       "status": "ok",
       "candidates": 38,
-      "selected": 8,
+      "selected": 7,
       "free_articles_checked": 8
     },
     {
@@ -371,7 +361,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 12,
+      "candidates": 14,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -391,8 +381,8 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 8,
-      "selected": 6,
+      "candidates": 9,
+      "selected": 7,
       "free_articles_checked": 7
     },
     {
@@ -402,8 +392,8 @@
       "feeds_total": 1,
       "status": "ok",
       "candidates": 15,
-      "selected": 4,
-      "free_articles_checked": 5
+      "selected": 3,
+      "free_articles_checked": 4
     },
     {
       "name": "iDNES.cz",
@@ -411,9 +401,9 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 12,
+      "candidates": 14,
       "selected": 6,
-      "free_articles_checked": 6
+      "free_articles_checked": 7
     },
     {
       "name": "CNN Prima NEWS",
@@ -421,7 +411,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "selected": 3,
       "free_articles_checked": 3
     },
@@ -441,7 +431,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 11,
+      "candidates": 10,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -451,7 +441,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 13,
+      "candidates": 12,
       "selected": 1,
       "free_articles_checked": 1
     },
@@ -461,7 +451,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 6,
+      "candidates": 7,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -481,7 +471,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 13,
+      "candidates": 14,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -491,7 +481,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 14,
+      "candidates": 13,
       "selected": 0,
       "free_articles_checked": 0
     }
