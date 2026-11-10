@@ -43,7 +43,7 @@ function render() {
     card.append(meta, heading, element('p',a.summary));
     if (a.importance) {
       const why = element('div', '', 'why');
-      const note = element('small', 'Tematický kontext', 'small');
+      const note = element('small', a.importance_kind === 'possible_impact' ? 'Možný dopad · odhad' : 'Tematický kontext', 'small');
       note.style.display = 'block'; note.style.marginTop = '6px';
       why.append(element('b', 'Proč je to důležité'), document.createTextNode(a.importance), note);
       card.append(why);
