@@ -87,7 +87,7 @@ def render_card(row):
     label = 'Domácí politika' if category == 'domaci' else 'Zahraniční politika'
     date = datetime.fromisoformat(row['published_at']).astimezone(ZoneInfo('Europe/Prague')).strftime('%d. %m. %Y · %H:%M')
     context = escape(row.get("importance") or importance(row), quote=True)
-    return f'<article data-category="{category}" data-published="{published}"><div class="meta"><span class="category">{label}</span><time datetime="{published}">{date}</time></div><h2>{title}</h2><p>{summary}</p><div class="why"><b>Proč je to důležité</b>{context}<small class="small" style="display:block;margin-top:6px">Tematický kontext</small></div><div class="source"><span>Výňatek z anotace · {source}</span><a href="{url}" target="_blank" rel="noopener noreferrer">Číst původní článek ↗</a></div></article>'
+    return f'<article data-category="{category}" data-published="{published}"><div class="meta"><span class="category">{label}</span><time datetime="{published}">{date}</time></div><h2><a href="{url}">{title}</a></h2><p>{summary}</p><div class="why"><b>Proč je to důležité</b>{context}<small class="small" style="display:block;margin-top:6px">Tematický kontext</small></div><div class="source"><span>Výňatek z anotace · {source}</span><a href="{url}" target="_blank" rel="noopener noreferrer">Číst původní článek ↗</a></div></article>'
 
 def publish(rows, now, unavailable):
     rows = [dict(row, importance=row.get("importance") or importance(row), importance_kind="topic_context") for row in rows]
