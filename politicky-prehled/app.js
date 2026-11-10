@@ -161,3 +161,5 @@ setInterval(loadArchive, 5 * 60000);
 setInterval(refresh, 5 * 60000);
 setInterval(render, 60000);
 document.addEventListener('visibilitychange', () => { if (!document.hidden) refresh(); });
+
+document.querySelectorAll('.utility-row details').forEach(panel=>panel.addEventListener('toggle',()=>{if(panel.open)document.querySelectorAll('.utility-row details').forEach(other=>{if(other!==panel)other.open=false;});}));
