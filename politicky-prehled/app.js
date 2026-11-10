@@ -22,12 +22,16 @@ function render() {
     const published = Date.parse(a.published_at);
     return Number.isFinite(published) && published <= now && published >= now - 86400000;
   });
+  const openUrls = new Set([...document.querySelectorAll('#news details[open]')].map(el => el.closest('article').dataset.url));
+  const focused = document.activeElement;
+  const focusedUrl = focused?.closest('#news article')?.dataset.url;
   const fragment = document.createDocumentFragment();
   for (const a of articles) {
     const url = new URL(a.url);
     if (url.protocol !== 'https:' || !allowedSourceHosts.has(url.hostname)) continue;
     const card = element('article');
     card.dataset.category = a.category;
+    card.dataset.url = a.url;
     const meta = element('div', '', 'meta');
     const time = element('time', fullFormat.format(new Date(a.published_at)));
     time.dateTime = a.published_at;
@@ -42,16 +46,41 @@ function render() {
     heading.append(titleLink);
     card.append(meta, heading, element('p',a.summary));
     if (a.importance) {
-      const why = element('div', '', 'why');
+      const analysis = a.importance_kind === 'analysis';
+      const why = element(analysis ? 'details' : 'div', '', analysis ? 'why impact' : 'why');
       const note = element('small', a.importance_kind === 'possible_impact' ? 'Možný dopad · odhad' : 'Tematický kontext', 'small');
       note.style.display = 'block'; note.style.marginTop = '6px';
-      why.append(element('b', 'Proč je to důležité'), document.createTextNode(a.importance), note);
+      const label = element('b', 'Proč je to důležité');
+      if (analysis) {
+        const summary = element('summary');
+        summary.append(label, element('span', a.importance.split('\n\n')[0], 'excerpt'),
+          element('span', 'Celý rozbor', 'action expand'), element('span', 'Sbalit rozbor', 'action collapse'));
+        why.append(summary);
+        why.open = openUrls.has(a.url);
+        for (const paragraph of a.importance.split('\n\n')) why.append(element('p', paragraph));
+        note.textContent = 'Rozbor dopadů';
+        const evidence = a.analysis_url && new URL(a.analysis_url);
+        if (evidence && evidence.protocol === 'https:' && allowedSourceHosts.has(evidence.hostname)) {
+          const citation = element('a', 'Podklad: ' + a.analysis_source);
+          citation.href = evidence.href;
+          note.append(' · ', citation);
+        }
+      } else {
+        why.append(label);
+        if (a.importance_kind === 'pending') note.textContent = 'Stav rozboru';
+        why.append(document.createTextNode(a.importance));
+      }
+      why.append(note);
       card.append(why);
     }
     card.append(source);
     fragment.append(card);
   }
   $('#news').replaceChildren(fragment);
+  if (focusedUrl && focused.tagName === 'SUMMARY') {
+    [...document.querySelectorAll('#news article')].find(card => card.dataset.url === focusedUrl)
+      ?.querySelector('summary')?.focus({preventScroll:true});
+  }
   const updated = new Date(data.updated_at);
   $('#editionDate').textContent = dateFormat.format(updated);
   $('#editionTime').textContent = timeFormat.format(updated) + ' · Praha';
@@ -103,17 +132,24 @@ buttons.forEach(button => button.addEventListener('click', () => {
   filter();
 }));
 $('#search').addEventListener('input', filter);
+let refreshing = false;
 async function refresh() {
+  if (refreshing || document.hidden) return;
+  refreshing = true;
   try {
     const response = await fetch('data.json', {cache:'no-store'});
     if (!response.ok) throw new Error('HTTP ' + response.status);
     const next = await response.json();
     if (!Array.isArray(next.articles) || !Number.isFinite(Date.parse(next.updated_at))) throw new Error('Invalid edition');
+    if (Date.parse(next.updated_at) < Date.parse(latestData.updated_at)) return;
+    const changed = JSON.stringify(next) !== JSON.stringify(latestData);
     latestData = next;
-    if (!viewingArchive) { data = next; render(); }
+    if (!viewingArchive && changed) { data = next; render(); }
   } catch (error) {
     // Preserve the real successful update time and keep expiry checks running.
     console.warn('Aktuální vydání se nepodařilo načíst.', error);
+  } finally {
+    refreshing = false;
   }
 }
 async function loadArchive() {
@@ -156,9 +192,16 @@ $('#edition').addEventListener('change', async event => {
     $('#archiveMessage').textContent = 'Vydání se nepodařilo načíst. Zůstává předchozí přehled.';
   }
 });
+$('#news').addEventListener('click', event => {
+  const panel = event.target.closest('details.impact[open]');
+  if (!panel || event.target.closest('summary, a') || !window.getSelection().isCollapsed) return;
+  panel.open = false;
+  panel.querySelector('summary').focus({preventScroll: true});
+});
+
 render(); refresh(); loadArchive();
 setInterval(loadArchive, 5 * 60000);
-setInterval(refresh, 5 * 60000);
+setInterval(refresh, 30000);
 setInterval(render, 60000);
 document.addEventListener('visibilitychange', () => { if (!document.hidden) refresh(); });
 
