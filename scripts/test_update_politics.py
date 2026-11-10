@@ -1,6 +1,8 @@
 import unittest
 import json
 import tempfile
+from unittest.mock import patch
+from source_reader import CATALOG, inspect_article, normalize_url, fetch, parse_feed as read_feed
 from pathlib import Path
 from edition_archive import archive_edition
 from datetime import datetime, timezone
@@ -8,6 +10,28 @@ from update_politics import parse_feed, select, render_card
 from restore_context import importance
 
 class UpdateTests(unittest.TestCase):
+    def test_mixed_source_requires_positive_free_access(self):
+        row=dict(title='Vláda jedná',category='domaci',url='https://www.novinky.cz/clanek/domaci-a')
+        source=next(s for s in CATALOG if s['name']=='Novinky.cz')
+        text='<article><p>'+('Článek o jednání vlády. '*30)+'</p></article>'
+        schema=lambda flag:'<script type="application/ld+json">'+json.dumps({'@type':'NewsArticle','isAccessibleForFree':flag})+'</script>'
+        self.assertIsNone(inspect_article(row,text,source))
+        self.assertIsNone(inspect_article(row,text+schema(False),source))
+        self.assertIsNotNone(inspect_article(row,text+schema(True),source))
+
+    def test_unapproved_domain_and_redirect_are_rejected(self):
+        with self.assertRaises(ValueError):normalize_url('https://unapproved.invalid/news')
+        response=b'HTTP/2 302\r\nlocation: https://unapproved.invalid/news\r\n\r\n'
+        with patch('source_reader.subprocess.check_output',return_value=response) as request:
+            with self.assertRaises(ValueError):fetch('https://ct24.ceskatelevize.cz/rss')
+            self.assertEqual(request.call_count,1)
+
+    def test_atom_and_all_rss_categories_are_supported(self):
+        body='''<feed xmlns="http://www.w3.org/2005/Atom"><entry><title>Vláda projedná návrh</title><link href="https://tn.nova.cz/zpravodajstvi/clanek/test"/><published>2026-11-10T08:00:00Z</published><category term="Zprávy"/><category term="Domácí"/><summary>Jednání vlády.</summary></entry></feed>'''
+        source=next(s for s in CATALOG if s['name']=='TN.cz')
+        rows=read_feed(body,source,datetime(2026,11,10,9,tzinfo=timezone.utc))
+        self.assertEqual(rows[0]['category'],'domaci')
+
     def test_archive_preserves_old_editions_and_deduplicates(self):
         with tempfile.TemporaryDirectory() as folder:
             first = dict(updated_at='2026-11-09T17:00:00+00:00', articles=[{'title':'Původní titulek'}])

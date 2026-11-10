@@ -1,5 +1,7 @@
 'use strict';
 let data = JSON.parse(document.getElementById('initial-data').textContent);
+const sourceConfig = JSON.parse(document.getElementById('source-config').textContent);
+const allowedSourceHosts = new Set(sourceConfig.flatMap(s => s.hosts));
 let category = 'all';
 let latestData = data, viewingArchive = false, selectionRequest = 0;
 let archiveEntries = [];
@@ -23,7 +25,7 @@ function render() {
   const fragment = document.createDocumentFragment();
   for (const a of articles) {
     const url = new URL(a.url);
-    if (url.protocol !== 'https:' || !['ct24.ceskatelevize.cz','www.irozhlas.cz'].includes(url.hostname)) continue;
+    if (url.protocol !== 'https:' || !allowedSourceHosts.has(url.hostname)) continue;
     const card = element('article');
     card.dataset.category = a.category;
     const meta = element('div', '', 'meta');
@@ -33,7 +35,7 @@ function render() {
     const source = element('div', '', 'source');
     const link = element('a', 'Číst původní článek ↗');
     link.href = url.href; link.target = '_blank'; link.rel = 'noopener noreferrer';
-    source.append(element('span', 'Výňatek z anotace · ' + a.source), link);
+    source.append(element('span', (a.source === 'ČTK / České noviny' ? 'Zdroj · ' : 'Výňatek z anotace · ') + a.source), link);
     const heading = element('h2');
     const titleLink = element('a', a.title);
     titleLink.href = url.href;
@@ -66,7 +68,23 @@ function render() {
     status.textContent = 'Archivní vydání z ' + fullFormat.format(updated) + ' · Zobrazen je tehdejší výběr článků. Pro dnešní zprávy zvolte aktuální vydání.';
   }
   if (data.unavailable_sources?.length) status.textContent += ' Při poslední kontrole nebyl dostupný zdroj: ' + data.unavailable_sources.join(', ') + '.';
+  status.hidden = viewingArchive || (!stale && !data.unavailable_sources?.length);
+  renderSources();
   filter();
+}
+function renderSources() {
+  const list = $('#sourceList'), fragment = document.createDocumentFragment();
+  for (const source of sourceConfig) {
+    const row = element('li'), link = element('a', source.name);
+    link.href = source.site; link.target = '_blank'; link.rel = 'noopener noreferrer';
+    const state = data.sources?.find(s => s.name === source.name);
+    const count = data.articles.filter(a => a.source === source.name).length;
+    let note = state ? (state.status === 'ok' ? 'Zkontrolováno' : state.status === 'partial' ? 'Částečně dostupný' : 'Při kontrole nedostupný') : 'Bez záznamu kontroly v tomto vydání';
+    if (state?.status === 'ok' && state.candidates > 0 && state.free_articles_checked === 0) note += ' · volný článek nepotvrzen';
+    note += ' · ve vydání: ' + count;
+    row.append(link, element('span', note, 'small')); fragment.append(row);
+  }
+  list.replaceChildren(fragment);
 }
 function filter() {
   const query = $('#search').value.trim().toLocaleLowerCase('cs');

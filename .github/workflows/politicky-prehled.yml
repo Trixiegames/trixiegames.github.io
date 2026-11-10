@@ -7,6 +7,8 @@ on:
     branches: [main]
     paths:
       - 'scripts/update_politics.py'
+      - 'scripts/source_reader.py'
+      - 'politicky-prehled/sources.json'
       - 'scripts/edition_archive.py'
       - 'scripts/restore_context.py'
       - 'scripts/test_update_politics.py'

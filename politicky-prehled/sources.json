@@ -1,0 +1,182 @@
+[
+  {
+    "name": "ČT24",
+    "site": "https://ct24.ceskatelevize.cz/",
+    "hosts": [
+      "ct24.ceskatelevize.cz"
+    ],
+    "feeds": [
+      "https://ct24.ceskatelevize.cz/rss"
+    ],
+    "access": "open"
+  },
+  {
+    "name": "iROZHLAS",
+    "site": "https://www.irozhlas.cz/",
+    "hosts": [
+      "www.irozhlas.cz"
+    ],
+    "feeds": [
+      "https://www.irozhlas.cz/rss/irozhlas/section/zpravy-domov",
+      "https://www.irozhlas.cz/rss/irozhlas/section/zpravy-svet"
+    ],
+    "access": "open"
+  },
+  {
+    "name": "ČTK / České noviny",
+    "site": "https://www.ceskenoviny.cz/",
+    "hosts": [
+      "www.ceskenoviny.cz"
+    ],
+    "feeds": [
+      "https://www.ceskenoviny.cz/sluzby/rss/cr.php",
+      "https://www.ceskenoviny.cz/sluzby/rss/svet.php"
+    ],
+    "access": "links_only"
+  },
+  {
+    "name": "Novinky.cz",
+    "site": "https://www.novinky.cz/",
+    "hosts": [
+      "www.novinky.cz"
+    ],
+    "feeds": [
+      "https://www.novinky.cz/rss2/"
+    ],
+    "access": "mixed"
+  },
+  {
+    "name": "Seznam Zprávy",
+    "site": "https://www.seznamzpravy.cz/",
+    "hosts": [
+      "www.seznamzpravy.cz"
+    ],
+    "feeds": [
+      "https://www.seznamzpravy.cz/rss"
+    ],
+    "access": "mixed"
+  },
+  {
+    "name": "Aktuálně.cz",
+    "site": "https://zpravy.aktualne.cz/",
+    "hosts": [
+      "zpravy.aktualne.cz"
+    ],
+    "feeds": [
+      "https://zpravy.aktualne.cz/rss/"
+    ],
+    "access": "mixed"
+  },
+  {
+    "name": "Deník",
+    "site": "https://www.denik.cz/",
+    "hosts": [
+      "www.denik.cz"
+    ],
+    "feeds": [
+      "https://www.denik.cz/rss/zpravy.html"
+    ],
+    "access": "mixed"
+  },
+  {
+    "name": "iDNES.cz",
+    "site": "https://www.idnes.cz/",
+    "hosts": [
+      "www.idnes.cz",
+      "servis.idnes.cz"
+    ],
+    "feeds": [
+      "https://servis.idnes.cz/rss.aspx?c=zpravodaj"
+    ],
+    "access": "mixed"
+  },
+  {
+    "name": "CNN Prima NEWS",
+    "site": "https://cnn.iprima.cz/",
+    "hosts": [
+      "cnn.iprima.cz"
+    ],
+    "feeds": [
+      "https://cnn.iprima.cz/rss"
+    ],
+    "access": "open"
+  },
+  {
+    "name": "E15",
+    "site": "https://www.e15.cz/",
+    "hosts": [
+      "www.e15.cz"
+    ],
+    "feeds": [
+      "https://www.e15.cz/rss"
+    ],
+    "access": "mixed"
+  },
+  {
+    "name": "Forum 24",
+    "site": "https://www.forum24.cz/",
+    "hosts": [
+      "www.forum24.cz"
+    ],
+    "feeds": [
+      "https://www.forum24.cz/feed/"
+    ],
+    "access": "mixed"
+  },
+  {
+    "name": "Deník N",
+    "site": "https://denikn.cz/",
+    "hosts": [
+      "denikn.cz"
+    ],
+    "feeds": [
+      "https://denikn.cz/feed/"
+    ],
+    "access": "mixed"
+  },
+  {
+    "name": "Respekt",
+    "site": "https://www.respekt.cz/",
+    "hosts": [
+      "www.respekt.cz"
+    ],
+    "feeds": [
+      "https://www.respekt.cz/api/rss?type=articles&unlocked=1"
+    ],
+    "access": "mixed"
+  },
+  {
+    "name": "Hospodářské noviny",
+    "site": "https://hn.cz/",
+    "hosts": [
+      "hn.cz",
+      "archiv.hn.cz"
+    ],
+    "feeds": [
+      "https://hn.cz/?m=rss"
+    ],
+    "access": "mixed"
+  },
+  {
+    "name": "TN.cz",
+    "site": "https://tn.nova.cz/",
+    "hosts": [
+      "tn.nova.cz"
+    ],
+    "feeds": [
+      "https://tn.nova.cz/rss"
+    ],
+    "access": "open"
+  },
+  {
+    "name": "Blesk",
+    "site": "https://www.blesk.cz/",
+    "hosts": [
+      "www.blesk.cz"
+    ],
+    "feeds": [
+      "https://www.blesk.cz/rss"
+    ],
+    "access": "mixed"
+  }
+]
