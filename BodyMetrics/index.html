@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kalkulačka tělesné stavby | BMI, WHtR, ABSI a tělesný tuk</title>
+<style>
+:root{--ink:#182230;--muted:#5d6877;--line:#dce2e9;--paper:#f4f6f8;--card:#fff;--accent:#165d8f;--soft:#eaf3fa;--warn:#fff4d9;--good:#e7f5ec;--bad:#fdebea}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+main{max-width:1050px;margin:auto;padding:24px 16px 48px}header{padding:24px 0 18px}h1{font-size:clamp(1.8rem,4vw,2.7rem);line-height:1.12;margin:0 0 12px;letter-spacing:-.035em}h2{font-size:1.25rem;margin:0 0 14px}h3{font-size:1rem;margin:0 0 6px}.lede{max-width:760px;color:var(--muted);margin:0}.layout{display:grid;grid-template-columns:minmax(280px,.9fr) minmax(0,1.1fr);gap:18px;align-items:start}.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;box-shadow:0 3px 12px #1d2a3808;margin-bottom:18px}.fields{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field{display:flex;flex-direction:column;gap:5px}.field.full{grid-column:1/-1}label{font-size:.9rem;font-weight:650}input,select{width:100%;padding:11px 12px;border:1px solid #b9c4d0;border-radius:9px;font:inherit;background:white;color:var(--ink)}input:focus,select:focus,button:focus{outline:3px solid #8cc5ef;outline-offset:2px}.hint{font-size:.8rem;color:var(--muted)}button{cursor:pointer;border:0;border-radius:10px;padding:12px 16px;font:inherit;font-weight:700}.primary{background:var(--accent);color:white;width:100%;margin-top:16px}.secondary{background:#e8edf2;color:var(--ink)}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}.results{display:grid;grid-template-columns:1fr 1fr;gap:12px}.metric{border:1px solid var(--line);border-radius:12px;padding:14px;min-width:0}.metric .name{font-size:.85rem;color:var(--muted);font-weight:650}.value{font-size:1.7rem;font-weight:800;letter-spacing:-.03em;line-height:1.3;overflow-wrap:anywhere}.status{display:inline-block;font-size:.78rem;font-weight:750;padding:4px 8px;border-radius:99px;background:var(--soft);margin-top:5px}.good{background:var(--good)}.warn{background:var(--warn)}.bad{background:var(--bad)}.summary{padding:14px;border-radius:12px;background:var(--soft);margin-bottom:14px}.muted{color:var(--muted)}.formula{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:.88rem;background:#f1f4f7;padding:10px;border-radius:8px;overflow-wrap:anywhere}.notice{font-size:.88rem;color:var(--muted)}.hidden{display:none}.bar{height:8px;border-radius:10px;background:#e4e9ef;overflow:hidden;margin:9px 0 4px}.bar span{display:block;height:100%;background:var(--accent);width:0}ul{padding-left:21px}li{margin:6px 0}footer{border-top:1px solid var(--line);padding-top:16px;color:var(--muted);font-size:.82rem;margin-top:24px}a{color:var(--accent)}@media(max-width:760px){.layout{grid-template-columns:1fr}.fields{grid-template-columns:1fr 1fr}.card{padding:16px}}@media(max-width:420px){.fields,.results{grid-template-columns:1fr}.field.full{grid-column:auto}}
+@media print{body{background:white}.card{box-shadow:none;break-inside:avoid}main{max-width:none;padding:0}.layout{grid-template-columns:1fr 1fr}.primary,.actions{display:none}}
+</style>
+</head>
+<body>
+<main>
+<header>
+<h1>Kalkulačka tělesné stavby</h1>
+<p class="lede">BMI, poměr pasu k výšce (WHtR), index tělesného tvaru (ABSI) a odhad procenta tělesného tuku. Výsledky jsou orientační screening, nikoli diagnóza.</p>
+</header>
+<div class="layout">
+<section>
+<div class="card">
+<h2>Vstupní údaje</h2>
+<form id="calcForm">
+<div class="fields">
+<div class="field"><label for="age">Věk (roky)</label><input id="age" type="number" min="18" max="120" value="50" required><span class="hint">Kalkulačka je určena dospělým.</span></div>
+<div class="field"><label for="sex">Pohlaví pro odhad tuku</label><select id="sex"><option value="male">Muž</option><option value="female">Žena</option></select><span class="hint">Používá se jen u odhadu RFM.</span></div>
+<div class="field"><label for="height">Výška (cm)</label><input id="height" type="number" min="100" max="250" step="0.1" value="172" required></div>
+<div class="field"><label for="weight">Hmotnost (kg)</label><input id="weight" type="number" min="25" max="350" step="0.1" value="80" required></div>
+<div class="field full"><label for="waist">Obvod pasu (cm)</label><input id="waist" type="number" min="30" max="250" step="0.1" value="85" required><span class="hint">Měřte vodorovně, uprostřed mezi spodním okrajem žeber a horním okrajem kyčelní kosti, po klidném výdechu.</span></div>
+<div class="field full"><label for="bodyfat">Naměřené procento tělesného tuku (volitelné)</label><input id="bodyfat" type="number" min="2" max="70" step="0.1" placeholder="Např. 24,5"><span class="hint">Pokud údaj zadáte, zobrazí se vedle něj také odhad RFM pro porovnání. BIA váhy mohou mít významnou chybu.</span></div>
+</div>
+<button class="primary" type="submit">Vypočítat výsledky</button>
+<div class="actions"><button class="secondary" type="button" id="reset">Obnovit ukázkové hodnoty</button><button class="secondary" type="button" id="print">Tisk / uložit jako PDF</button></div>
+</form>
+</div>
+<div class="card">
+<h2>Jak správně měřit</h2>
+<ul>
+<li><b>Hmotnost:</b> ideálně ráno, po návštěvě toalety a před jídlem.</li>
+<li><b>Pas:</b> metr neutahujte ani nenechávejte volný; měřte bez zatahování břicha.</li>
+<li><b>Tělesný tuk:</b> přesnost závisí na metodě. Bioimpedance (BIA) je ovlivněna hydratací, jídlem, cvičením i teplotou.</li>
+</ul>
+</div>
+</section>
+<section>
+<div class="card" id="resultsSection">
+<h2>Vaše výsledky</h2>
+<div id="summary" class="summary" aria-live="polite">Zadejte údaje a zvolte „Vypočítat výsledky“.</div>
+<div class="results">
+<div class="metric"><div class="name">BMI</div><div class="value" id="bmi">—</div><span class="status" id="bmiStatus">Čeká na výpočet</span><p class="hint" id="bmiNote"></p></div>
+<div class="metric"><div class="name">WHtR · pas / výška</div><div class="value" id="whtr">—</div><span class="status" id="whtrStatus">Čeká na výpočet</span><p class="hint" id="whtrNote"></p></div>
+<div class="metric"><div class="name">ABSI · index tělesného tvaru</div><div class="value" id="absi">—</div><span class="status" id="absiStatus">Čeká na výpočet</span><p class="hint" id="absiNote"></p></div>
+<div class="metric"><div class="name">Tělesný tuk</div><div class="value" id="fat">—</div><span class="status" id="fatStatus">Čeká na výpočet</span><p class="hint" id="fatNote"></p></div>
+</div>
+<div class="bar"><span id="whtrBar"></span></div>
+<p class="hint">Lišta WHtR je orientační vizuální pomůcka; hranice 0,5 odpovídá pasu rovnu polovině výšky.</p>
+</div>
+<div class="card">
+<h2>Interpretace a doporučení</h2>
+<div id="interpretation" class="muted">Po výpočtu se zde zobrazí interpretace výsledků.</div>
+</div>
+<div class="card">
+<h2>Jak se indexy počítají</h2>
+<h3>BMI – index tělesné hmotnosti</h3><div class="formula">BMI = hmotnost (kg) / výška² (m²)</div>
+<p class="notice">U dospělých: podváha &lt; 18,5; normální rozmezí 18,5–24,9; nadváha 25,0–29,9; obezita I. stupně 30,0–34,9; II. stupně 35,0–39,9; III. stupně ≥ 40. BMI přímo neměří tuk a může nadhodnocovat riziko u velmi svalnatých osob.</p>
+<h3>WHtR – poměr pasu k výšce</h3><div class="formula">WHtR = obvod pasu (cm) / výška (cm)</div>
+<p class="notice">Orientačně: pod 0,5 nižší centrální riziko; 0,5–0,59 zvýšené; ≥ 0,6 vysoké. Interpretace je určena zejména dospělým s BMI pod 35.</p>
+<h3>ABSI – A Body Shape Index</h3><div class="formula">ABSI = 1000 × pas (m) × hmotnost (kg)^(-2/3) × výška (m)^(5/6)</div>
+<p class="notice">ABSI kombinuje pas s výškou a hmotností. Samotné číslo nemá univerzální hranici „dobrý/špatný“; smysluplné posouzení rizika vyžaduje srovnání s referenční populací (z-skóre/percentil) odpovídající věku a pohlaví. Kalkulačka proto neuděluje ABSI diagnózu.</p>
+<h3>RFM – odhad procenta tělesného tuku</h3><div class="formula">Muž: RFM = 64 − 20 × (výška / pas)<br>Žena: RFM = 76 − 20 × (výška / pas)</div>
+<p class="notice">Výška a pas musí být ve stejných jednotkách. RFM je populační odhad, ne přímé měření. Pokud zadáte naměřené procento tuku, zobrazí se jako samostatná hodnota a RFM slouží pouze k orientačnímu porovnání.</p>
+</div>
+</section>
+</div>
+<footer>
+<b>Upozornění:</b> Výsledky slouží k orientačnímu posouzení dospělých, nikoli k diagnostice ani jako náhrada lékařského vyšetření. Riziko závisí také na krevním tlaku, krevních tucích, glykemii, kouření, rodinné anamnéze, věku a dalších faktorech. Při nejasných nebo znepokojivých výsledcích je vhodné obrátit se na praktického lékaře.
+<p><b>Metodické zdroje:</b> NICE NG246 – Identifying and assessing overweight, obesity and central adiposity; NHS – waist-to-height ratio; Krakauer & Krakauer – A new body shape index (ABSI); Woolcott & Bergman – Relative Fat Mass (RFM).</p>
+</footer>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+const fmt = (n, digits=2) => Number(n).toLocaleString('cs-CZ',{minimumFractionDigits:digits,maximumFractionDigits:digits});
+function status(id,text,kind=''){const e=$(id);e.textContent=text;e.className='status '+kind;}
+function calc(e){
+ if(e)e.preventDefault();
+ const age=+$('age').value, hcm=+$('height').value, w=+$('weight').value, waistcm=+$('waist').value;
+ const sex=$('sex').value, measured=$('bodyfat').value.trim()===''?null:+$('bodyfat').value;
+ if(!age||!hcm||!w||!waistcm||age<18||hcm<100||hcm>250||w<25||w>350||waistcm<30||waistcm>250||(measured!==null&&(measured<2||measured>70))){
+   $('summary').textContent='Zkontrolujte zadané hodnoty. Kalkulačka přijímá dospělé od 18 let a hodnoty v uvedených rozsazích.';return;
+ }
+ const h=hcm/100, waist=waistcm/100, bmi=w/(h*h), whtr=waistcm/hcm;
+ const absi=1000*waist*Math.pow(w,-2/3)*Math.pow(h,5/6);
+ const rfm=(sex==='male'?64:76)-20*(hcm/waistcm);
+ $('bmi').textContent=fmt(bmi,1);
+ let bc,bt;
+ if(bmi<18.5){bc='Podváha';bt='warn'}else if(bmi<25){bc='Normální rozmezí';bt='good'}else if(bmi<30){bc='Nadváha';bt='warn'}else if(bmi<35){bc='Obezita I. stupně';bt='bad'}else if(bmi<40){bc='Obezita II. stupně';bt='bad'}else{bc='Obezita III. stupně';bt='bad'}
+ status('bmiStatus',bc,bt);
+ $('bmiNote').textContent='Orientační kategorie pro dospělé; nezohledňuje přímo podíl svalů a tuku.';
+ $('whtr').textContent=fmt(whtr,3);
+ let wc,wt,wn;
+ if(whtr<0.4){wc='Pod 0,4';wt='good';wn='Nízký poměr pasu k výšce; samo o sobě to nevylučuje jiné riziko.'}
+ else if(whtr<0.5){wc='Pod hranicí 0,5';wt='good';wn='Cílem bývá obvod pasu menší než polovina výšky.'}
+ else if(whtr<0.6){wc='Zvýšené centrální riziko';wt='warn';wn='Zvažte další posouzení rizik, zejména tlaku, glykemie a krevních tuků.'}
+ else{wc='Vysoké centrální riziko';wt='bad';wn='Je vhodné probrat celkové kardiometabolické riziko s lékařem.'}
+ status('whtrStatus',wc,wt);$('whtrNote').textContent=wn;$('whtrBar').style.width=Math.min(100,whtr/0.7*100)+'%';
+ $('absi').textContent=fmt(absi,3);status('absiStatus','Bez univerzální hranice','');$('absiNote').textContent='Hodnota je vypočtena; pro rizikový percentil je potřeba věkově a pohlavně odpovídající reference.';
+ if(measured!==null){$('fat').textContent=fmt(measured,1)+' %';status('fatStatus','Zadané měření','');$('fatNote').textContent='Zadaná hodnota; interpretace závisí na metodě měření a referenčním rozmezí.'}
+ else{$('fat').textContent=fmt(rfm,1)+' %';status('fatStatus','Odhad RFM','warn');$('fatNote').textContent='Populační odhad z výšky a pasu, nikoli přímé měření. Přesnost u jednotlivce je omezená.'}
+ let lines=[];
+ if(bmi>=25)lines.push('BMI je ve vyšší hmotnostní kategorii. Zvažte jej společně s obvodem pasu a tělesnou stavbou, nikoli izolovaně.');
+ else lines.push('BMI samo o sobě není ve vyšší hmotnostní kategorii, ale nezachycuje přímo množství tuku ani jeho rozložení.');
+ if(whtr>=0.5)lines.push('Poměr pasu k výšce je alespoň 0,5. To může ukazovat na zvýšené množství tuku v oblasti břicha a vyšší kardiometabolické riziko.');
+ else lines.push('Poměr pasu k výšce je pod 0,5, což je obvykle příznivější ukazatel centrálního tuku; není to záruka celkového zdraví.');
+ lines.push('ABSI je doplňkový ukazatel tvaru těla. Bez vhodného referenčního z-skóre jej nelze spolehlivě označit jako nízké či vysoké riziko.');
+ if(measured===null)lines.push('Pro přesnější údaj o tělesném tuku použijte validovanou metodu (např. DEXA nebo vhodně provedenou bioimpedanci) a sledujte změny za podobných podmínek.');
+ lines.push('Praktický postup: měřte pas a hmotnost za srovnatelných podmínek, sledujte trend a podle celkového rizika konzultujte krevní tlak, glykemii a lipidový profil s praktickým lékařem.');
+ $('interpretation').innerHTML='<ul>'+lines.map(x=>'<li>'+x+'</li>').join('')+'</ul>';
+ $('summary').textContent='Výpočet dokončen. Výsledky čtěte společně: BMI hodnotí hmotnost vzhledem k výšce, WHtR centrální tuk a ABSI tvar těla.';
+}
+$('calcForm').addEventListener('submit',(e)=>{calc(e);if($('summary').textContent.startsWith('Výpočet dokončen.')){$('resultsSection').scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});}});
+$('reset').addEventListener('click',()=>{$('age').value=50;$('sex').value='male';$('height').value=172;$('weight').value=80;$('waist').value=85;$('bodyfat').value='';calc();});
+$('print').addEventListener('click',()=>window.print());
+calc();
+</script>
+</body>
+</html>
