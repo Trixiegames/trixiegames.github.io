@@ -1,0 +1,254 @@
+<!doctype html>
+<!-- Trigger fresh Pages deployment after update-button removal -->
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#174ea6">
+<link rel="icon" type="image/svg+xml" href="./favicon.svg">
+<meta name="description" content="Reverzní mzdová kalkulačka pro výpočet hrubé mzdy z čisté a čisté mzdy z hrubé v ČR.">
+<meta name="author" content="David Habán">
+<title>Reverzní mzdová kalkulačka</title>
+<style>
+:root{color-scheme:light;--ink:#172b4d;--muted:#61718a;--blue:#2563b8;--blue-dark:#103675;--paper:#f3f7fc;--line:#d9e3f1;--white:#fff}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.45 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+main{max-width:560px;margin:0 auto;padding:22px 16px 36px}
+header{background:linear-gradient(135deg,#103675,#2563b8 68%,#6b9fe8);color:white;padding:24px 22px;border-radius:22px;margin-bottom:18px;border-bottom:5px solid #72d99a}
+
+.kicker{text-transform:uppercase;letter-spacing:.12em;font-size:11px;opacity:.86;font-weight:700}
+h1.page-title{display:block;width:100%;font-size:clamp(18px,4.8vw,27px);line-height:1.15;letter-spacing:-.035em;white-space:nowrap;margin:8px 0;color:#72d99a}header p{margin:8px 0 0;color:#e1ecff;font-size:14px}
+.card{background:var(--white);border:1px solid var(--line);border-radius:18px;padding:18px;margin:12px 0;box-shadow:0 4px 16px #153b7210}
+.tabs{display:grid;grid-template-columns:1fr 1fr;background:#e8eef8;border-radius:12px;padding:4px;gap:4px}
+.tabs button{border:0;border-radius:9px;padding:12px 6px;background:transparent;color:var(--muted);font-weight:700;font-size:14px;letter-spacing:0;line-height:1.3;cursor:pointer}
+.tabs button.active{background:var(--blue);color:white;box-shadow:0 2px 7px #174ea633}
+label{display:block;font-weight:650;font-size:14px;margin:16px 0 7px}
+.money{display:flex;align-items:center;border:1px solid #b8c9e2;border-radius:12px;overflow:hidden;background:white;transition:border-color .15s,box-shadow .15s}
+.money:focus-within{border-color:#4b83d0;box-shadow:0 0 0 3px #4b83d029}
+.money input{border:0;outline:none;width:100%;min-width:0;padding:14px 12px;font-size:23px;font-weight:700;color:var(--ink);background:transparent}
+.money input::placeholder{font-size:15px;font-weight:500;letter-spacing:0;color:#7b8799;opacity:1}
+@media(max-width:380px){.money input::placeholder{font-size:13px}}
+.money span{padding:0 14px;color:var(--blue);font-weight:800}
+.hint{font-size:12px;color:var(--muted);margin-top:6px}
+.check{display:flex;align-items:flex-start;gap:10px;font-size:14px;margin-top:15px}
+.check input{width:18px;height:18px;margin-top:2px;accent-color:var(--blue)}
+.options{border-top:1px solid var(--line);margin-top:20px;padding-top:8px}
+.options-title{font-weight:800;font-size:17px;margin:12px 0 4px;color:var(--ink)}
+.options-intro{font-size:13px;color:var(--muted);margin:0 0 14px}
+.option-group{border:1px solid var(--line);border-radius:13px;padding:13px;margin:12px 0;background:#fbfdff}
+.option-group-title{font-size:12px;text-transform:uppercase;letter-spacing:.06em;font-weight:800;color:var(--blue);margin:0 0 7px}
+.option-help{font-size:12px;line-height:1.45;color:var(--muted);margin:5px 0 0}.advanced-options{border:1px solid var(--line);border-radius:13px;padding:0 13px;margin:12px 0;background:#fbfdff}.advanced-options summary{cursor:pointer;list-style:none;padding:13px 0;font-size:14px;font-weight:750;color:var(--blue-dark)}.advanced-options summary::-webkit-details-marker{display:none}.advanced-options summary:after{content:"＋";float:right;color:var(--blue)}.advanced-options[open] summary:after{content:"−"}.advanced-options summary:focus-visible{outline:3px solid #4b83d0;outline-offset:3px}.advanced-options .option-group-title{margin-top:0}
+.check span{line-height:1.4}
+.check .check-title{display:block;font-weight:700}
+.check .check-help{display:block;color:var(--muted);font-size:12px;font-weight:400;margin-top:3px}
+.select-wrap{margin-top:14px}
+.select-wrap label{margin:0 0 7px}
+.select-wrap select{width:100%;padding:12px;border:1px solid #b8c9e2;border-radius:10px;background:var(--white);color:var(--ink);font:inherit}
+.select-wrap select:focus{outline:3px solid #4b83d040;border-color:var(--blue)}
+.check small{display:block;color:var(--muted);font-size:12px;font-weight:400;margin-top:2px}
+.result{background:linear-gradient(135deg,#103675,#2563b8 72%,#477fc8);border:0;border-radius:18px;padding:22px;margin-top:20px;box-shadow:0 8px 22px #174ea626;color:#fff}
+.result .caption{font-size:14px;color:#c9dcfb;font-weight:500;letter-spacing:0}
+.result .amount{font-size:clamp(26px,6vw,32px);line-height:1.2;letter-spacing:-.02em;font-weight:800;color:#fff;margin:8px 0 0;overflow-wrap:anywhere;font-variant-numeric:tabular-nums}
+.result .amount.net-result,.result .amount.gross-result{color:#72d99a}
+.result .amount.pending{font-size:14px;line-height:1.4;letter-spacing:0;font-weight:400;margin-top:12px;min-height:38px;display:flex;align-items:center;color:#e0ebff}
+.result .sub{font-size:13px;color:#e0ebff;margin-top:8px;padding-top:9px;border-top:1px solid #ffffff40}
+.print-button{display:flex;align-items:center;justify-content:center;width:100%;margin-top:12px;padding:12px 16px;border:1px solid #174ea6;border-radius:12px;background:var(--blue);color:#fff;font:700 14px/1.3 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;cursor:pointer;box-shadow:0 2px 7px #174ea61c;transition:background-color .15s,border-color .15s,box-shadow .15s}.print-button:hover{background:var(--blue-dark);border-color:var(--blue-dark);box-shadow:0 3px 10px #174ea626}.print-button:active{box-shadow:none;transform:translateY(1px)}.print-button:focus-visible{outline:3px solid #4b83d0;outline-offset:3px}.rows{margin-top:12px}.breakdown-details{border:1px solid var(--line);border-radius:12px;background:var(--white);margin-top:12px;overflow:hidden}.breakdown-details summary{cursor:pointer;list-style:none;padding:13px 15px;font-weight:750;color:var(--blue-dark);font-size:14px}.breakdown-details summary::-webkit-details-marker{display:none}.breakdown-details summary:after{content:"＋";float:right;color:var(--blue);font-size:16px}.breakdown-details[open] summary:after{content:"−"}.breakdown-details summary:focus-visible{outline:3px solid #4b83d0;outline-offset:-3px}.breakdown-details .rows{padding:0 15px 12px;margin-top:0}
+.breakdown-heading{font-size:12px;text-transform:uppercase;letter-spacing:.08em;font-weight:800;color:var(--blue);padding:13px 0 5px;border-bottom:1px solid var(--line)}
+.line{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px 14px;padding:11px 0;border-bottom:1px solid var(--line);font-size:14px}
+.line:last-child{border-bottom:0}.line strong{text-align:right;font-variant-numeric:tabular-nums;color:var(--blue-dark);white-space:nowrap}.line-label{display:inline-flex;align-items:center;gap:7px;min-width:0;padding:0;border:0;background:transparent;color:inherit;font:inherit;text-align:left;cursor:pointer}.line-label:hover span:first-child{text-decoration:underline;text-decoration-style:dotted;text-underline-offset:3px}.line-label:focus-visible{outline:2px solid #4b83d0;outline-offset:3px;border-radius:3px}.line-info-icon{font-size:12px;color:var(--blue);flex:0 0 auto}.line-label[aria-expanded="true"] .line-info-icon{font-weight:800}.line-explanation{flex:0 0 100%;width:100%;padding:10px 12px;border-left:3px solid var(--blue);border-radius:0 8px 8px 0;background:#edf4ff;color:#31547f;font-size:12px;line-height:1.55}.line.total .line-explanation{font-weight:400;font-size:12px;color:#31547f}@media(prefers-color-scheme:dark){.line-explanation{background:#1d3557;color:#d0e1fb}.line.total .line-explanation{color:#d0e1fb}}
+.line.total{margin-top:5px;padding:13px 12px;background:#edf4ff;border:1px solid #c7dcfa;border-radius:10px;font-size:15px;font-weight:800}
+.line.total strong{font-size:16px;color:#174ea6}
+.section-title{font-weight:750;margin:0 0 4px;color:var(--blue)}
+.note{font-size:12px;color:var(--muted);line-height:1.5}
+.check-status{display:flex;align-items:flex-start;gap:9px;padding:10px 12px;border:1px solid #c7d8ee;background:#f7faff;border-radius:12px;color:#31547f;font-size:12px;margin:0 0 12px}.check-status .status-icon{font-size:15px;line-height:1.35;flex:0 0 auto}.check-status .status-copy{flex:1;min-width:0}.check-status strong{display:block;font-size:12px;margin-bottom:2px}.check-status p{margin:0;color:#61718a}.check-status[data-state="verified"]{border-color:#b7d9c4;background:#f4fbf6;color:#23633d}.check-status[data-state="new"]{border-color:#e6d4a4;background:#fffaf0;color:#765515}.check-status[data-state="unknown"]{border-color:#c7d8ee;background:#f7faff;color:#31547f}.check-status[data-state="review"]{border-color:#e6d4a4;background:#fffaf0;color:#765515}.check-status[data-state="review"] .next-check{border-color:#e6d4a4;color:#765515}.check-status[data-state="stale"]{border-color:#e6d4a4;background:#fffaf0;color:#765515}.check-status[data-state="stale"] .next-check{border-color:#e6d4a4;color:#765515}
+.check-status .next-check{display:flex;align-items:flex-start;gap:7px;border-top:1px solid #c7d8ee;margin-top:7px;padding-top:7px;font-size:11px;line-height:1.35;color:#61718a}.check-status[data-state="verified"] .next-check{border-color:#b7d9c4;color:#328052}.check-status[data-state="new"] .next-check{border-color:#e6d4a4;color:#765515}
+footer{text-align:center;font-size:11px;color:var(--muted);padding:16px 4px;border-top:1px solid var(--line);margin-top:12px}
+button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #4b83d0;outline-offset:2px}.tabs button:focus-visible{outline-offset:-2px}@media(max-width:380px){main{padding:14px 10px 28px}header{padding:20px 17px;border-radius:18px}h1{font-size:24px}.card{padding:14px}.result{padding:18px}.line{gap:8px;font-size:13px}.line strong{white-space:normal}.check-status{padding:10px}}
+.print-button{background:#245aa8;border-color:#5f91d6;color:#fff;box-shadow:0 2px 7px #00000024}.print-button:hover{background:#306cba;border-color:#79adff}@media (prefers-color-scheme:dark){:root{color-scheme:dark;--ink:#e8efff;--muted:#aab9d2;--blue:#79adff;--blue-dark:#b5d1ff;--paper:#101a2a;--line:#2b3c57;--white:#17243a}header{background:linear-gradient(135deg,#10264a,#174ea6 68%,#235d9f);color:#fff;border-bottom-color:#72d99a}header p{color:#dbe8ff}.card{box-shadow:0 4px 16px #00000018}.tabs{background:#202f47}.tabs button.active{background:#245aa8;color:#fff}.money{background:#17243a;border-color:#425776}.money input{background:transparent;color:#f2f6ff}.money span{color:#9fc4ff}.select-wrap select{background:#17243a;border-color:#425776;color:var(--ink)}.result{background:linear-gradient(135deg,#103675,#174ea6 72%,#235d9f);border-color:#3b5f91;box-shadow:0 8px 22px #00000030}.result .caption{color:#e0ebff}.result .amount{color:#fff}.result .sub{color:#e0ebff}.breakdown-heading{color:#9fc4ff}.line.total{background:#1d3557;border-color:#45658e}.line.total strong{color:#d7e6ff}.line strong{color:#c8dcff}.line:nth-child(2) strong,.line:nth-child(3) strong{color:#8bb8f4}.options-title,.section-title{color:#e8efff}.option-group{background:#142239;border-color:#354a69}.advanced-options{background:#142239;border-color:#354a69}.advanced-options summary{color:#b5d1ff}.option-group-title{color:#9fc4ff}.option-help{color:#aab9d2}.check .check-help{color:#aab9d2}footer{border-color:var(--line)}.check-status{background:#172b45;border-color:#425776;color:#dbe8ff}.check-status p{color:#aab9d2}.check-status[data-state="verified"]{background:#183329;border-color:#35684c;color:#b9e6c9}.check-status[data-state="new"]{background:#3a3020;border-color:#6b5830;color:#f0d99c}.check-status[data-state="unknown"]{background:#172b45;border-color:#425776;color:#dbe8ff}.check-status[data-state="review"]{background:#3a3020;border-color:#6b5830;color:#f0d99c}.check-status[data-state="review"] .next-check{border-color:#6b5830;color:#f0d99c}.check-status[data-state="stale"]{background:#3a3020;border-color:#6b5830;color:#f0d99c}.check-status[data-state="stale"] .next-check{border-color:#6b5830;color:#f0d99c}.check-status[data-state="unknown"] .next-check{border-color:#425776;color:#c4d8f2}}
+
+/* Název se dynamicky zvětší tak, aby vyplnil šířku hlavičky na jednom řádku. */
+/* Keep the complete heading inside the header on narrow screens. */
+.page-title{display:block;box-sizing:border-box;width:100%;max-width:100%;white-space:nowrap;font-size:clamp(14px,3.3vw,27px);line-height:1.15;letter-spacing:-.055em}
+@media print{.page-title{font-size:16pt!important;letter-spacing:0!important}}
+@media print{
+  @page{size:A4 portrait;margin:7mm}
+  :root{color-scheme:light;--ink:#172b4d;--muted:#61718a;--line:#d9e3f1;--white:#fff}
+  html,body{width:100%!important;min-width:0!important;min-height:100%!important;margin:0!important;padding:0!important;background:#fff!important;color:#172b4d!important;font-size:9pt!important}
+  body{box-sizing:border-box}
+  main{width:100%!important;max-width:none;min-height:283mm;box-sizing:border-box;margin:0;padding:0;display:flex;flex-direction:column}
+  header{flex:0 0 auto;background:#fff!important;color:#172b4d!important;border:0;border-bottom:1px solid #72d99a;border-radius:0;padding:0 0 5px;margin:0 0 7px;box-shadow:none}
+  header .kicker{color:#61718a;font-size:8.5pt}
+  header h1{font-size:16pt;color:#174ea6!important;margin:3px 0}
+  header p{color:#61718a!important;font-size:9pt;margin:3px 0}
+  #dataStatus,.tabs,.options,.note,.print-button{display:none!important}
+  .card{width:100%;flex:1 1 auto;min-height:0;box-sizing:border-box;display:flex;flex-direction:column;gap:7px;border:0;box-shadow:none;border-radius:0;padding:0;margin:0}
+  .result{flex:0 0 auto;width:100%;box-sizing:border-box;background:#fff!important;color:#172b4d!important;border:1px solid #d9e3f1;border-radius:5px;box-shadow:none;padding:9px 12px;margin:0;break-inside:avoid}
+  .result .caption,.result .sub{color:#61718a!important;font-size:9pt}
+  .result .amount,.result .amount.net-result,.result .amount.gross-result{color:#174ea6!important;font-size:20pt;margin:3px 0}
+  .result .sub{border-color:#d9e3f1;margin-top:5px;padding-top:5px}
+  .breakdown-details{display:flex;flex:1 1 auto;flex-direction:column;min-height:0;width:100%;box-sizing:border-box;border:1px solid #d9e3f1;border-radius:5px;overflow:visible;break-inside:avoid}
+  .breakdown-details summary{display:block;flex:0 0 auto;padding:7px 12px;border-bottom:1px solid #d9e3f1;font-size:10pt}
+  .breakdown-details summary:after{display:none}
+  .breakdown-details .rows,.breakdown-details:not([open]) .rows{display:flex!important;flex:1 1 auto;flex-direction:column;justify-content:space-between;gap:2px;min-height:0;padding:7px 12px 9px}
+  .line{width:100%;box-sizing:border-box;font-size:9pt;padding:4px 0;line-height:1.25;break-inside:avoid}
+  .line strong{color:#172b4d!important}
+  .line-label{font-size:9pt}
+  .line-info-icon{font-size:9pt}
+  .line-explanation[hidden]{display:none!important}
+  .line.total{background:#f3f7fc!important;border-color:#c7dcfa;padding:6px 8px;margin-top:3px;font-size:10pt}
+  .line.total strong{color:#174ea6!important}
+  .breakdown-heading{color:#174ea6!important;padding-top:6px;font-size:10pt}
+  .hint{color:#61718a!important;font-size:8.5pt}
+  .card,.result,.breakdown-details,.breakdown-details .rows{max-height:none!important}
+  #documentFooter{display:flex!important;flex-direction:row;justify-content:space-between;align-items:center;gap:8px;margin-top:auto;padding:5mm 0 0;border-top:1px solid #cbd5e1;color:#526174;font-size:8pt;text-align:left;break-inside:avoid}
+  #documentFooter .footer-meta{text-align:right}
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+</style>
+</head>
+<body>
+<main>
+<header>
+<div class="kicker">Česká republika · 2026</div>
+<h1 class="page-title">Reverzní mzdová kalkulačka</h1>
+<p>Zjistěte hrubou mzdu z čisté nebo čistou z hrubé.</p>
+</header>
+<div class="check-status" id="dataStatus" data-state="unknown" role="status" aria-live="polite">
+  <span class="status-icon" aria-hidden="true">ⓘ</span>
+  <div class="status-copy">
+    <strong>Aktuálnost mzdových parametrů nebyla ověřena</strong>
+    <p>Nelze potvrdit, zda kalkulačka používá nejnovější platná pravidla.</p>
+    <div class="next-check" id="statusCheckedAt">Datum poslední technické kontroly se načte ze stavového souboru.</div>
+  </div>
+</div>
+<section class="card">
+<div class="tabs" role="tablist" aria-label="Směr výpočtu">
+<button id="grossTab" class="active" type="button" role="tab" aria-selected="true">HRUBÁ → ČISTÁ</button>
+<button id="netTab" type="button" role="tab" aria-selected="false">ČISTÁ → HRUBÁ</button>
+</div>
+<label id="amountLabel" for="amount">Hrubá měsíční mzda</label>
+<div class="money"><input id="amount" type="number" inputmode="numeric" min="0" step="100" placeholder="Částka v Kč" aria-describedby="amountHint"><span>Kč</span></div>
+<div class="hint" id="amountHint">Zadejte částku v Kč měsíčně.</div>
+<div class="options">
+<p class="options-title">Nastavení daňových slev</p>
+<p class="options-intro">Vyberte slevy a zvýhodnění, která uplatňujete u zaměstnavatele.</p>
+<div class="option-group">
+<p class="option-group-title">Základní sleva</p>
+<label class="check"><input id="taxCredit" type="checkbox" checked><span><span class="check-title">Sleva na poplatníka</span><span class="check-help">2 570 Kč měsíčně. Obvykle ji uplatňujete podpisem prohlášení poplatníka u zaměstnavatele.</span></span></label>
+</div>
+<div class="option-group">
+<p class="option-group-title">Děti</p>
+<div class="select-wrap">
+<label for="children">Počet dětí, na které uplatňujete daňové zvýhodnění</label>
+<select id="children">
+<option value="0">Žádné dítě</option><option value="1">1 dítě</option><option value="2">2 děti</option><option value="3">3 děti</option><option value="4">4 děti</option><option value="5">5 dětí</option>
+</select>
+<p class="option-help">Na stejné dítě uplatňuje zvýhodnění za daný měsíc pouze jeden z rodičů.</p>
+</div>
+</div>
+<details class="advanced-options">
+<summary>Další daňové slevy: invalidita a ZTP/P</summary>
+<div class="select-wrap">
+<label for="ztppChildren">Počet dětí s průkazem ZTP/P</label>
+<select id="ztppChildren"><option value="0">Žádné dítě</option><option value="1">1 dítě</option><option value="2">2 děti</option><option value="3">3 děti</option><option value="4">4 děti</option><option value="5">5 dětí</option></select>
+<p class="option-help">Zvýhodnění na dítě s průkazem ZTP/P se zdvojnásobuje. Kalkulačka předpokládá, že jde o děti s nejvyšším pořadím; pokud ZTP/P náleží jinému dítěti, může se výsledek lišit. Počet se automaticky omezí na zadaný počet dětí.</p>
+</div>
+<div class="select-wrap">
+<label for="invalidity">Vlastní invalidita</label>
+<select id="invalidity"><option value="0">Bez této slevy</option><option value="210">Invalidita I. nebo II. stupně — 210 Kč/měs.</option><option value="420">Invalidita III. stupně — 420 Kč/měs.</option></select>
+<p class="option-help">Vyberte stupeň invalidity, pokud splňujete zákonné podmínky pro uplatnění slevy.</p>
+</div>
+<label class="check"><input id="ztpp" type="checkbox"><span><span class="check-title">Držitel průkazu ZTP/P</span><span class="check-help">Dodatečná sleva 1 345 Kč měsíčně při splnění zákonných podmínek.</span></span></label>
+</details>
+<p class="hint">Výsledek je orientační. Uplatnění slev závisí na splnění zákonných podmínek a doložení zaměstnavateli. Měsíční bonus na děti se vyplácí nejméně ve výši 50 Kč a při příjmu alespoň 11 200 Kč.</p><p class="hint">U hrubé mzdy pod 22 400 Kč kalkulačka nezohledňuje případný doplatek zdravotního pojištění do minimálního vyměřovacího základu. Výjimky závisí na konkrétní situaci zaměstnance.</p>
+<p class="hint">Výpočet předpokládá standardní pracovní poměr za celý měsíc a nezohledňuje všechny individuální výjimky, souběžné příjmy ani zvláštní režimy pojištění. Výběr slev není potvrzením nároku na jejich uplatnění.</p>
+</div>
+<div class="result" aria-live="polite">
+<div class="caption" id="resultLabel">Čistá měsíční mzda</div><div class="amount pending" id="resultAmount">Výsledek se zobrazí po zadání částky.</div><div class="sub" id="resultSub"></div>
+</div>
+<details class="breakdown-details" open><summary>Podrobný rozpis výpočtu</summary><div class="rows" id="breakdown"></div></details>
+<button id="printButton" class="print-button" type="button">Vytisknout výsledek</button>
+</section>
+<p class="note" style="text-align:center;margin:14px 4px">Orientační výpočet pro standardní pracovní poměr v ČR · 2026</p>
+<footer id="documentFooter"><span>Reverzní mzdová kalkulačka</span><span class="footer-meta">Datum: <time id="printDate">—</time> · Verze: <span id="appVersion">1.0.1</span> · Autor: David Habán</span></footer>
+</main>
+<script>
+(() => {
+ const $ = id => document.getElementById(id);
+ function updatePrintDate(){const el=$('printDate');if(el)el.textContent=new Intl.DateTimeFormat('cs-CZ',{day:'2-digit',month:'2-digit',year:'numeric',timeZone:'Europe/Prague'}).format(new Date());}
+ window.addEventListener('beforeprint',updatePrintDate);
+ function fitTitle(){const el=document.querySelector('.page-title');if(!el||window.matchMedia('print').matches)return;el.style.fontSize='';const available=el.parentElement.clientWidth;if(available<=0)return;const style=getComputedStyle(el);const base=parseFloat(style.fontSize)||24;const canvas=document.createElement('canvas');const ctx=canvas.getContext('2d');if(!ctx)return;const text=el.textContent.trim();ctx.font=style.fontWeight+' '+base+'px '+style.fontFamily;const measured=ctx.measureText(text).width;const spacing=parseFloat(style.letterSpacing)||0;const total=measured+Math.max(0,text.length-1)*spacing;if(total>available)el.style.fontSize=Math.max(15,base*available/total*0.94).toFixed(2)+'px';}
+ window.addEventListener('resize',fitTitle,{passive:true});if('ResizeObserver'in window){new ResizeObserver(fitTitle).observe(document.querySelector('header'));}fitTitle();
+ let mode = 'gross';
+ const fmt = n => { const rounded=Math.round(n); return (Object.is(rounded,-0)||rounded===0?0:rounded).toLocaleString('cs-CZ') + ' Kč'; };
+ function childCredit(count,ztppCount=0) { const n=Math.max(0,Number(count)||0),z=Math.min(n,Math.max(0,Number(ztppCount)||0)); let total=0; for(let i=1;i<=n;i++){const base=i===1?1267:i===2?1860:2320;total+=base+(i>n-z?base:0);} return total; }
+ function calc(gross,options) {
+  const social=Math.ceil(gross*71/1000),health=Math.ceil(Math.ceil(gross*135/1000)/3),taxBase=gross<=100?Math.ceil(gross):Math.ceil(gross/100)*100;
+  const threshold=146901;
+  const taxBeforeCredit=Math.ceil((Math.min(taxBase,threshold)*15+Math.max(0,taxBase-threshold)*23)/100);
+  const taxpayerCredit=options.credit?2570:0,invalidityCredit=Number(options.invalidity||0),ztppCredit=options.ztpp?1345:0;
+  const taxAfterPersonal=Math.max(0,taxBeforeCredit-taxpayerCredit-invalidityCredit-ztppCredit);
+  const childAmount=childCredit(options.children,options.ztppChildren),bonusEligible=gross>=11200;
+  const childCreditApplied=Math.min(taxAfterPersonal,childAmount),tax=Math.max(0,taxAfterPersonal-childAmount);
+  const potentialBonus=Math.max(0,childAmount-taxAfterPersonal),taxBonus=bonusEligible&&potentialBonus>=50?potentialBonus:0;
+  return {gross,social,health,taxBase,taxBeforeCredit,taxpayerCredit:Math.min(taxBeforeCredit,taxpayerCredit),invalidityCredit:Math.min(Math.max(0,taxBeforeCredit-taxpayerCredit),invalidityCredit),ztppCredit:Math.min(Math.max(0,taxBeforeCredit-taxpayerCredit-invalidityCredit),ztppCredit),taxAfterPersonal,childrenCredit:childAmount,childCreditApplied,tax,taxBonus,net:gross-social-health-tax+taxBonus,bonusEligible};
+ }
+ function options(){return {credit:$('taxCredit').checked,children:Number($('children').value),ztppChildren:Number($('ztppChildren').value),invalidity:Number($('invalidity').value),ztpp:$('ztpp').checked};}
+ function reverse(net,o){if(net<=0)return calc(0,o);let lo=0,hi=Math.ceil(Math.max(100000,net*2+10000)/100);while(lo<hi){const mid=Math.floor((lo+hi)/2);if(calc(mid*100,o).net>=net)hi=mid;else lo=mid+1;}const end=lo*100,start=Math.max(0,end-200);for(let gross=start;gross<=end;gross++){const c=calc(gross,o);if(c.net>=net)return c;}return calc(end,o);}
+ const explanations={
+  'Hrubá mzda':'Mzda před odečtením zaměstnaneckého sociálního a zdravotního pojištění a zálohy na daň. V režimu Čistá → Hrubá jde o vypočtenou hrubou mzdu odpovídající zadanému cíli.',
+  'Základ daně po zaokrouhlení':'Měsíční základ pro výpočet zálohy na daň se u běžného zaměstnání zaokrouhluje nahoru na celé stokoruny. U velmi nízkých částek kalkulačka zachovává zvláštní výpočetní pravidlo.',
+  'Sociální pojištění (7,1 %)':'Zaměstnanecká část sociálního pojištění. Kalkulačka používá sazbu 7,1 % z hrubé mzdy a výsledek zaokrouhluje nahoru na celé koruny.',
+  'Zdravotní pojištění (4,5 %)':'Zaměstnanecká část zdravotního pojištění. Celková sazba je 13,5 %; zaměstnanci se sráží jedna třetina, tedy 4,5 %. Výpočet zohledňuje zákonné zaokrouhlení. Případný doplatek do minimálního vyměřovacího základu u nízkých mezd kalkulačka nezahrnuje.',
+  'Daň před slevami (15 % / 23 %)':'Záloha se počítá sazbou 15 % do měsíční hranice pro vyšší sazbu a 23 % z části základu nad touto hranicí. Používá se zaokrouhlený základ daně.',
+  'Sleva na poplatníka':'Základní sleva na poplatníka činí 2 570 Kč měsíčně. Lze ji uplatnit při splnění zákonných podmínek, zpravidla na základě podepsaného prohlášení u zaměstnavatele. Zobrazená částka nemůže převýšit vypočtenou daň.',
+  'Sleva na invaliditu':'Měsíční sleva činí 210 Kč pro invaliditu I. nebo II. stupně a 420 Kč pro III. stupeň. Nárok závisí na splnění zákonných podmínek a doložení potřebných dokladů; sleva nemůže snížit daň pod nulu.',
+  'Sleva ZTP/P':'Dodatečná sleva na dani pro držitele průkazu ZTP/P činí 1 345 Kč měsíčně při splnění zákonných podmínek. Uplatnění je omezeno výší zbývající daně.',
+  'Daň po osobních slevách':'Daň, která zbývá po odečtení základní slevy na poplatníka, případné slevy na invaliditu a slevy ZTP/P. Daň nemůže být záporná.',
+  'Uplatněné zvýhodnění na děti':'Daňové zvýhodnění na zadaný počet dětí se odečítá od daně. Základní měsíční částky jsou 1 267 Kč na první dítě, 1 860 Kč na druhé a 2 320 Kč na třetí a každé další dítě. U dítěte s průkazem ZTP/P se příslušná částka zdvojnásobuje. Kalkulačka předpokládá, že děti ZTP/P mají nejvyšší pořadí.',
+  'Daň po zvýhodnění na děti':'Zbývající záloha na daň po uplatnění daňového zvýhodnění na děti. Tato položka nemůže být nižší než nula; případná část zvýhodnění nad daň se může za podmínek zákona projevit jako daňový bonus.',
+  'Daňový bonus na děti':'Část daňového zvýhodnění na děti, která převyšuje daň a může být vyplacena jako bonus. Kalkulačka jej započítá, pokud hrubý měsíční příjem dosahuje alespoň 11 200 Kč a vypočtený bonus činí nejméně 50 Kč.',
+  'Čistá mzda':'Částka, která zaměstnanci po odečtení sociálního a zdravotního pojištění a daně zůstane. Případný nárok na daňový bonus se přičítá.'
+ };
+ function row(label,value,extraClass){if(/^[−-]\s*0\s*Kč$/.test(value)||/^\+\s*0\s*Kč$/.test(value))value='0 Kč';const info=explanations[label]||'Tato položka je součástí orientačního výpočtu mzdy podle zvolených údajů a parametrů kalkulačky.';return '<div class="line '+(extraClass||'')+'"><button class="line-label" type="button" aria-expanded="false"><span>'+label+'</span><span class="line-info-icon" aria-hidden="true">ⓘ</span></button><strong>'+value+'</strong><div class="line-explanation" hidden>'+info+'</div></div>';}
+ function heading(label){return '<div class="breakdown-heading">'+label+'</div>';}
+ function render(){
+  const entered=$('amount').value.trim();if(entered===''){$('resultAmount').classList.remove('net-result','gross-result');$('amountLabel').textContent=mode==='net'?'Požadovaná čistá měsíční mzda':'Hrubá měsíční mzda';$('resultLabel').textContent=mode==='net'?'Potřebná hrubá měsíční mzda':'Čistá měsíční mzda';$('resultAmount').textContent='Výsledek se zobrazí po zadání částky.';$('resultAmount').classList.add('pending');$('resultSub').textContent='';$('breakdown').replaceChildren();return;}const raw=Number(entered);if(!Number.isFinite(raw)||raw<0){$('resultAmount').classList.add('pending');$('resultAmount').classList.remove('net-result','gross-result');$('resultAmount').textContent='Zadejte částku od 0 Kč výše.';$('resultSub').textContent='';$('breakdown').replaceChildren();return;}const amount=Math.round(raw),o=options();$('resultAmount').classList.remove('pending');$('resultAmount').classList.toggle('net-result',mode==='gross');$('resultAmount').classList.toggle('gross-result',mode==='net');let c;
+  if(mode==='net'){c=reverse(amount,o);$('amountLabel').textContent='Požadovaná čistá měsíční mzda';$('resultLabel').textContent='Potřebná hrubá měsíční mzda';$('resultAmount').textContent=fmt(c.gross);$('resultSub').textContent='Výsledná čistá mzda: '+fmt(c.net);}
+  else{c=calc(amount,o);$('amountLabel').textContent='Hrubá měsíční mzda';$('resultLabel').textContent='Čistá měsíční mzda';$('resultAmount').textContent=fmt(c.net);$('resultSub').textContent='Hrubá mzda: '+fmt(c.gross);}
+  $('breakdown').innerHTML=heading('Základ výpočtu')+row('Hrubá mzda',fmt(c.gross))+row('Základ daně po zaokrouhlení',fmt(c.taxBase))+heading('Povinné odvody')+row('Sociální pojištění (7,1 %)','− '+fmt(c.social))+row('Zdravotní pojištění (4,5 %)','− '+fmt(c.health))+heading('Daň')+row('Daň před slevami (15 % / 23 %)',fmt(c.taxBeforeCredit))+row('Sleva na poplatníka','− '+fmt(c.taxpayerCredit))+row('Sleva na invaliditu','− '+fmt(c.invalidityCredit))+row('Sleva ZTP/P','− '+fmt(c.ztppCredit))+row('Daň po osobních slevách',fmt(c.taxAfterPersonal))+row('Uplatněné zvýhodnění na děti','− '+fmt(c.childCreditApplied))+row('Daň po zvýhodnění na děti',fmt(c.tax))+row('Daňový bonus na děti',c.taxBonus?'+ '+fmt(c.taxBonus):fmt(0))+heading('Výsledek')+row('Čistá mzda',fmt(c.net),'total')+(o.children&&!c.bonusEligible?'<p class="hint">Daňový bonus na děti nebyl započten, protože hrubý příjem nedosahuje orientační hranice 11 200 Kč měsíčně.</p>':'');
+ }
+ function setMode(next){mode=next;$('netTab').classList.toggle('active',mode==='net');$('grossTab').classList.toggle('active',mode==='gross');$('netTab').setAttribute('aria-selected',mode==='net');$('grossTab').setAttribute('aria-selected',mode==='gross');$('amount').value='';$('amount').placeholder='Částka v Kč';$('resultLabel').textContent=mode==='net'?'Potřebná hrubá měsíční mzda':'Čistá měsíční mzda';$('resultAmount').textContent='Výsledek se zobrazí po zadání částky.';$('resultAmount').classList.add('pending');$('resultSub').textContent='';$('breakdown').replaceChildren();render();}
+ let breakdownWasOpenBeforePrint=false;window.addEventListener('afterprint',()=>{if(!breakdownWasOpenBeforePrint)$('breakdown').closest('.breakdown-details').open=false;});$('printButton').addEventListener('click',()=>{if($('amount').value.trim()===''){window.alert('Není vyplněna hodnota mzdy. Zadejte částku v Kč.');$('amount').focus();return;}updatePrintDate();const details=$('breakdown').closest('.breakdown-details');breakdownWasOpenBeforePrint=details.open;details.open=true;window.print();});$('breakdown').addEventListener('click',event=>{const button=event.target.closest('.line-label');if(!button)return;const line=button.closest('.line'),panel=line.querySelector('.line-explanation'),willOpen=button.getAttribute('aria-expanded')!=='true';$('breakdown').querySelectorAll('.line-label[aria-expanded="true"]').forEach(openButton=>{if(openButton!==button){openButton.setAttribute('aria-expanded','false');openButton.closest('.line').querySelector('.line-explanation').hidden=true;}});button.setAttribute('aria-expanded',String(willOpen));panel.hidden=!willOpen;});$('netTab').addEventListener('click',()=>setMode('net'));$('grossTab').addEventListener('click',()=>setMode('gross'));$('amount').addEventListener('input',render);['taxCredit','children','ztppChildren','invalidity','ztpp'].forEach(id=>$(id).addEventListener('change',render));render();
+ async function updateStatus(){
+  const box=$('dataStatus');try{
+   const response=await fetch('./status.json?ts='+Date.now(),{cache:'no-store'});if(!response.ok)throw new Error('status unavailable');
+   const status=await response.json();
+   const labels={
+    verified:['✓','Mzdové parametry jsou aktuální','Při poslední kontrole nebyla zjištěna změna sledovaného obsahu oficiálních zdrojů. To samo o sobě není nezávislým potvrzením správnosti výpočtu.'],
+    new:['!','Byly zjištěny možné změny mzdových parametrů','Na oficiálním zdroji se změnil obsah. Je potřeba ověřit, zda to ovlivňuje sazby, daně nebo slevy.'],
+    unknown:['ⓘ','Kontrolu finančních parametrů se nepodařilo dokončit','Oficiální zdroje nebyly úspěšně načteny. Aktuálnost výpočtu proto nelze potvrdit.'],
+    review:['!','Některé finanční parametry vyžadují kontrolu','Automatická kontrola nedokázala potvrdit všechny hodnoty v oficiálních zdrojích. Kalkulačka je automaticky nemění.']
+   };
+   const checkedAt=status.checked_at ? new Date(status.checked_at) : null;
+   const validDate=checkedAt && !Number.isNaN(checkedAt.getTime());
+   const stale=!validDate || (Date.now()-checkedAt.getTime()>7*24*60*60*1000) || Number(status.parameter_year)!==new Date().getFullYear();
+   const baseState=labels[status.status] ? status.status : 'unknown';
+   const s=stale ? 'stale' : baseState,v=stale
+    ? ['!','Kontrola oficiálních zdrojů je zastaralá','Poslední kontrola je starší než 7 dní, datum chybí nebo neodpovídá aktuálnímu roku. Stav parametrů proto nelze považovat za aktuální.']
+    : labels[baseState];
+   box.dataset.state=s;box.querySelector('.status-icon').textContent=v[0];box.querySelector('strong').textContent=v[1];box.querySelector('p').textContent=v[2];
+   const checked=$('statusCheckedAt');
+   if(checked){
+    const dateText=validDate?checkedAt.toLocaleString('cs-CZ',{dateStyle:'medium',timeStyle:'short',timeZone:'Europe/Prague'}):'datum neuvedeno';
+    let detail='Poslední kontrola zdrojů: '+dateText+' · rok parametrů: '+(status.parameter_year||'neuveden')+'.';
+    if(status.review_required && Array.isArray(status.failed_parameters) && status.failed_parameters.length){detail+=' Vyžadují kontrolu: '+status.failed_parameters.join('; ')+'.';}
+    if(status.automatic_parameter_updates===false){detail+=' Automatická změna zákonných sazeb je vypnutá, aby se nepoužila neověřená hodnota.';}
+    checked.textContent=detail;
+   }
+  }catch(e){box.dataset.state='unknown';box.querySelector('.status-icon').textContent='ⓘ';box.querySelector('strong').textContent='Aktuálnost mzdových parametrů nebyla ověřena';box.querySelector('p').textContent='Nelze potvrdit, zda kalkulačka používá nejnovější platná pravidla.';const checked=$('statusCheckedAt');if(checked)checked.textContent='Datum poslední technické kontroly není dostupné.';}
+ }
+ updateStatus();
+})();
+</script>
+</body>
+</html>
