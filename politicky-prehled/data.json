@@ -1,15 +1,75 @@
 {
-  "updated_at": "2026-11-10T11:09:52.094519+00:00",
+  "updated_at": "2026-11-10T11:59:23.322907+00:00",
   "window_hours": 24,
   "articles": [
+    {
+      "title": "Prohlášení prezidentů Pavla a maďarského prezidenta Baky",
+      "summary": "Prezident Petr Pavel s manželkou Evou na Pražském hradě přivítali maďarskou hlavu státu Andráse Baku s chotí Katalin Kövesdiovou. Státníci měli hovořit o energetice, koordinaci…",
+      "source": "ČT24",
+      "category": "domaci",
+      "published_at": "2026-11-10T11:45:02+00:00",
+      "url": "https://ct24.ceskatelevize.cz/clanek/domaci/prohlaseni-prezidentu-pavla-a-madarskeho-prezidenta-baky-379468",
+      "importance": "Pokud na vyjádření navážou konkrétní kroky, mohou změnit priority vlády nebo vztahy s jejími partnery. Bez následného rozhodnutí může dopad zůstat hlavně v politické debatě.",
+      "importance_kind": "possible_impact"
+    },
+    {
+      "title": "V ODS sílí nespokojenost kvůli preferencím, zasedne předsednictvo",
+      "summary": "Předsednictvo ODS bude v pátek řešit situaci v nejsilnější opoziční straně, které v poslední době podle průzkumů klesají voličské preference. Uvedl to šéf strany Martin…",
+      "source": "iDNES.cz",
+      "category": "domaci",
+      "published_at": "2026-11-10T11:41:00+00:00",
+      "url": "https://www.idnes.cz/zpravy/domaci/v-patek-se-sejde-predsednictvo-ods-sili-nespokojenost-kvuli-preferencim.A261110_123008_domaci_aoc",
+      "importance": "Pokud se trend udrží, může změnit vyjednávací sílu stran a složení možných koalic. Samotný průzkum ale neurčuje výsledek příštích voleb.",
+      "importance_kind": "possible_impact"
+    },
     {
       "title": "Sněmovní výbor zahájí řízení s Ševčíkem. Kvůli jeho výkřikům o menopauze",
       "summary": "Mandátový a imunitní výbor zahájí disciplinární řízení s poslancem za SPD Miroslavem Ševčíkem kvůli jeho výrokům o menopauze, kterými častoval poslankyni STAN Michaelu Šebelovou. Redakci…",
       "source": "iDNES.cz",
       "category": "domaci",
-      "published_at": "2026-11-10T11:07:00+00:00",
+      "published_at": "2026-11-10T11:39:00+00:00",
       "url": "https://www.idnes.cz/zpravy/domaci/sevcik-snemovna-menopauza-vykriky-rizeni.A261110_112307_domaci_tty",
       "importance": "Vývoj může změnit složení vedení a priority při rozhodování o veřejných penězích. Výsledek bude záviset na dalších jednáních a konkrétních dohodách.",
+      "importance_kind": "possible_impact"
+    },
+    {
+      "title": "Nervozita v ODS: Vyměňme vedení, zní z regionů. Kupka už reagoval",
+      "summary": "Předsednictvo ODS bude v pátek řešit situaci v nejsilnější opoziční straně, které v poslední době podle průzkumů klesají voličské preference. Na dotaz to dnes uvedl…",
+      "source": "Aktuálně.cz",
+      "category": "domaci",
+      "published_at": "2026-11-10T12:37:00+01:00",
+      "url": "https://zpravy.aktualne.cz/domaci/nervozita-v-ods-vymenme-vedeni-zni-z-regionu-prizen-volicu-slabne/r~aaa29e41cdae6367ae20c8853989284f/",
+      "importance": "Pokud se trend udrží, může změnit vyjednávací sílu stran a složení možných koalic. Samotný průzkum ale neurčuje výsledek příštích voleb.",
+      "importance_kind": "possible_impact"
+    },
+    {
+      "title": "Vyhrožuje, vydírá. Babiše a Fica nahněval Merzův požadavek ohledně Ukrajiny",
+      "summary": "Premiéři Česka a Slovenska Andrej Babiš a Robert Fico se ohradili vůči výzvě německého kancléře Friedricha Merze, aby se všechny země Evropské unie bez výjimky…",
+      "source": "iDNES.cz",
+      "category": "domaci",
+      "published_at": "2026-11-10T11:34:00+00:00",
+      "url": "https://www.idnes.cz/zpravy/domaci/babis-a-fico-se-ohradili-vuci-vyzve-merze-k-dalsi-financni-podpore-ukrajiny.A261110_115706_domaci_aoc",
+      "importance": "Další vývoj může ovlivnit bezpečnost obyvatel, humanitární situaci i vztahy mezi státy. Zhoršení situace může zvýšit nároky na pomoc a tlak na diplomatická jednání.",
+      "importance_kind": "possible_impact"
+    },
+    {
+      "title": "Ministři zemí G7 v Paříži jednají o podpoře Ukrajiny, píše AP",
+      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
+      "source": "ČTK / České noviny",
+      "category": "svet",
+      "published_at": "2026-11-10T12:24:00+01:00",
+      "url": "https://www.ceskenoviny.cz/zpravy/ministri-zemi-g7-v-parizi-jednaji-o-podpore-ukrajiny-pise-ap/2899986",
+      "importance": "Další vývoj může ovlivnit bezpečnost obyvatel, humanitární situaci i vztahy mezi státy. Zhoršení situace může zvýšit nároky na pomoc a tlak na diplomatická jednání.",
+      "importance_kind": "possible_impact"
+    },
+    {
+      "title": "Pavel promluvil o své (ne)chuti být prezidentem. Prozradil, co ho nakonec změnilo",
+      "summary": "Při debatách ohledně prezidenta Petra Pavla často padají otázky, do jaké míry ho vlastně baví být prezidentem a zda vůbec chtěl a chce tento úřad…",
+      "source": "Aktuálně.cz",
+      "category": "domaci",
+      "published_at": "2026-11-10T12:18:00+01:00",
+      "url": "https://zpravy.aktualne.cz/domaci/pavel-promluvil-o-sve-ne-chuti-byt-prezidentem-prozradil-co-ho-nakonec-zmenilo/r~aaa299dbb288c27d10dae2fdae9d537f/",
+      "importance": "Pokud na vyjádření navážou konkrétní kroky, mohou změnit priority vlády nebo vztahy s jejími partnery. Bez následného rozhodnutí může dopad zůstat hlavně v politické debatě.",
       "importance_kind": "possible_impact"
     },
     {
@@ -83,36 +143,6 @@
       "importance_kind": "possible_impact"
     },
     {
-      "title": "Oslavy 17. listopadu bez Babiše, Macinky či Zůny. Jedou do Izraele",
-      "summary": "Premiér Andrej Babiš (ANO) navštíví od 16. do 18. listopadu Izrael na pozvání předsedy tamní vlády Benjamina Netanjahua. Bilaterální jednání se zaměří zejména na spolupráci…",
-      "source": "iDNES.cz",
-      "category": "domaci",
-      "published_at": "2026-11-10T10:20:00+00:00",
-      "url": "https://www.idnes.cz/zpravy/domaci/babis-izrael-navsteva-listopad-oslavy.A261110_093629_domaci_aoc",
-      "importance": "Neúčast premiéra může zesílit kritiku opozice a přesunout pozornost od oslav k politickému sporu. Dopad na důvěru veřejnosti bude záviset i na dalším vysvětlení vlády.",
-      "importance_kind": "possible_impact"
-    },
-    {
-      "title": "Střelec z Krakova se zajímal o norského vraha Breivika, zjistila policie",
-      "summary": "Krakovský střelec, který zabil tři členy své rodiny a šest náhodných kolemjdoucích, se zajímal o norského neonacistického extremistu Anderse Breivika. V úterý to řekl ministr…",
-      "source": "iDNES.cz",
-      "category": "svet",
-      "published_at": "2026-11-10T10:18:00+00:00",
-      "url": "https://www.idnes.cz/zpravy/zahranicni/polsko-krakov-strelec-utok-anders-breivik-krajni-pravice.A261110_105501_zahranicni_kha",
-      "importance": "Pokud na vyjádření navážou konkrétní kroky, mohou změnit priority vlády nebo vztahy s jejími partnery. Bez následného rozhodnutí může dopad zůstat hlavně v politické debatě.",
-      "importance_kind": "possible_impact"
-    },
-    {
-      "title": "V Abú Zabí začaly rozhovory o Ukrajině. Řeší se i bezpečnostní rámec pro Evropu",
-      "summary": "Ve Spojených arabských emirátech v úterý začaly dvoudenní americko-rusko-ukrajinská jednání o ukončení války. Ukrajinský vyjednavač a šéf civilní rozvědky Rustem Umerov informoval o úvodní schůzce…",
-      "source": "iDNES.cz",
-      "category": "svet",
-      "published_at": "2026-11-10T10:14:00+00:00",
-      "url": "https://www.idnes.cz/zpravy/zahranicni/usa-rusko-a-ukrajina-zahaji-jednani-o-konci-valky-ucast-evropy-je-nejasna.A261110_074245_zahranicni_pluh",
-      "importance": "Dohoda by mohla omezit boje a otevřít prostor pro bezpečnostní záruky či obnovu země. Pokud jednání selžou, nejistota pro obyvatele i spojence může pokračovat.",
-      "importance_kind": "possible_impact"
-    },
-    {
       "title": "„Jde o velmi silné indicie.“ Ministr odhalil, co našli v počítači krakovského vraha",
       "summary": "Polský ministr spravedlnosti Waldemar Żurek v úterý odhalil další podrobnosti o střelci, který v sobotu zabil v centru Krakova šest lidí. Pachatel podle něj na…",
       "source": "Aktuálně.cz",
@@ -123,17 +153,7 @@
       "importance_kind": "possible_impact"
     },
     {
-      "title": "Výročí 17. listopadu uctí Schillerová i Havlíček. Na Národní třídě zastoupí Babiše",
-      "summary": "Premiér Andrej Babiš oznámil, že se z důvodu pracovní cesty do Izraele nezúčastní oslav 17. listopadu. Společně s ním odlétá také řada ministrů. Na Národní…",
-      "source": "iDNES.cz",
-      "category": "domaci",
-      "published_at": "2026-11-10T10:10:00+00:00",
-      "url": "https://www.idnes.cz/zpravy/domaci/narodni-trida-17-listopad-ucast-potvrdila-schillerova-havlicek.A261110_102109_domaci_jira",
-      "importance": "Neúčast premiéra může zesílit kritiku opozice a přesunout pozornost od oslav k politickému sporu. Dopad na důvěru veřejnosti bude záviset i na dalším vysvětlení vlády.",
-      "importance_kind": "possible_impact"
-    },
-    {
-      "title": "„Zbabělost. Bojí se jít na Národní,“ schytal to Babiš. Vyhne se pokládání květin pod rouškou tmy",
+      "title": "Nikdy tam nechodil rád. Teď to Babiš tvrdě schytává, že se 17. listopadu vyhne Národní",
       "summary": "To, že se premiér Andrej Babiš (ANO) nezúčastní oslav svátku 17. listopadu kvůli návštěvě Izraele, vyvolalo ostrou reakci od předsedů opozičních stran. Šéf ODS Martin…",
       "source": "Aktuálně.cz",
       "category": "domaci",
@@ -233,16 +253,6 @@
       "importance_kind": "possible_impact"
     },
     {
-      "title": "„Třeba se vše uklidní.“ Babiš kytku na Národní nepoloží, má úplně jiný program",
-      "summary": "Premiér Andrej Babiš (ANO) navštíví od 16. do 18. listopadu Izrael na pozvání předsedy tamní vlády Benjamina Netanjahua. Bilaterální jednání se zaměří zejména na spolupráci…",
-      "source": "Aktuálně.cz",
-      "category": "domaci",
-      "published_at": "2026-11-10T09:45:00+01:00",
-      "url": "https://zpravy.aktualne.cz/domaci/babis-kytku-na-narodni-nepolozi-poleti-s-casti-vlady-do-izraele/r~aaa296684de43097b13c4b79463cf701/",
-      "importance": "Pokud na vyjádření navážou konkrétní kroky, mohou změnit priority vlády nebo vztahy s jejími partnery. Bez následného rozhodnutí může dopad zůstat hlavně v politické debatě.",
-      "importance_kind": "possible_impact"
-    },
-    {
       "title": "Babiš nebude na oslavách 17. listopadu, s částí vlády navštíví Izrael",
       "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
       "source": "ČTK / České noviny",
@@ -270,16 +280,6 @@
       "published_at": "2026-11-10T08:20:22+00:00",
       "url": "https://ct24.ceskatelevize.cz/clanek/domaci/korecky-doufa-v-moudrost-nejvyssiho-soudu-v-kauze-spd-mikulasova-dovolani-vita-379454",
       "importance": "Rozhodnutí soudu může ovlivnit podobu dalších volebních kampaní a to, kde bude hranice mezi politickou kritikou a podněcováním nenávisti.",
-      "importance_kind": "possible_impact"
-    },
-    {
-      "title": "Vztah šéfa Nvidie s údajnou čínskou špiónkou vyšetřuje FBI, řekl Trump",
-      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
-      "source": "ČTK / České noviny",
-      "category": "svet",
-      "published_at": "2026-11-10T09:09:00+01:00",
-      "url": "https://www.ceskenoviny.cz/zpravy/vztah-sefa-nvidie-s-udajnou-cinskou-spionkou-vysetruje-fbi-rekl-trump/2899856",
-      "importance": "Pokud se podezření potvrdí, může následovat trestní stíhání a přísnější ochrana citlivých technologií či informací. Samotné vyšetřování vinu neprokazuje.",
       "importance_kind": "possible_impact"
     },
     {
@@ -313,16 +313,6 @@
       "importance_kind": "possible_impact"
     },
     {
-      "title": "Median: ANO si polepšilo na 32 %, STAN má 18,5 % a ODS 10,5 %",
-      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
-      "source": "ČTK / České noviny",
-      "category": "domaci",
-      "published_at": "2026-11-10T07:24:00+01:00",
-      "url": "https://www.ceskenoviny.cz/zpravy/median-ano-si-polepsilo-na-32-stan-ma-185-a-ods-105-/2899833",
-      "importance": "Pokud se trend udrží, může změnit vyjednávací sílu stran a složení možných koalic. Samotný průzkum ale neurčuje výsledek příštích voleb.",
-      "importance_kind": "possible_impact"
-    },
-    {
       "title": "R5M: Kauza kolem plakátů SPD míří k Nejvyššímu soudu | Útočník z Krakova zemřel v nemocnici | Macinka se omluvil za vyjádření o hokejistkách",
       "summary": "",
       "source": "Deník N",
@@ -342,8 +332,8 @@
       "feeds_total": 1,
       "status": "ok",
       "candidates": 19,
-      "selected": 5,
-      "free_articles_checked": 6
+      "selected": 6,
+      "free_articles_checked": 7
     },
     {
       "name": "iROZHLAS",
@@ -351,7 +341,7 @@
       "feeds_ok": 2,
       "feeds_total": 2,
       "status": "ok",
-      "candidates": 21,
+      "candidates": 20,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -361,8 +351,8 @@
       "feeds_ok": 2,
       "feeds_total": 2,
       "status": "ok",
-      "candidates": 35,
-      "selected": 7,
+      "candidates": 34,
+      "selected": 6,
       "free_articles_checked": 8
     },
     {
@@ -371,7 +361,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 15,
+      "candidates": 17,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -381,7 +371,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 13,
+      "candidates": 14,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -391,9 +381,9 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 9,
-      "selected": 7,
-      "free_articles_checked": 7
+      "candidates": 11,
+      "selected": 8,
+      "free_articles_checked": 8
     },
     {
       "name": "Deník",
@@ -411,9 +401,9 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 14,
-      "selected": 7,
-      "free_articles_checked": 8
+      "candidates": 15,
+      "selected": 5,
+      "free_articles_checked": 6
     },
     {
       "name": "CNN Prima NEWS",
@@ -431,7 +421,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 4,
+      "candidates": 5,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -441,7 +431,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 10,
+      "candidates": 12,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -491,7 +481,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 13,
+      "candidates": 12,
       "selected": 0,
       "free_articles_checked": 0
     }
