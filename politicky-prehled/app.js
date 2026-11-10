@@ -32,7 +32,15 @@ function render() {
     const link = element('a', 'Číst původní článek ↗');
     link.href = url.href; link.target = '_blank'; link.rel = 'noopener noreferrer';
     source.append(element('span', 'Výňatek z anotace · ' + a.source), link);
-    card.append(meta, element('h2',a.title), element('p',a.summary), source);
+    card.append(meta, element('h2',a.title), element('p',a.summary));
+    if (a.importance) {
+      const why = element('div', '', 'why');
+      const note = element('small', 'Tematický kontext', 'small');
+      note.style.display = 'block'; note.style.marginTop = '6px';
+      why.append(element('b', 'Proč je to důležité'), document.createTextNode(a.importance), note);
+      card.append(why);
+    }
+    card.append(source);
     fragment.append(card);
   }
   $('#news').replaceChildren(fragment);

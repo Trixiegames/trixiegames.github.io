@@ -10,6 +10,7 @@ import json
 import re
 import subprocess
 import xml.etree.ElementTree as ET
+from restore_context import importance
 
 ROOT = Path(__file__).resolve().parents[1]
 DEST = ROOT / 'politicky-prehled'
@@ -85,9 +86,11 @@ def render_card(row):
     title, summary, source, category, published, url = (escape(row[k], quote=True) for k in ['title','summary','source','category','published_at','url'])
     label = 'Domácí politika' if category == 'domaci' else 'Zahraniční politika'
     date = datetime.fromisoformat(row['published_at']).astimezone(ZoneInfo('Europe/Prague')).strftime('%d. %m. %Y · %H:%M')
-    return f'<article data-category="{category}" data-published="{published}"><div class="meta"><span class="category">{label}</span><time datetime="{published}">{date}</time></div><h2>{title}</h2><p>{summary}</p><div class="source"><span>Výňatek z anotace · {source}</span><a href="{url}" target="_blank" rel="noopener noreferrer">Číst původní článek ↗</a></div></article>'
+    context = escape(row.get("importance") or importance(row), quote=True)
+    return f'<article data-category="{category}" data-published="{published}"><div class="meta"><span class="category">{label}</span><time datetime="{published}">{date}</time></div><h2>{title}</h2><p>{summary}</p><div class="why"><b>Proč je to důležité</b>{context}<small class="small" style="display:block;margin-top:6px">Tematický kontext</small></div><div class="source"><span>Výňatek z anotace · {source}</span><a href="{url}" target="_blank" rel="noopener noreferrer">Číst původní článek ↗</a></div></article>'
 
 def publish(rows, now, unavailable):
+    rows = [dict(row, importance=row.get("importance") or importance(row), importance_kind="topic_context") for row in rows]
     data = dict(updated_at=now.isoformat(), window_hours=24, articles=rows, unavailable_sources=unavailable)
     page = (DEST/'index.html').read_text()
     page, count = re.subn(r'<!-- NEWS START -->.*?<!-- NEWS END -->', '<!-- NEWS START -->'+''.join(map(render_card, rows))+'<!-- NEWS END -->', page, flags=re.S)

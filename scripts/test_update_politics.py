@@ -1,6 +1,7 @@
 import unittest
 from datetime import datetime, timezone
 from update_politics import parse_feed, select, render_card
+from restore_context import importance
 
 class UpdateTests(unittest.TestCase):
     def test_only_recent_political_articles(self):
@@ -23,6 +24,22 @@ class UpdateTests(unittest.TestCase):
         html = render_card(row)
         self.assertNotIn('<script>', html)
         self.assertIn('A &amp; B', html)
+        self.assertIn('Proč je to důležité', html)
+        row['importance'] = '<img src=x onerror=alert(1)>'
+        self.assertNotIn('<img', render_card(row))
+
+    def test_context_distinguishes_proposal_from_effective_law(self):
+        context = importance(dict(title='Vláda souhlasila s novelou zákona', category='domaci'))
+        self.assertIn('návrh, schválení', context)
+
+    def test_specific_context_precedes_generic_politics(self):
+        context = importance(dict(title='Vláda zavede povinné e-žádanky', category='domaci'))
+        self.assertIn('pacientů', context)
+        self.assertIn('ještě nemusí znamenat', context)
+
+    def test_allegation_is_not_presented_as_proven_guilt(self):
+        context = importance(dict(title='FBI vyšetřuje podezření ze špionáže', category='svet'))
+        self.assertIn('neprokazují vinu', context)
 
 if __name__ == '__main__':
     unittest.main()

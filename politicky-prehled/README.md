@@ -11,3 +11,5 @@ Na webu je vždy jen poslední vydání. Starší data se nepřipojují; vývojo
 Workflow uloží nové HTML a JSON a výslovně požádá o sestavení branch-based GitHub Pages (commit s GITHUB_TOKEN sám sestavení nespouští). Používá pouze oprávnění contents:write a pages:write, bez dalších API klíčů. Nezasahuje do ostatních projektů.
 
 Ověření: `python -m unittest discover -s scripts -p 'test_update_politics.py'`. Ruční obnova: `python scripts/update_politics.py` (Python 3.12+, curl).
+
+Rámeček „Proč je to důležité“ obsahuje automatický tematický kontext podle titulku článku (pravidla v `scripts/restore_context.py`). V JSON je uložen v poli `importance`, s typem `topic_context`. Nejde o nezávislé ověření, citaci zdroje ani nově vytvořenou AI analýzu. Konkrétní pravidla mají přednost před obecnými a rozlišují návrhy, rozhodnutí a podezření. Kontext se generuje při každé aktualizaci a vykresluje shodně v HTML i JavaScriptu.
