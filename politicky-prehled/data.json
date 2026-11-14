@@ -1,20 +1,60 @@
 {
-  "updated_at": "2026-11-13T21:58:44.064552+00:00",
+  "updated_at": "2026-11-14T02:26:03.580132+00:00",
   "window_hours": 24,
   "articles": [
     {
-      "title": "Kolaps v USA: úřady vyhlásily celostátní zákaz letů, selhaly radary a komunikace",
-      "summary": "Americké úřady oznámily celostátní zastavení odletů, ke kterému Federální úřad pro letectví (FAA) přistoupil z bezpečnostních důvodů a kvůli mimořádným okolnostem. Ministr dopravy USA Sean…",
+      "title": "Trump se ve čtvrtek setká se Si Ťin-pchingem a Putinem, tématem budou jaderné zbraně",
+      "summary": "Americký prezident Donald Trump se ve čtvrtek na okraj summitu APEC v jihočínském Šen-čenu setká s čínským prezidentem Si Ťin-pchingem a ruským prezidentem Vladimirem Putinem,…",
       "source": "iDNES.cz",
       "category": "svet",
-      "published_at": "2026-11-13T21:39:00+00:00",
+      "published_at": "2026-11-14T01:28:00+00:00",
+      "url": "https://www.idnes.cz/zpravy/zahranicni/trump-se-ve-ctvrtek-setka-se-si-tin-pchingem-a-putinem-tematem-budou-jaderne-zbrane.A261114_014836_zahranicni_air",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Kolaps v USA: úřady vyhlásily celostátní zákaz letů, selhaly routery",
+      "summary": "Americký Federální úřad pro letectví (FAA) vyhlásil celonárodní pozastavení letů s tím, že důvodem jsou mimořádné okolnosti a bezpečnostní důvody. Ministr dopravy Sean Duffy rozhodnutí…",
+      "source": "iDNES.cz",
+      "category": "svet",
+      "published_at": "2026-11-13T23:58:00+00:00",
       "url": "https://www.idnes.cz/zpravy/zahranicni/letecky-kolaps-v-usa-faa-vyhlasila-celostatni-stop-kvuli-selhani-radaru-a-komunikace.A261113_222559_zahranicni_remy",
       "importance": "Čeká na zpracování a ověření zdrojů.",
       "importance_kind": "pending"
     },
     {
-      "title": "V USA uzemňují všechny lety. Kvůli „mimořádným okolnostem“",
-      "summary": "Americký Federální úřad pro letectví (FAA) vyhlásil celonárodní pozastavení letů s tím, že důvodem jsou mimořádné okolnosti a bezpečnostní důvody, píše agentura Reuters. Ministr dopravy…",
+      "title": "Po střetu s tankerem se v USA částečně potopila výletní loď plná lidí",
+      "summary": "Tanker se v pátek v New Orleansu na jihu USA srazil s výletní lodí se 129 cestujícími na palubě. Loď se částečně potopila. Na řece…",
+      "source": "iDNES.cz",
+      "category": "svet",
+      "published_at": "2026-11-13T23:22:00+00:00",
+      "url": "https://www.idnes.cz/zpravy/zahranicni/drama-v-usa-po-stretu-s-tankerem-se-castecne-potopila-vyletni-lod.A261113_221657_zahranicni_remy",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Rusko dováží z Irska důležitou surovinu pro výrobu zbraní. Dublin sankce odmítá",
+      "summary": "Setkání evropských lídrů v Dublinu rámovala diskuse o pomoci Ukrajině. Irsko přitom dlouhodobě dodává oxid hlinitý do Ruska. Bílý prášek má široké použití a představuje…",
+      "source": "CNN Prima NEWS",
+      "category": "svet",
+      "published_at": "2026-11-13T23:35:43+01:00",
+      "url": "https://cnn.iprima.cz/rusko-dovazi-z-irska-dulezitou-surovinu-pro-vyrobu-zbrani-dublin-sankce-odmita-527093",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Do výletní lodi v New Orleansu narazil tanker, částečně se potopila",
+      "summary": "V americkém New Orleans se v pátek srazil tanker s výletní lodí, na jejíž palubě bylo 129 cestujících. Loď se po srážce částečně potopila, informuje…",
+      "source": "ČT24",
+      "category": "svet",
+      "published_at": "2026-11-13T21:31:08+00:00",
+      "url": "https://ct24.ceskatelevize.cz/clanek/svet/do-vyletni-lodi-v-new-orleans-narazil-tanker-castecne-se-potopila-379608",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Celostátní pozastavení odletů ve Spojených státech bylo zrušeno",
+      "summary": "Americký Federální úřad pro letectví (FAA) v sobotu kolem 2:15 SEČ zrušil celostátní pozastavení odletů, informuje agentura Reuters. Opatření úřad zavedl v pátek kolem 22:00…",
       "source": "ČT24",
       "category": "svet",
       "published_at": "2026-11-13T21:25:39+00:00",
@@ -113,16 +153,6 @@
       "importance_kind": "pending"
     },
     {
-      "title": "Evropu při jednáních o Ukrajině zastoupí pět mocností včetně Velké Británie",
-      "summary": "Evropská unie se na neformálním summitu v Dublinu shodla, kdo by měl zastupovat Evropu při vyjednávání o možné mírové dohodě ve válce na Ukrajině, která…",
-      "source": "iDNES.cz",
-      "category": "svet",
-      "published_at": "2026-11-13T18:09:00+00:00",
-      "url": "https://www.idnes.cz/zpravy/zahranicni/eu-ukrajina-jednani-summit-v-dublinu-diplomacie-costa.A261113_184945_zahranicni_onbu",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
       "title": "EU se shodla, kdo zastoupí Evropu na jednání o Ukrajině, bude to tým, řekl Babiš",
       "summary": "Zdá se, že je dohodnuto, kdo by měl zastupovat Evropu při vyjednávání o možné mírové dohodě ve válce na Ukrajině, která se pátým rokem brání…",
       "source": "Aktuálně.cz",
@@ -163,42 +193,12 @@
       "importance_kind": "pending"
     },
     {
-      "title": "Bessent se přestěhoval do vojenského azylu. Kdo další musel opustit svůj domov",
-      "summary": "Americká vláda čelí nebývalé vlně bezpečnostních hrozeb. Ministr financí Scott Bessent oficiálně potvrdil, že se na doporučení vládní ochranné služby vystěhoval ze svého washingtonského sídla…",
-      "source": "iDNES.cz",
-      "category": "svet",
-      "published_at": "2026-11-13T17:04:00+00:00",
-      "url": "https://www.idnes.cz/zpravy/zahranicni/vyhruzky-iranu-i-hrozba-doma-bessent-se-odstehoval-na-zakladnu-nasledoval-kolegy.A261113_174344_zahranicni_remy",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
-      "title": "USA ustoupily Rusku, kývly na debatu o „nové Jaltě”",
-      "summary": "Rozhovory o cestě k ukončení ruské války na Ukrajině získaly tento týden nový rozměr. USA přistoupily na ruský požadavek, že se jejich součástí stane širší…",
+      "title": "Evropu v jednáních o Ukrajině zastoupí tým pěti zemí, oznámil Costa",
+      "summary": "Evropu budou na jednáních o Ukrajině zastupovat Francie, Německo, Itálie, Polsko, Velká Británie a zástupci unijních institucí, oznámil podle agentury Reuters na závěr neformálního summitu…",
       "source": "ČT24",
       "category": "svet",
-      "published_at": "2026-11-13T17:00:00+00:00",
-      "url": "https://ct24.ceskatelevize.cz/clanek/svet/usa-ustoupily-rusku-kyvly-na-debatu-o-nove-jalte-379598",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
-      "title": "Poslanci ve druhém čtení schválili daň pro rafinerie. Lex Orlen, kritizuje opozice",
-      "summary": "V pátek se mimořádně sešla Poslanecká sněmovna. Na programu měla jediný bod, a to druhé čtení vládního návrhu na zavedení speciální daně pro rafinerie. Sněmovna…",
-      "source": "iDNES.cz",
-      "category": "domaci",
-      "published_at": "2026-11-13T16:52:00+00:00",
-      "url": "https://www.idnes.cz/zpravy/domaci/schillerova-dan-pro-rafinerie-schuze-snemovny.A261112_205919_domaci_mul",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
-      "title": "Polsko v souvislosti s výpadkem Microsoftu varuje před závislostí na globálních korporacích",
-      "summary": "Polský ministr pro digitalizaci Krzysztof Gawkowski uvedl, že rozsáhlý výpadek služeb společnosti Microsoft, který zasáhl organizace ve více než sedmdesáti zemích světa, poukazuje na rizika…",
-      "source": "ČT24",
-      "category": "svet",
-      "published_at": "2026-11-13T16:50:18+00:00",
-      "url": "https://ct24.ceskatelevize.cz/clanek/svet/polsko-v-souvislosti-s-vypadkem-microsoftu-varuje-pred-zavislosti-na-globalnich-korporacich-379601",
+      "published_at": "2026-11-13T17:45:23+00:00",
+      "url": "https://ct24.ceskatelevize.cz/clanek/svet/evropu-na-jednani-o-ukrajine-zastoupi-tym-nekolika-zemi-oznamil-costa-379607",
       "importance": "Čeká na zpracování a ověření zdrojů.",
       "importance_kind": "pending"
     },
@@ -229,16 +229,6 @@
       "category": "svet",
       "published_at": "2026-11-13T15:56:00+01:00",
       "url": "https://www.ceskenoviny.cz/zpravy/bild-rusko-pozaduje-vystoupeni-finska-z-nato-a-pobalti-bez-zakladen/2901743",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
-      "title": "Síť ruských obchodů v Česku končí. Je napojená na sankcionované miliardáře",
-      "summary": "Ruský diskontní řetězec Mere, který v Česku provozuje dvanáct prodejen, oznámil ve čtvrtek na sociálních sítích ukončení činnosti. Přesný termín ani důvod uzavření poboček společnost…",
-      "source": "CNN Prima NEWS",
-      "category": "domaci",
-      "published_at": "2026-11-13T13:46:40+01:00",
-      "url": "https://cnn.iprima.cz/v-cesku-konci-znamy-diskontni-retezec-tyka-se-to-vsech-prodejen-527113",
       "importance": "Čeká na zpracování a ověření zdrojů.",
       "importance_kind": "pending"
     },
@@ -301,7 +291,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 17,
+      "candidates": 18,
       "selected": 5,
       "free_articles_checked": 8
     },
@@ -311,7 +301,7 @@
       "feeds_ok": 2,
       "feeds_total": 2,
       "status": "ok",
-      "candidates": 19,
+      "candidates": 21,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -321,7 +311,7 @@
       "feeds_ok": 2,
       "feeds_total": 2,
       "status": "ok",
-      "candidates": 19,
+      "candidates": 18,
       "selected": 7,
       "free_articles_checked": 8
     },
@@ -341,7 +331,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 15,
+      "candidates": 17,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -361,7 +351,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 12,
+      "candidates": 13,
       "selected": 4,
       "free_articles_checked": 4
     },
@@ -372,7 +362,7 @@
       "feeds_total": 1,
       "status": "ok",
       "candidates": 14,
-      "selected": 6,
+      "selected": 5,
       "free_articles_checked": 6
     },
     {
@@ -381,7 +371,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 10,
+      "candidates": 12,
       "selected": 1,
       "free_articles_checked": 1
     },
@@ -441,7 +431,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 13,
+      "candidates": 14,
       "selected": 0,
       "free_articles_checked": 0
     },
