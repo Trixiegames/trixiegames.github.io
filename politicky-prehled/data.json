@@ -1,7 +1,37 @@
 {
-  "updated_at": "2026-11-17T22:21:18.405917+00:00",
+  "updated_at": "2026-11-18T04:18:02.388764+00:00",
   "window_hours": 24,
   "articles": [
+    {
+      "title": "Mary Peltolaová získala senátorský mandát na Aljašce, demokraté mají 56 křesel",
+      "summary": "Demokratka Mary Peltolaová podle odhadů agentury AP a stanice CNN získala senátorský mandát na Aljašce, čímž si demokraté v novém Senátu zajistili většinu 56 křesel…",
+      "source": "iDNES.cz",
+      "category": "svet",
+      "published_at": "2026-11-18T03:42:00+00:00",
+      "url": "https://www.idnes.cz/zpravy/zahranicni/mary-peltolaova-ziskala-senatorsky-mandat-na-aljasce-demokrate-maji-56-kresel.A261118_042436_zahranicni_air",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Policie při podzimních protestech ve Francii zadržela na 15 tisíc lidí",
+      "summary": "Francouzská policie při podzimních protestech zadržela zhruba 15.000 lidí. Podle agentury AFP to uvedl v úterý ministr spravedlnosti Gérald Darmanin. Zhruba polovina zadržených připadá na…",
+      "source": "ČT24",
+      "category": "svet",
+      "published_at": "2026-11-18T02:27:13+00:00",
+      "url": "https://ct24.ceskatelevize.cz/clanek/svet/policie-pri-podzimnich-protestech-ve-francii-zadrzela-na-15-tisic-lidi-379700",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Novým předsedou Knesetu se stal Eisenkotův spojenec Kahana",
+      "summary": "Novým předsedou izraelského parlamentu se stal Matan Kahana ze středové strany Jašar. Je spojencem Gadiho Eisenkota, kterého izraelský prezident pověřil sestavením vlády. Kahana získal 66…",
+      "source": "ČT24",
+      "category": "svet",
+      "published_at": "2026-11-17T23:26:45+00:00",
+      "url": "https://ct24.ceskatelevize.cz/clanek/svet/novym-predsedou-knesetu-se-stal-eisenkotuv-spojenec-kahana-379699",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
     {
       "title": "Ředitelé Post Bellum Kroupa a Polovková podpořili nezávislá média a Ukrajinu",
       "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
@@ -153,16 +183,6 @@
       "importance_kind": "pending"
     },
     {
-      "title": "Premiér Babiš uctil 17. listopad v Izraeli. Není důležité, kde jsem, řekl",
-      "summary": "Od naší zpravodajky v Izraeli – Dnešní svátek 17. listopadu uctil ministerský předseda Andrej Babiš u lavičky Václava Havla na půdě univerzity v Tel Avivu.…",
-      "source": "iDNES.cz",
-      "category": "domaci",
-      "published_at": "2026-11-17T15:05:00+00:00",
-      "url": "https://www.idnes.cz/zpravy/domaci/17-listopad-babis-navsteva-izrael-motoriste-macinka.A261117_152946_domaci_aya",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
       "title": "Exodus amerických vojáků z Evropy se zřejmě nekoná. Jedné zemi to ale Trump spočítá",
       "summary": "Odchod amerických vojáků z Evropy bude podle všeho výrazně menší, než se původně čekalo. Místo 25 tisíc příslušníků by jich podle informací agentury Bloomberg měl…",
       "source": "Aktuálně.cz",
@@ -199,16 +219,6 @@
       "category": "svet",
       "published_at": "2026-11-17T15:24:00+01:00",
       "url": "https://www.denik.cz/evropa/severni-makedonie-prekazila-atentat-v-recku-podezira-iranskou-sit/",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
-      "title": "V Srbsku poprvé zasedl nový parlament. Zástupce studentů vítaly stovky lidí",
-      "summary": "V Srbsku zasedl nový parlament, který vzešel z předčasných voleb z 25. října. Většinu v něm mají poslanci zvolení za studentské hnutí. Jsou mezi nimi…",
-      "source": "ČT24",
-      "category": "svet",
-      "published_at": "2026-11-17T14:13:04+00:00",
-      "url": "https://ct24.ceskatelevize.cz/clanek/svet/v-srbsku-poprve-zasedl-novy-parlament-zastupce-studentu-vitaly-stovky-lidi-379690",
       "importance": "Čeká na zpracování a ověření zdrojů.",
       "importance_kind": "pending"
     },
@@ -259,16 +269,6 @@
       "category": "domaci",
       "published_at": "2026-11-17T12:31:31+00:00",
       "url": "https://ct24.ceskatelevize.cz/clanek/domaci/recnici-pri-piete-u-hlavkovy-koleje-v-praze-pripomneli-nutnost-branit-demokracii-379688",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
-      "title": "Hútíové ovládli severní pobřeží strategické úžiny Báb al-Mandab. Vládní protiofenziva neuspěla",
-      "summary": "Jemenští hútíové oznámili, že ovládli celé severní pobřeží strategické úžiny Báb al-Mandab, která představuje jednu z klíčových námořních tras světového obchodu. Vládním jednotkám se ani…",
-      "source": "ČT24",
-      "category": "svet",
-      "published_at": "2026-11-17T10:55:12+00:00",
-      "url": "https://ct24.ceskatelevize.cz/clanek/svet/hutiove-ovladli-severni-pobrezi-strategicke-uziny-bab-al-mandab-vladni-protiofenziva-neuspela-379682",
       "importance": "Čeká na zpracování a ověření zdrojů.",
       "importance_kind": "pending"
     },
@@ -351,7 +351,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 10,
+      "candidates": 9,
       "selected": 7,
       "free_articles_checked": 7
     },
@@ -361,7 +361,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 14,
+      "candidates": 13,
       "selected": 4,
       "free_articles_checked": 7
     },
@@ -371,7 +371,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 15,
+      "candidates": 11,
       "selected": 6,
       "free_articles_checked": 6
     },
@@ -381,7 +381,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 10,
+      "candidates": 9,
       "selected": 2,
       "free_articles_checked": 2
     },
@@ -391,7 +391,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 4,
+      "candidates": 3,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -401,7 +401,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 8,
+      "candidates": 6,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -431,7 +431,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 2,
+      "candidates": 3,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -451,7 +451,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 18,
+      "candidates": 17,
       "selected": 0,
       "free_articles_checked": 0
     }
