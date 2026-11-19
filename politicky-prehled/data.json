@@ -1,7 +1,67 @@
 {
-  "updated_at": "2026-11-18T21:54:48.852603+00:00",
+  "updated_at": "2026-11-19T03:24:41.305709+00:00",
   "window_hours": 24,
   "articles": [
+    {
+      "title": "Na Krymském mostě byla po dalším útoku přerušena doprava",
+      "summary": "Krymský most čelil v noci na čtvrtek dalšímu útoku. Nyní je na něm přerušena doprava, tvrdí Ruskem dosazená správa okupovaného ukrajinského poloostrova. Ukrajina zaútočila na…",
+      "source": "ČT24",
+      "category": "svet",
+      "published_at": "2026-11-19T03:08:28+00:00",
+      "url": "https://ct24.ceskatelevize.cz/clanek/svet/na-krymskem-moste-byla-po-dalsim-utoku-prerusena-doprava-379743",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Trumpa, Siho a Putina čeká trojstranné jednání",
+      "summary": "Čínské město Šen-čen hostí summit Asijsko-pacifického hospodářského společenství (APEC). Účastní se jej mimo jiné prezident USA Donald Trump, ruský diktátor Vladimir Putin a čínský vládce…",
+      "source": "ČT24",
+      "category": "svet",
+      "published_at": "2026-11-19T02:15:00+00:00",
+      "url": "https://ct24.ceskatelevize.cz/clanek/svet/trumpa-siho-a-putina-ceka-trojstranne-jednani-379741",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Prezident Petr Pavel zahájí návštěvu Moravskoslezského a Olomouckého kraje",
+      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
+      "source": "ČTK / České noviny",
+      "category": "domaci",
+      "published_at": "2026-11-19T00:15:00+01:00",
+      "url": "https://www.ceskenoviny.cz/zpravy/prezident-petr-pavel-zahaji-navstevu-moravskoslezskeho-a-olomouckeho-kraje/2903722",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Vláda projedná růst náhrad příjmu po úrazu v práci či službě a nemoci z povolání",
+      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
+      "source": "ČTK / České noviny",
+      "category": "domaci",
+      "published_at": "2026-11-19T00:12:00+01:00",
+      "url": "https://www.ceskenoviny.cz/zpravy/vlada-projedna-rust-nahrad-prijmu-po-urazu-v-praci-ci-sluzbe-a-nemoci-z-povolani/2902503",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Senát rozhodne o svém povolebním uspořádání včetně volby vedení komory",
+      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
+      "source": "ČTK / České noviny",
+      "category": "domaci",
+      "published_at": "2026-11-19T00:05:00+01:00",
+      "url": "https://www.ceskenoviny.cz/zpravy/senat-rozhodne-o-svem-povolebnim-usporadani-vcetne-volby-vedeni-komory/2903719",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Ukrajinské údery na ruské rafinerie výrazně snížily objem zpracování ropy, píše Reuters",
+      "summary": "Ukrajinské dronové údery na ruské rafinerie snížily od konce října objem zpracování ropy o 45 procent. Napsala to agentura Reuters, která se odvolává na odhady…",
+      "source": "ČT24",
+      "category": "svet",
+      "published_at": "2026-11-18T22:00:54+00:00",
+      "url": "https://ct24.ceskatelevize.cz/clanek/svet/ukrajinske-udery-na-ruske-rafinerie-vyrazne-snizily-objem-zpracovani-ropy-pise-reuters-379739",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
     {
       "title": "Podle členů Trumpovy vlády výpadky, které postihly USA, spolu nesouvisí",
       "summary": "Výpadky, které postihly v USA letectví či banky, spolu nesouvisí, uvedl v noci na středu 18. listopadu ministr zahraničí Marco Rubio. Podle něj technické problémy…",
@@ -143,26 +203,6 @@
       "importance_kind": "pending"
     },
     {
-      "title": "Spojené státy uzavřely vojenskou dohodu s Venezuelou, řekl Hegseth",
-      "summary": "Spojené státy uzavřely vojenskou dohodu s Venezuelou, oznámil ve středu americký ministr obrany Pete Hegseth během návštěvy Caracasu, aniž ji blíže specifikoval. Podle agentury AFP…",
-      "source": "ČT24",
-      "category": "svet",
-      "published_at": "2026-11-18T18:52:26+00:00",
-      "url": "https://ct24.ceskatelevize.cz/clanek/svet/spojene-staty-uzavrely-vojenskou-dohodu-s-venezuelou-rekl-hegseth-379735",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
-      "title": "Předstíral přátelství, budoval past. Jak Epstein vyhledával své oběti?",
-      "summary": "Jak fungovala síť Jeffreyho Epsteina, do které se dostaly stovky mladých dívek, a proč selhaly kontrolní mechanismy i úřady? Americká zpravodajka Jana Ciglerová a Michaela…",
-      "source": "ČT24",
-      "category": "svet",
-      "published_at": "2026-11-18T18:33:45+00:00",
-      "url": "https://ct24.ceskatelevize.cz/clanek/svet/predstiral-pratelstvi-budoval-past-jak-epstein-vyhledaval-sve-obeti-379726",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
       "title": "AfD chce v Sasku-Anhaltsku vypovědět smlouvy o veřejnoprávním vysílání",
       "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
       "source": "ČTK / České noviny",
@@ -213,16 +253,6 @@
       "importance_kind": "pending"
     },
     {
-      "title": "Částečné zničení Krymského mostu přeťalo ruskou zásobovací tepnu a ucpalo průliv",
-      "summary": "Dva po sobě následující údery, kterými Ukrajina z počátku tohoto týdne zasáhla Krymský most, způsobily na nelegálně postavené spojnici mezi okupovaným Krymem a Ruskem zatím…",
-      "source": "ČT24",
-      "category": "svet",
-      "published_at": "2026-11-18T16:29:14+00:00",
-      "url": "https://ct24.ceskatelevize.cz/clanek/svet/castecne-zniceni-krymskeho-mostu-ma-symbolicky-i-logisticky-vyznam-379730",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
       "title": "První fotografie po 30 letech. V Amazonii vyfotili členy izolovaného kmene Awá",
       "summary": "Nevládní organizace Survival International v úterý zveřejnila snímky skupiny z domorodého kmene z brazilské Amazonie, který žije izolovaně v deštném pralese. Asi 20 jeho členů…",
       "source": "Aktuálně.cz",
@@ -253,16 +283,6 @@
       "importance_kind": "pending"
     },
     {
-      "title": "Primátorem Chomutova zvolili zastupitelé Radka Vyšína (ANO)",
-      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
-      "source": "ČTK / České noviny",
-      "category": "domaci",
-      "published_at": "2026-11-18T16:00:00+01:00",
-      "url": "https://www.ceskenoviny.cz/zpravy/primatorem-chomutova-zvolili-zastupitele-radka-vysina-ano/2903257",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
       "title": "Měl dostat aspoň o dva hlasy více. Soud nařídil opakování supertěsné volby",
       "summary": "Hlasování v senátních volbách na Žďársku se zopakuje, a to od prvního kola a se stejnými kandidáty, rozhodl Nejvyšší správní soud (NSS) ve středu. Vyhověl…",
       "source": "Aktuálně.cz",
@@ -271,21 +291,9 @@
       "url": "https://zpravy.aktualne.cz/domaci/znovu-k-urnam-senatni-volby-na-zdarsku-se-budou-opakovat-soud-zjistil-pochybeni/r~aaa292fe450069ba57a9c7a41a5b6400/",
       "importance": "Čeká na zpracování a ověření zdrojů.",
       "importance_kind": "pending"
-    },
-    {
-      "title": "Senátní volby na Žďársku se zopakují, zúčastní se Černý, Klement i Šmarda",
-      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
-      "source": "ČTK / České noviny",
-      "category": "domaci",
-      "published_at": "2026-11-18T15:17:00+01:00",
-      "url": "https://www.ceskenoviny.cz/zpravy/senatni-volby-na-zdarsku-se-zopakuji-zucastni-se-cerny-klement-i-smarda/2903236",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
     }
   ],
-  "unavailable_sources": [
-    "TN.cz"
-  ],
+  "unavailable_sources": [],
   "sources": [
     {
       "name": "ČT24",
@@ -295,7 +303,7 @@
       "status": "ok",
       "candidates": 20,
       "selected": 5,
-      "free_articles_checked": 7
+      "free_articles_checked": 8
     },
     {
       "name": "iROZHLAS",
@@ -303,7 +311,7 @@
       "feeds_ok": 2,
       "feeds_total": 2,
       "status": "ok",
-      "candidates": 19,
+      "candidates": 18,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -313,8 +321,8 @@
       "feeds_ok": 2,
       "feeds_total": 2,
       "status": "ok",
-      "candidates": 21,
-      "selected": 6,
+      "candidates": 22,
+      "selected": 7,
       "free_articles_checked": 8
     },
     {
@@ -323,7 +331,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 16,
+      "candidates": 15,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -363,9 +371,9 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 21,
+      "candidates": 22,
       "selected": 4,
-      "free_articles_checked": 5
+      "free_articles_checked": 4
     },
     {
       "name": "CNN Prima NEWS",
@@ -373,7 +381,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 15,
+      "candidates": 14,
       "selected": 2,
       "free_articles_checked": 3
     },
@@ -423,17 +431,17 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "selected": 0,
       "free_articles_checked": 0
     },
     {
       "name": "TN.cz",
       "site": "https://tn.nova.cz/",
-      "feeds_ok": 0,
+      "feeds_ok": 1,
       "feeds_total": 1,
-      "status": "unavailable",
-      "candidates": 0,
+      "status": "ok",
+      "candidates": 16,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -443,7 +451,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 18,
+      "candidates": 17,
       "selected": 0,
       "free_articles_checked": 0
     }
