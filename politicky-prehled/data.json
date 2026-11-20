@@ -1,7 +1,37 @@
 {
-  "updated_at": "2026-11-19T21:30:13.580562+00:00",
+  "updated_at": "2026-11-20T03:11:57.638713+00:00",
   "window_hours": 24,
   "articles": [
+    {
+      "title": "Prezident Pavel s manželkou pokračuje v návštěvě severní Moravy",
+      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
+      "source": "ČTK / České noviny",
+      "category": "domaci",
+      "published_at": "2026-11-20T00:12:00+01:00",
+      "url": "https://www.ceskenoviny.cz/zpravy/prezident-pavel-s-manzelkou-pokracuje-v-navsteve-severni-moravy/2904229",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Trump v září nakoupil akcie Nvidie v hodnotě až 265 tisíc dolarů",
+      "summary": "Americký prezident Donald Trump v září nakoupil akcie společnosti Nvidia v hodnotě až 265 tisíc dolarů (téměř 5,9 milionu korun). Zároveň prodal podíly až za…",
+      "source": "ČT24",
+      "category": "svet",
+      "published_at": "2026-11-19T22:14:29+00:00",
+      "url": "https://ct24.ceskatelevize.cz/clanek/svet/trump-v-zari-nakoupil-akcie-nvidie-v-hodnote-az-265-tisic-dolaru-379777",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Policie na Haiti zesílila tlak na gangy, chce dobýt klíčovou čtvrť. Zabila 34 zločinců",
+      "summary": "Haitská policie ve čtvrtek zabila nejméně 34 členů gangů ve čtvrti Martissant v Port-au-Prince, kde zahájila největší akci za pět let, kdy tuto oblast ovládají…",
+      "source": "iDNES.cz",
+      "category": "svet",
+      "published_at": "2026-11-19T21:32:00+00:00",
+      "url": "https://www.idnes.cz/zpravy/zahranicni/haiti-policie-zabila-34-clenu-gangu.A261119_215833_zahranicni_sile",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
     {
       "title": "Starostkou Prahy 1 se opět stala Terezie Radoměřská. Zastupuje širokou koalici stran",
       "summary": "Terezie Radoměřská (TOP 09) se podruhé stane starostkou Prahy 1. Ve čtvrtek ji zvolilo zastupitelstvo městské části. Zastupitelé následně vybrali i místostarosty, kterých je pět…",
@@ -93,16 +123,6 @@
       "importance_kind": "pending"
     },
     {
-      "title": "Trump má válku s Íránem za uzavřenou. Menší státy Blízkého východu trpí dál",
-      "summary": "Po listopadových volbách, v nichž republikáni utrpěli výrazné ztráty, má Trump dost starostí doma a zdá se, že válku s Íránem hodil za hlavu. Boje…",
-      "source": "iDNES.cz",
-      "category": "svet",
-      "published_at": "2026-11-19T19:00:00+00:00",
-      "url": "https://www.idnes.cz/ekonomika/zahranicni/trump-ma-valku-s-iranem-za-uzavrenou-mensi-staty-blizkeho-vychodu-trpi-dal.A261119_114958_eko-zahranicni_jla",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
       "title": "Ministr Tejc počítá se zrušením 27 okresních soudů při justiční reformě",
       "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
       "source": "ČTK / České noviny",
@@ -113,12 +133,12 @@
       "importance_kind": "pending"
     },
     {
-      "title": "Německý prezident Steinmeier přijede do Prahy. Setká se s Pavlem i Babišem",
-      "summary": "Německý prezident Frank-Walter Steinmeier navštíví 1. prosince Českou republiku. V Praze se setká s prezidentem Petrem Pavlem a premiérem Andrejem Babišem. Společně s manželkou se…",
-      "source": "iDNES.cz",
-      "category": "domaci",
-      "published_at": "2026-11-19T18:47:00+00:00",
-      "url": "https://www.idnes.cz/zpravy/domaci/nemecky-prezident-cesko-praha-pavel-babis-steinmeier.A261119_193014_domaci_balu",
+      "title": "Německý prezident Steinmeier navštíví Česko, setká se s Pavlem i Babišem",
+      "summary": "Německý prezident Frank-Walter Steinmeier se při prosincové návštěvě Česka setká s prezidentem Petrem Pavlem i premiérem Andrejem Babišem. Vyplývá z kalendáře plánovaných akcí na webu…",
+      "source": "Aktuálně.cz",
+      "category": "svet",
+      "published_at": "2026-11-19T19:37:00+01:00",
+      "url": "https://zpravy.aktualne.cz/zahranici/nemecky-prezident-steinmeier-navstivi-cesko-setka-se-s-pavlem-i-babisem/r~aaa29d19c77e388f9a66c7f28a0230f6/",
       "importance": "Čeká na zpracování a ověření zdrojů.",
       "importance_kind": "pending"
     },
@@ -183,16 +203,6 @@
       "importance_kind": "pending"
     },
     {
-      "title": "Lukáš Hájek se stal primátorem Liberce, po osmi letech vystřídal Zámečníka",
-      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
-      "source": "ČTK / České noviny",
-      "category": "domaci",
-      "published_at": "2026-11-19T17:21:00+01:00",
-      "url": "https://www.ceskenoviny.cz/zpravy/lukas-hajek-se-stal-primatorem-liberce-po-osmi-letech-vystridal-zamecnika-/2904032",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
       "title": "Nechte nás střílet! Francouzským policistům došla trpělivost",
       "summary": "Tentokrát se proti francouzské vládě nebouří studenti ani odboráři, nýbrž samotní policisté, kteří již několik týdnů čelí násilnostem v ulicích. Ve středu 18. listopadu se…",
       "source": "Aktuálně.cz",
@@ -209,16 +219,6 @@
       "category": "svet",
       "published_at": "2026-11-19T16:01:14+00:00",
       "url": "https://ct24.ceskatelevize.cz/clanek/svet/trump-oznacil-putina-za-sveho-pritele-sef-polske-diplomacie-vyjadril-znepokojeni-379765",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
-      "title": "V Rusku zmrazili stovky velkých státních staveb za biliony rublů, píše server",
-      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
-      "source": "ČTK / České noviny",
-      "category": "svet",
-      "published_at": "2026-11-19T16:20:00+01:00",
-      "url": "https://www.ceskenoviny.cz/zpravy/v-rusku-zmrazili-stovky-velkych-statnich-staveb-za-biliony-rublu-pise-server/2904090",
       "importance": "Čeká na zpracování a ověření zdrojů.",
       "importance_kind": "pending"
     },
@@ -253,32 +253,12 @@
       "importance_kind": "pending"
     },
     {
-      "title": "Dialog o jaderných zbraních a větší produkce ropy, požadují Trump, Si a Putin",
-      "summary": "Čína, Spojené státy a Rusko vydaly společné prohlášení nazvané Mírová deklarace. Stalo se tak po jednání lídrů Si Ťin-pchinga, Donalda Trumpa a Vladimira Putina v…",
-      "source": "ČT24",
-      "category": "svet",
-      "published_at": "2026-11-19T11:45:40+00:00",
-      "url": "https://ct24.ceskatelevize.cz/clanek/svet/dialog-o-jadernych-zbranich-a-vetsi-produkce-ropy-pozaduji-trump-si-a-putin-379751",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
       "title": "Rusové zveřejnili žebříček nepřátelských zemí. Česko je na šestém místě",
       "summary": "Ruský portál Vzgljad zveřejnil aktualizovaný seznam nepřátelských vlád. Česko v říjnovém žebříčku obsadilo šesté místo, stejně jako v září. O tuto pozici se dělí s…",
       "source": "Deník",
       "category": "svet",
       "published_at": "2026-11-19T12:00:00+01:00",
       "url": "https://www.denik.cz/evropa/rusko-seznam-nepratelskych-zemi/",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
-      "title": "Ředitelem Úřadu rozvoje území bude Martin Kozák, rozhodla vláda",
-      "summary": "Ředitelem nového Úřadu rozvoje území se od ledna stane dosavadní ředitel Dopravního a energetického stavebního úřadu Martin Kozák. Rozhodla o tom vláda. Kabinet také schválil…",
-      "source": "ČT24",
-      "category": "domaci",
-      "published_at": "2026-11-19T10:20:57+00:00",
-      "url": "https://ct24.ceskatelevize.cz/clanek/domaci/brifink-po-jednani-vlady-379747",
       "importance": "Čeká na zpracování a ověření zdrojů.",
       "importance_kind": "pending"
     }
@@ -291,8 +271,8 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 12,
-      "selected": 6,
+      "candidates": 13,
+      "selected": 5,
       "free_articles_checked": 8
     },
     {
@@ -312,7 +292,7 @@
       "feeds_total": 2,
       "status": "ok",
       "candidates": 20,
-      "selected": 6,
+      "selected": 5,
       "free_articles_checked": 8
     },
     {
@@ -321,7 +301,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 16,
+      "candidates": 14,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -331,7 +311,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 17,
+      "candidates": 16,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -341,8 +321,8 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 10,
-      "selected": 4,
+      "candidates": 9,
+      "selected": 5,
       "free_articles_checked": 5
     },
     {
@@ -362,7 +342,7 @@
       "feeds_total": 1,
       "status": "ok",
       "candidates": 15,
-      "selected": 7,
+      "selected": 6,
       "free_articles_checked": 7
     },
     {
@@ -371,7 +351,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 10,
+      "candidates": 7,
       "selected": 1,
       "free_articles_checked": 1
     },
@@ -421,7 +401,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 5,
+      "candidates": 3,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -431,7 +411,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "selected": 0,
       "free_articles_checked": 0
     },
