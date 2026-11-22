@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T23:13:42.460392+00:00",
+  "updated_at": "2026-11-22T03:11:22.703483+00:00",
   "window_hours": 24,
   "articles": [
     {
@@ -153,32 +153,12 @@
       "importance_kind": "pending"
     },
     {
-      "title": "Památku slavné hrošice Fiony, která sežrala čepici, uctil americký Senát",
-      "summary": "Americký Senát v pátek jednomyslně schválil rezoluci na počest hrošice Fiony, která uhynula v zoologické zahradě v Cincinnati ve státě Ohio. Devítiletá hrošice se krátce…",
-      "source": "iDNES.cz",
-      "category": "svet",
-      "published_at": "2026-11-21T17:02:00+00:00",
-      "url": "https://www.idnes.cz/zpravy/zahranicni/slavna-hrosice-fiona-uhynula-po-spolknuti-cepice-jeji-pamatku-uctil-americky-senat.A261121_172736_zahranicni_ichuc",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
       "title": "Kdo napadl ruskou loď v Baltském moři? Finsko ukazuje na Ukrajinu, premiér píše o válce v okolí",
       "summary": "V neutrálních vodách Finského zálivu v sobotu dva drony zaútočily na ruskou nákladní loď, uvedl gubernátor Leningradské oblasti Alexandr Drozděnko podle ruské služby BBC. Dronový…",
       "source": "CNN Prima NEWS",
       "category": "svet",
       "published_at": "2026-11-21T17:47:00+01:00",
       "url": "https://cnn.iprima.cz/kdo-napadl-ruskou-lod-v-baltskem-mori-finsko-ukazuje-na-ukrajinu-premier-pise-o-valce-v-okoli-527746",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
-      "title": "NATO povolilo zničení střely nad Polskem. Proč přesto švédský gripen ani nevypálil",
-      "summary": "Švédský pilot stíhačky Gripen měl povolení od NATO sestřelit ruský objekt, pravděpodobně střelu Ch-101, který pronikl do polského vzdušného prostoru. Kvůli mimořádně špatnému počasí ale…",
-      "source": "iDNES.cz",
-      "category": "svet",
-      "published_at": "2026-11-21T16:32:00+00:00",
-      "url": "https://www.idnes.cz/zpravy/zahranicni/gripen-raketa-drony-rusko-polsko-sestrel-ch-101-general-pocasi.A261121_134157_zahranicni_sahu",
       "importance": "Čeká na zpracování a ověření zdrojů.",
       "importance_kind": "pending"
     },
@@ -233,16 +213,6 @@
       "importance_kind": "pending"
     },
     {
-      "title": "Rutte Polákům slíbil, že NATO bude bránit každou píď jejich země",
-      "summary": "NATO bude bránit každou píď polského území, řekl při návštěvě Varšavy generální tajemník aliance Mark Rutte. Polští představitelé v pátek oznámili, že Rusko narušilo polský…",
-      "source": "Deník",
-      "category": "svet",
-      "published_at": "2026-11-21T15:51:28+01:00",
-      "url": "https://www.denik.cz/evropa/rutte-polakum-slibil-ze-nato-bude-branit-kazdou-pid-jejich-zeme/",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
       "title": "NATO je připraveno ochránit své členy, řekl Rutte po incidentu v Polsku",
       "summary": "Generální tajemník NATO Mark Rutte přiletěl do Varšavy. Polský premiér Donald Tusk jeho návštěvu oznámil poté, co se na jihovýchodě země v pátek zřítily tři…",
       "source": "ČT24",
@@ -263,22 +233,22 @@
       "importance_kind": "pending"
     },
     {
-      "title": "FBI a americké ministerstvo zemědělství se staly terčem kybernetických útoků",
-      "summary": "Americký Federální úřad pro vyšetřování (FBI) se stal terčem zřejmého kybernetického útoku, informovala dnes stanice CNN s odvoláním na zdroje blízké vyšetřování incidentu. Hackeři se…",
-      "source": "Deník",
+      "title": "Ruské hybridní hrozby přestávají být hybridní, varovala šéfka Komise",
+      "summary": "Ruské hybridní hrozby v EU přestávají být hybridní a jsou stále reálnější, uvedla šéfka Evropské komise (EK) Ursula von der Leyenová. Jde o reakci na…",
+      "source": "ČT24",
       "category": "svet",
-      "published_at": "2026-11-21T11:37:32+01:00",
-      "url": "https://www.denik.cz/svet/fbi-a-americke-ministerstvo-zemedelstvi-se-staly-tercem-kybernetickych-utoku/",
+      "published_at": "2026-11-21T09:44:09+00:00",
+      "url": "https://ct24.ceskatelevize.cz/clanek/svet/ruske-hybridni-hrozby-jsou-stale-realnejsi-varovala-sefka-komise-379812",
       "importance": "Čeká na zpracování a ověření zdrojů.",
       "importance_kind": "pending"
     },
     {
-      "title": "Vadilo mi, jak Turek a spol. popírají vědu, říká studentka o dopisu Babišovi",
-      "summary": "Devatenáctiletá studentka a lektorka Ludmila Kozlová ukazuje, že i jednotlivec může ovlivnit veřejnou debatu. Když nesouhlasila se zlehčováním vědeckých poznatků o klimatu na ministerstvu životního…",
-      "source": "Deník",
-      "category": "domaci",
-      "published_at": "2026-11-21T10:00:00+01:00",
-      "url": "https://www.denik.cz/cesko/vadilo-mi-jak-turek-a-spol-popiraji-vedu-rika-studentka-o-dopisu-babisovi/",
+      "title": "Ruské hybridní hrozby v EU jsou stále reálnější, uvedla šéfka EK",
+      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
+      "source": "ČTK / České noviny",
+      "category": "svet",
+      "published_at": "2026-11-21T10:28:00+01:00",
+      "url": "https://www.ceskenoviny.cz/zpravy/ruske-hybridni-hrozby-v-eu-jsou-stale-realnejsi-uvedla-sefka-ek/2904755",
       "importance": "Čeká na zpracování a ověření zdrojů.",
       "importance_kind": "pending"
     },
@@ -312,7 +282,7 @@
       "feeds_total": 1,
       "status": "ok",
       "candidates": 10,
-      "selected": 5,
+      "selected": 6,
       "free_articles_checked": 7
     },
     {
@@ -332,7 +302,7 @@
       "feeds_total": 2,
       "status": "ok",
       "candidates": 8,
-      "selected": 6,
+      "selected": 7,
       "free_articles_checked": 8
     },
     {
@@ -371,9 +341,9 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 6,
-      "selected": 3,
-      "free_articles_checked": 3
+      "candidates": 7,
+      "selected": 0,
+      "free_articles_checked": 0
     },
     {
       "name": "iDNES.cz",
@@ -381,9 +351,9 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 16,
-      "selected": 6,
-      "free_articles_checked": 6
+      "candidates": 17,
+      "selected": 4,
+      "free_articles_checked": 4
     },
     {
       "name": "CNN Prima NEWS",
