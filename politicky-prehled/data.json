@@ -1,7 +1,87 @@
 {
-  "updated_at": "2026-11-22T19:36:14.115011+00:00",
+  "updated_at": "2026-11-23T00:50:26.183027+00:00",
   "window_hours": 24,
   "articles": [
+    {
+      "title": "Vláda projedná novelu, která řeší vybržďování či ujíždění před policií",
+      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
+      "source": "ČTK / České noviny",
+      "category": "domaci",
+      "published_at": "2026-11-23T00:10:00+01:00",
+      "url": "https://www.ceskenoviny.cz/zpravy/vlada-projedna-novelu-ktera-resi-vybrzdovani-ci-ujizdeni-pred-policii/2904995",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Vedení ODS s regiony probere strategii, kterou chce zlomit klesající preference",
+      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
+      "source": "ČTK / České noviny",
+      "category": "domaci",
+      "published_at": "2026-11-23T00:08:00+01:00",
+      "url": "https://www.ceskenoviny.cz/zpravy/vedeni-ods-s-regiony-probere-strategii-kterou-chce-zlomit-klesajici-preference/2905252",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Premiéři zemí V4 se v Bratislavě sejdou s rakouským kancléřem",
+      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
+      "source": "ČTK / České noviny",
+      "category": "svet",
+      "published_at": "2026-11-23T00:07:00+01:00",
+      "url": "https://www.ceskenoviny.cz/zpravy/premieri-zemi-v4-se-v-bratislave-sejdou-s-rakouskym-kanclerem/2905251",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Patová situace. Beroun se nového vedení nejspíš nedočká ani v pondělí",
+      "summary": "Povolební jednání v Berouně stále nepřinesla výsledek. Lídryně vítězného uskupení Beroun sobě Barbora Skálová na pondělním pokračování ustavujícího zastupitelstva navrhne jeho další odložení o týden.",
+      "source": "Aktuálně.cz",
+      "category": "domaci",
+      "published_at": "2026-11-22T22:20:40+01:00",
+      "url": "https://zpravy.aktualne.cz/domaci/patova-situace-beroun-se-noveho-vedeni-nejspis-nedocka-ani-v-pondeli/r~aaa294ad035cd21e273474ed703c777e/",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Pavel ocenil státním vyznamenáním historika Snydera a politologa Krasteva",
+      "summary": "Prezident Petr Pavel udělil v neděli na Pražském hradě dvě státní vyznamenání. Medaili Za zásluhy od české hlavy státu převzal bulharský politolog Ivan Krastev a…",
+      "source": "iDNES.cz",
+      "category": "domaci",
+      "published_at": "2026-11-22T20:07:00+00:00",
+      "url": "https://www.idnes.cz/zpravy/domaci/prezident-pavel-ocenil-historika-snydera-a-politologa-krasteva.A261122_165959_domaci_remy",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Nejvíc za posledních třicet let. Demokraté drtivě ovládnou americkou sněmovnu",
+      "summary": "Demokraté budou mít v americké Sněmovně reprezentantů nejméně 258 křesel, což je nejvíce od roku 1992, píše agentura AP. Čtyři mandáty jsou navíc ještě ve…",
+      "source": "Aktuálně.cz",
+      "category": "svet",
+      "published_at": "2026-11-22T20:46:17+01:00",
+      "url": "https://zpravy.aktualne.cz/zahranici/nejvic-za-poslednich-tricet-let-demokrate-drtive-ovladnou-americkou-snemovnu/r~aaa29e28985ae24cf5b98446b500ad98/",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Ohnivé peklo v Benghází. Dronový útok zničil moderní ruskou válečnou loď",
+      "summary": "Východolibyjským přístavem Benghází otřásla v noci na neděli mohutná exploze. Cílem útoku námořních dronů se stala moderní ruská raketová korveta Merkurij, kterou následně zachvátil rozsáhlý…",
+      "source": "iDNES.cz",
+      "category": "svet",
+      "published_at": "2026-11-22T19:45:00+00:00",
+      "url": "https://www.idnes.cz/zpravy/zahranicni/ohnive-peklo-v-benghazi-dronovy-utok-zrejme-znicil-moderni-ruskou-valecnou-lod.A261122_154557_zahranicni_remy",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Demokraté budou mít v americké Sněmovně reprezentantů nejméně 258 křesel",
+      "summary": "Demokraté budou mít v americké Sněmovně reprezentantů nejméně 258 křesel, což je nejvíce od roku 1992, píše agentura AP. Čtyři mandáty jsou navíc ještě ve…",
+      "source": "ČT24",
+      "category": "svet",
+      "published_at": "2026-11-22T19:25:53+00:00",
+      "url": "https://ct24.ceskatelevize.cz/clanek/svet/demokrate-budou-mit-v-americke-snemovne-reprezentantu-nejmene-258-kresel-379846",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
     {
       "title": "Vláda projedná přísnější tresty pro agresivní řidiče, hrozit by jim mohlo vězení",
       "summary": "V pondělí má vláda na programu schvalování návrhu novely trestního zákona, která zavádí přísnější tresty pro řidiče, kteří se chovají agresivně nebo za volant usedají…",
@@ -13,11 +93,11 @@
       "importance_kind": "pending"
     },
     {
-      "title": "Tají jak, ale už ví kdy. Do půl roku poplatky skončí, ujišťují Babiš s Okamurou",
+      "title": "Jedna podstatná věc se pořád neví: jak vláda zruší poplatky. Okamura přidal nový slib",
       "summary": "Vláda Andreje Babiše poplatky za Českou televizi a rozhlas navzdory protestům obrovského množství lidí a stávkujícím zaměstnancům zruší. O víkendu to řekli zástupci koalice včetně…",
       "source": "Aktuálně.cz",
       "category": "domaci",
-      "published_at": "2026-11-22T20:02:02+01:00",
+      "published_at": "2026-11-22T20:02:00+01:00",
       "url": "https://zpravy.aktualne.cz/domaci/aktualne-promeny-ceska/taji-jak-ale-uz-vi-kdy-do-pul-roku-poplatky-skonci-ujistuji-babis-s-okamurou/r~aaa2919cd54a292b458a90a279e7e4b0/",
       "importance": "Čeká na zpracování a ověření zdrojů.",
       "importance_kind": "pending"
@@ -63,16 +143,6 @@
       "importance_kind": "pending"
     },
     {
-      "title": "Pavel vyznamenal historika Snydera a politologa Krasteva",
-      "summary": "Prezident Petr Pavel udělil státní vyznamenání americkému historikovi Timothymu Snyderovi a bulharskému politologovi Ivanu Krastevovi. Hlava státu dvojici předala medaili Za zásluhy. Snyder se kvůli…",
-      "source": "ČT24",
-      "category": "domaci",
-      "published_at": "2026-11-22T16:50:00+00:00",
-      "url": "https://ct24.ceskatelevize.cz/clanek/domaci/pavel-vyznamenal-historika-snydera-a-politologa-krasteva-379839",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
       "title": "Politolog Krastev a historik Snyder dostali od Pavla Medaili Za zásluhy",
       "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
       "source": "ČTK / České noviny",
@@ -93,8 +163,8 @@
       "importance_kind": "pending"
     },
     {
-      "title": "V Libyi po dronovém útoku explodovala ruská válečná loď",
-      "summary": "Na ruské lodi kotvící na námoří základně v libyjském Benghází nastala exploze, uvedla vláda působící ve východní části země. Šlo zřejmě o dronový útok. Ruské…",
+      "title": "V Benghází expolodovala ruská loď, podle zdrojů AP na ni zaútočily ukrajinské drony",
+      "summary": "Na ruské korvetě Merkurij kotvící na námořní základně v libyjském Benghází v neděli nastala exploze a vypukl požár. Podle dvou východolibyjských vojenských představitelů šlo o…",
       "source": "ČT24",
       "category": "svet",
       "published_at": "2026-11-22T15:52:24+00:00",
@@ -113,8 +183,8 @@
       "importance_kind": "pending"
     },
     {
-      "title": "Tam to Rusové asi nečekali: záhadný útok na válečnou loď. Výbušniny přilétly z nebe",
-      "summary": "Na ruské lodi kotvící na námoří základně v libyjském Benghází nastala exploze, uvedla vláda působící ve východní části Libye. Šlo zřejmě o dronový útok. Ruské…",
+      "title": "Tam to Rusové asi nečekali: ukrajinský útok na válečnou loď. Výbušniny přilétly z nebe",
+      "summary": "Na ruské korvetě Merkurij kotvící na námořní základně v libyjském Benghází v neděli nastala exploze a vypukl požár. Podle dvou východolibyjských vojenských představitelů šlo o…",
       "source": "Aktuálně.cz",
       "category": "svet",
       "published_at": "2026-11-22T15:44:00+01:00",
@@ -129,26 +199,6 @@
       "category": "svet",
       "published_at": "2026-11-22T14:33:00+00:00",
       "url": "https://www.idnes.cz/zpravy/zahranicni/klimaticka-konference-cop31-deklarace-jednani-osn-eu.A261122_141921_zahranicni_votr",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
-      "title": "Macinka řekl, jaký je pro Česko nejlepší izraelský systém protivzdušné obrany",
-      "summary": "Pro Českou republiku by byly podle ministra zahraničních věcí Petra Macinky (Motoristé) ideální systémy protivzdušné obrany podobného typu, jako je izraelský David’s Sling (Davidův prak).…",
-      "source": "iDNES.cz",
-      "category": "domaci",
-      "published_at": "2026-11-22T13:50:00+00:00",
-      "url": "https://www.idnes.cz/zpravy/domaci/macinka-dobry-by-byl-system-protivzdusne-obrany-daviduv-prak-arrow-nevhodny.A261122_143907_domaci_remy",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
-      "title": "Hřib má Okamuru za „komerčního nácka”. Piráti nemají žádná témata, říká šéf SPD",
-      "summary": "Ministr Boris Šťastný (Motoristé sobě) nazval Mikuláše Mináře „byznysovým aktivistou“, předseda Pirátů Zdeněk Hřib zase počastoval nepřítomného šéfa Sněmovny výrazem „komerční nácek“. Tomio Okamura (SPD)…",
-      "source": "iDNES.cz",
-      "category": "domaci",
-      "published_at": "2026-11-22T13:43:00+00:00",
-      "url": "https://www.idnes.cz/zpravy/domaci/kuba-hrib-stastny-slachta-polsko-rusko-bezpecnost-parlament.A261122_114431_domaci_sahu",
       "importance": "Čeká na zpracování a ověření zdrojů.",
       "importance_kind": "pending"
     },
@@ -203,74 +253,12 @@
       "importance_kind": "pending"
     },
     {
-      "title": "Hosté Událostí, komentářů z ekonomiky debatovali o stavu českého zemědělství",
-      "summary": "Čeští zemědělci hovoří o jednom z nejtíživějších roků od vstupu Česka do Evropské unie. Potýkají se s rostoucími náklady, za kterými stojí mimo jiné zdražování…",
-      "source": "ČT24",
-      "category": "domaci",
-      "published_at": "2026-11-22T12:16:27+00:00",
-      "url": "https://ct24.ceskatelevize.cz/clanek/domaci/hoste-udalosti-komentaru-z-ekonomiky-debatovali-o-stavu-ceskeho-zemedelstvi-379826",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
-      "title": "Vzpoura Evropanů proti deklaraci: Klimatická konference zkolabovala",
-      "summary": "Jednání na nejdéle trvající klimatické konferenci OSN v historii COP31 zkolabovala, uvedla agentura Reuters. Stalo se tak poté, co se státy neshodly na společné deklaraci,…",
-      "source": "Aktuálně.cz",
-      "category": "svet",
-      "published_at": "2026-11-22T12:59:00+01:00",
-      "url": "https://zpravy.aktualne.cz/zahranici/konference-o-klimatu-se-rekordne-tahne-kamenem-urazu-jsou-fosilni-paliva/r~aaa296be31f99e4bf4e28be4ad351be6/",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
-      "title": "Tajemný dárce rozdává peníze. Lidé nacházejí bankovky ve schránkách",
-      "summary": "Obyvatele bytového domu v nizozemském městě Schiedam čekalo při vybírání pošty překvapení. V poštovních schránkách totiž našli bankovky v hodnotě padesát eur, aniž by tušili,…",
-      "source": "Deník",
-      "category": "svet",
-      "published_at": "2026-11-22T12:57:29+01:00",
-      "url": "https://www.denik.cz/evropa/nizozemsko-tajemny-darce-penize-bankovky-ve-schrankach/",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
-      "title": "Eisenkot označil novou vlnu osadnického násilí za „židovský teror“",
-      "summary": "Radikální izraelští osadníci v noci vtrhli do několika palestinských obcí na okupovaném Západním břehu, kde zapálili tucet vozidel a několik domů. Šéf opoziční strany Jašar…",
-      "source": "ČT24",
-      "category": "svet",
-      "published_at": "2026-11-22T10:41:46+00:00",
-      "url": "https://ct24.ceskatelevize.cz/clanek/svet/eisenkot-oznacil-novou-vlnu-osadnickeho-nasili-za-zidovsky-teror-379832",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
       "title": "Návrh rozpočtu EU je podle Babiše pro Česko absolutně nepřijatelný",
       "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
       "source": "ČTK / České noviny",
       "category": "domaci",
       "published_at": "2026-11-22T10:23:00+01:00",
       "url": "https://www.ceskenoviny.cz/zpravy/navrh-rozpoctu-eu-je-podle-babise-pro-cesko-absolutne-neprijatelny/2905029",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
-      "title": "Vláda v pondělí projedná tresty za vybržďování či ujíždění před policií",
-      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
-      "source": "ČTK / České noviny",
-      "category": "domaci",
-      "published_at": "2026-11-22T07:30:00+01:00",
-      "url": "https://www.ceskenoviny.cz/zpravy/vlada-v-pondeli-projedna-tresty-za-vybrzdovani-ci-ujizdeni-pred-policii/2904995",
-      "importance": "Ministerstvo spravedlnosti navrhuje nový trestný čin ohrožení v silničním provozu. Podle zprávy ČTK má umožnit trestní postih nebezpečného vybržďování, vytlačování vozidel či ujíždění policistům i před vznikem závažného zranění. Vláda má návrh teprve projednat 23. listopadu 2026; popsané sazby proto nejsou nově platnými tresty. Ministerstvo zdůvodňuje změnu tím, že dosavadní přestupkový postih části agresivního jednání neodpovídá riziku pro ostatní účastníky provozu. Jde o argument předkladatele, nikoli o doložený výsledek nové úpravy.\n\nPraktickým přínosem by mohla být možnost zasáhnout proti závažnému ohrožování dříve, než skončí nehodou. Zásadní však bude konečné vymezení trestného jednání a dokazování konkrétního průběhu jízdy: samotné zavedení vyšších sazeb nezaručuje odhalení ani odsouzení pachatele. Návrh podle ČTK počítá také se zabráním motorového vozidla, které má omezit další jízdy lidí bez oprávnění. Pro řidiče, policii i soudy proto bude důležité schválené znění a podmínky jednotlivých postihů. Zpráva zatím nedokládá dokončení legislativního procesu ani datum účinnosti; nelze podle ní tvrdit, že každé prudké brzdění bude automaticky trestným činem.",
-      "importance_kind": "analysis",
-      "analysis_source": "ČTK / České noviny",
-      "analysis_url": "https://www.ceskenoviny.cz/zpravy/vlada-v-pondeli-projedna-tresty-za-vybrzdovani-ci-ujizdeni-pred-policii/2904995"
-    },
-    {
-      "title": "Poslanci se budou zabývat rozpočtem a schvalovat daň na rafinerie",
-      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
-      "source": "ČTK / České noviny",
-      "category": "domaci",
-      "published_at": "2026-11-22T07:00:00+01:00",
-      "url": "https://www.ceskenoviny.cz/zpravy/poslanci-se-budou-zabyvat-rozpoctem-a-schvalovat-dan-na-rafinerie/2904989",
       "importance": "Čeká na zpracování a ověření zdrojů.",
       "importance_kind": "pending"
     }
@@ -283,9 +271,9 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 14,
-      "selected": 7,
-      "free_articles_checked": 8
+      "candidates": 13,
+      "selected": 5,
+      "free_articles_checked": 7
     },
     {
       "name": "iROZHLAS",
@@ -303,9 +291,9 @@
       "feeds_ok": 2,
       "feeds_total": 2,
       "status": "ok",
-      "candidates": 4,
-      "selected": 4,
-      "free_articles_checked": 4
+      "candidates": 6,
+      "selected": 5,
+      "free_articles_checked": 6
     },
     {
       "name": "Novinky.cz",
@@ -323,7 +311,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 12,
+      "candidates": 13,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -333,9 +321,9 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 7,
-      "selected": 4,
-      "free_articles_checked": 5
+      "candidates": 9,
+      "selected": 5,
+      "free_articles_checked": 6
     },
     {
       "name": "Deník",
@@ -343,9 +331,9 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 13,
-      "selected": 5,
-      "free_articles_checked": 5
+      "candidates": 14,
+      "selected": 4,
+      "free_articles_checked": 4
     },
     {
       "name": "iDNES.cz",
@@ -353,9 +341,9 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 13,
+      "candidates": 15,
       "selected": 5,
-      "free_articles_checked": 6
+      "free_articles_checked": 5
     },
     {
       "name": "CNN Prima NEWS",
@@ -363,7 +351,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "selected": 2,
       "free_articles_checked": 2
     },
@@ -413,7 +401,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 2,
+      "candidates": 6,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -423,7 +411,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 9,
+      "candidates": 11,
       "selected": 0,
       "free_articles_checked": 0
     },
