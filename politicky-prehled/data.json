@@ -1,14 +1,114 @@
 {
-  "updated_at": "2026-11-25T22:29:56.250680+00:00",
+  "updated_at": "2026-11-26T05:00:11.837409+00:00",
   "window_hours": 24,
   "articles": [
     {
+      "title": "KLDR chce být podle Kima jaderným státem, sankcím navzdory",
+      "summary": "KLDR se bez ohledu na výzvy k denuklearizaci nevzdá svých jaderných zbraní a chystá se rozšířit arzenál taktických jaderných hlavic. Prohlásil to severokorejský vládce Kim…",
+      "source": "ČT24",
+      "category": "svet",
+      "published_at": "2026-11-26T04:53:22+00:00",
+      "url": "https://ct24.ceskatelevize.cz/clanek/svet/kldr-chce-byt-podle-kima-jadernym-statem-sankcim-navzdory-379963",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Trump a Rutte: Rusko by nemělo rozšiřovat válku na Ukrajině",
+      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
+      "source": "ČTK / České noviny",
+      "category": "svet",
+      "published_at": "2026-11-26T05:40:00+01:00",
+      "url": "https://www.ceskenoviny.cz/zpravy/trump-a-rutte-rusko-by-nemelo-rozsirovat-valku-na-ukrajine/2905728",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Devadesát korun je málo. Naděje ODS chce zvýšit poplatek za pohotovost o víc než 100 procent",
+      "summary": "Poplatky ve zdravotnictví. To je evergreen, který se tu a tam občas vrací. Nyní lidé platí za návštěvu pohotovosti 90 korun. Podle stínového ministra zdravotnictví…",
+      "source": "Aktuálně.cz",
+      "category": "domaci",
+      "published_at": "2026-11-26T05:30:00+01:00",
+      "url": "https://zpravy.aktualne.cz/domaci/devadesat-korun-je-malo-nadeje-ods-chce-zvysit-poplatek-za-pohotovost-o-vic-nez-100-procent/r~aaa294f9ffe8259f978f1028056b10ff/",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Návrat ikonického dvojministra? Nespokojený Babiš řeší obranu, spekuluje se o Havlíčkovi",
+      "summary": "V politických kuloárech se už od léta spekuluje o výměně některých ministrů. Úvahy se nyní týkají zejména resortu obrany, a to v souvislosti s tím,…",
+      "source": "Aktuálně.cz",
+      "category": "domaci",
+      "published_at": "2026-11-26T05:30:00+01:00",
+      "url": "https://zpravy.aktualne.cz/domaci/navrat-ikonickeho-dvojministra-nespokojeny-babis-resi-obranu-spekuluje-se-o-havlickovi/r~aaa29b365af2e60791716a029c138191/",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Miláček levice, klidná síla z Galicie nebo drsný macho. Španělé si zvolí nového lídra",
+      "summary": "Španělsko v neděli čekají předčasné parlamentní volby. Socialistická vláda bojuje o přežití. K moci se podle průzkumů dere pravicová Lidová strana a slibně našlápnuto má…",
+      "source": "CNN Prima NEWS",
+      "category": "svet",
+      "published_at": "2026-11-26T05:24:12+01:00",
+      "url": "https://cnn.iprima.cz/milacek-levice-klidna-sila-z-galicie-nebo-drsny-macho-spanele-si-zvoli-noveho-lidra-528018",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Kyjev čelil dalšímu útoku ruských raket, zraněni byli čtyři lidé, uvedl starosta",
+      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
+      "source": "ČTK / České noviny",
+      "category": "svet",
+      "published_at": "2026-11-26T00:44:00+01:00",
+      "url": "https://www.ceskenoviny.cz/zpravy/kyjev-celil-dalsimu-utoku-ruskych-raket-zraneni-byli-ctyri-lide-uvedl-starosta/2906831",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Poslanci by se měli zabývat platformovou prací a podporami v nezaměstnanosti",
+      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
+      "source": "ČTK / České noviny",
+      "category": "domaci",
+      "published_at": "2026-11-26T00:30:00+01:00",
+      "url": "https://www.ceskenoviny.cz/zpravy/poslanci-by-se-meli-zabyvat-platformovou-praci-a-podporami-v-nezamestnanosti/2906830",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Poslanci přednesli téměř 150 návrhů k rozpočtu, přesunout chtějí přes 380 mld.",
+      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
+      "source": "ČTK / České noviny",
+      "category": "domaci",
+      "published_at": "2026-11-26T00:26:00+01:00",
+      "url": "https://www.ceskenoviny.cz/zpravy/poslanci-prednesli-temer-150-navrhu-k-rozpoctu-presunout-chteji-pres-380-mld/2904989",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Senát se dnes bude zabývat připraveností Česka na obranu státu",
+      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
+      "source": "ČTK / České noviny",
+      "category": "domaci",
+      "published_at": "2026-11-26T00:20:00+01:00",
+      "url": "https://www.ceskenoviny.cz/zpravy/senat-se-dnes-bude-zabyvat-pripravenosti-ceska-na-obranu-statu/2906130",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
       "title": "Miliardy na důchody přidá koalice na sport a slevy jízdného, miliony divadlům",
-      "summary": "Poslanci jednají o návrhu státního rozpočtu a přesunech peněz mezi jednotlivými kapitolami. Vládní koalice chce více než tři miliardy korun v rozpočtu původně určené jako…",
+      "summary": "Poslanci navrhli přesuny peněz v návrhu státního rozpočtu na příští rok. Vládní koalice chce využít více než tři miliardy korun, které byly v rozpočtu původně…",
       "source": "iDNES.cz",
       "category": "domaci",
-      "published_at": "2026-11-25T22:23:00+00:00",
+      "published_at": "2026-11-25T23:06:00+00:00",
       "url": "https://www.idnes.cz/zpravy/domaci/druhe-cteni-rozpoctu-na-2027-navrhy-poslancu-na-presuny-penez.A261125_042858_domaci_kop",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Třídění odpadu se mění. Pomoci mají dostupnější kontejnery i digitalizace",
+      "summary": "Cestou k jednoduššímu třídění odpadů jsou multikomoditní kontejnery, říká nový ředitel společnosti Eko-kom Vít Vážan. Moderní technologie na linkách jinak zvládají čištění i špinavých obalů.",
+      "source": "iDNES.cz",
+      "category": "domaci",
+      "published_at": "2026-11-25T23:00:00+00:00",
+      "url": "https://www.idnes.cz/ekonomika/domaci/trideni-odpadu-se-meni-pomoci-maji-dostupnejsi-kontejnery-i-digitalizace.A261120_145854_ekonomika_drh",
       "importance": "Čeká na zpracování a ověření zdrojů.",
       "importance_kind": "pending"
     },
@@ -73,16 +173,6 @@
       "importance_kind": "pending"
     },
     {
-      "title": "Hnutí Duha podalo exekuční návrh na vymožení omluvy od Turka",
-      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
-      "source": "ČTK / České noviny",
-      "category": "domaci",
-      "published_at": "2026-11-25T20:15:00+01:00",
-      "url": "https://www.ceskenoviny.cz/zpravy/hnuti-duha-podalo-exekucni-navrh-na-vymozeni-omluvy-od-turka/2886636",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
       "title": "Na Ukrajině už padlo téměř půl milionu Rusů, píše BBC. Zjistila to z údajů Rosstatu",
       "summary": "Britská BBC vydala podrobnou analýzu ruských ztrát na Ukrajině. Ukazuje, že od února 2022, kdy Moskva zahájila plnohodnotnou invazi do sousední země, v ní padlo…",
       "source": "ČT24",
@@ -123,72 +213,12 @@
       "importance_kind": "pending"
     },
     {
-      "title": "Babiš odletěl do Bruselu jednat o rozpočtu. Nečeká dohodu, vadí peníze pro Ukrajinu",
-      "summary": "Premiér Andrej Babiš neočekává od mimořádného summitu Evropské unie dohodu na víceletém finančním rámci. Přepracovaný návrh budoucího sedmiletého rozpočtu, který v sobotu představil předseda Evropské…",
-      "source": "iDNES.cz",
-      "category": "domaci",
-      "published_at": "2026-11-25T18:01:00+00:00",
-      "url": "https://www.idnes.cz/zpravy/domaci/babis-odletel-do-bruselu-jednat-o-rozpoctu-neceka-dohodu-vadi-penize-pro-ukrajinu.A261125_185121_domaci_meli",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
       "title": "Soud požádal Senát o vydání Martina Půty k trestnímu stíhání",
       "summary": "Vrchní soud v Praze požádal Senát o vydání senátora za Českolipsko a libereckého hejtmana Martina Půty (Starostové pro Liberecký kraj) k trestnímu stíhání. Půta to…",
       "source": "Deník",
       "category": "domaci",
       "published_at": "2026-11-25T18:56:29+01:00",
       "url": "https://www.denik.cz/cesko/soud-pozadal-senat-o-vydani-martina-puty-k-trestnimu-stihani/",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
-      "title": "Slováky pobouřilo zrušení voleb poštou. Nabízejí si odvoz a slibují, že k urnám dorazí",
-      "summary": "Slibují pomoc včetně finanční, nabízejí odvoz či ubytování a sami si berou dovolenou. Slováky žijící v zahraničí vytočilo oznámené zrušení možnosti volit poštou natolik, že…",
-      "source": "iDNES.cz",
-      "category": "svet",
-      "published_at": "2026-11-25T17:40:00+00:00",
-      "url": "https://www.idnes.cz/zpravy/zahranicni/slovensko-korespondencni-volby-robert-fico-slovaci-zahranici.A261125_143025_zahranicni_kha",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
-      "title": "Babiš neočekává od mimořádného summitu EU dohodu na budoucím rozpočtu",
-      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
-      "source": "ČTK / České noviny",
-      "category": "domaci",
-      "published_at": "2026-11-25T18:35:00+01:00",
-      "url": "https://www.ceskenoviny.cz/zpravy/babis-neocekava-od-mimoradneho-summitu-eu-dohodu-na-budoucim-rozpoctu/2906281",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
-      "title": "Nová fronta na severu? Útoky v Baltském moři se mohou týkat i Česka",
-      "summary": "Ukrajinské drony během deseti dnů zasáhly v Baltském moři dvě ruské lodě. Nejprve poškodily válečnou korvetu Naro-Fominsk, pak zapálily sankcionovanou nákladní loď Sparta II u…",
-      "source": "Aktuálně.cz",
-      "category": "svet",
-      "published_at": "2026-11-25T18:23:00+01:00",
-      "url": "https://zpravy.aktualne.cz/zahranici/nova-fronta-na-severu-utoky-v-baltskem-mori-se-mohou-tykat-i-ceska/r~aaa292f004fd718289f53e34d67a3382/",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
-      "title": "Budu se smát při funusu, vzkázala Topolánkovi tvář Zelených. Za „kanadský žertík“ to schytala",
-      "summary": "Nemístná poznámka na konto expremiéra Mirka Topolánka vyvolala bouři na sociálních sítích. Již bývalá letitá členka Zelených a lesní inženýrka Daricha Moravčíková napsala, že se…",
-      "source": "Aktuálně.cz",
-      "category": "domaci",
-      "published_at": "2026-11-25T18:09:00+01:00",
-      "url": "https://zpravy.aktualne.cz/domaci/budu-se-smat-pri-funusu-vzkazala-topolankovi-tvar-zelenych-za-kanadsky-zertik-to-schytala/r~aaa294240c46f4aee325e9c24d10a17a/",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
-      "title": "Senát odmítl možnost sportovních utkání s ruskými týmy v Česku",
-      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
-      "source": "ČTK / České noviny",
-      "category": "domaci",
-      "published_at": "2026-11-25T18:02:00+01:00",
-      "url": "https://www.ceskenoviny.cz/zpravy/senat-odmitl-moznost-sportovnich-utkani-s-ruskymi-tymy-v-cesku/2906701",
       "importance": "Čeká na zpracování a ověření zdrojů.",
       "importance_kind": "pending"
     },
@@ -209,8 +239,10 @@
       "category": "svet",
       "published_at": "2026-11-25T16:36:33+00:00",
       "url": "https://ct24.ceskatelevize.cz/clanek/svet/izraelsky-parlament-podporil-nezavisle-vysetrovani-selhani-pred-utokem-hamasu-379953",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
+      "importance": "Podpora návrhu 65 poslanci proti 50 ukazuje, že požadavek nezávislého vyšetřování bezpečnostních selhání před 7. říjnem 2023 získal parlamentní většinu. Komise však tímto hlasováním ještě nevznikla; návrh musí projít dalšími legislativními kroky. Spor se netýká jen toho, zda vyšetřovat, ale především kdo vybere členy a určí rozsah práce. Netanjahu prosazuje model s mandátem určovaným vládou, zatímco opozice požaduje nezávislou komisi.\n\nVýsledná pravidla mohou ovlivnit důvěru pozůstalých i veřejnosti v objasnění odpovědnosti bezpečnostních a politických orgánů. Samotný vznik komise ovšem není zjištěním viny konkrétních osob. Hlasování zároveň probíhá při sestavování nové vlády, takže většina pro jednotlivý návrh automaticky neznamená stabilní vládní většinu. Praktický význam bude mít konečná podoba mandátu, obsazení komise a schopnost získat podklady. Opoziční výklad, že vládou řízené vyšetřování má zakrýt odpovědnost, zůstává politickým obviněním, nikoli závěrem dokončeného šetření.",
+      "importance_kind": "analysis",
+      "analysis_source": "ČT24",
+      "analysis_url": "https://ct24.ceskatelevize.cz/clanek/svet/izraelsky-parlament-podporil-nezavisle-vysetrovani-selhani-pred-utokem-hamasu-379953"
     },
     {
       "title": "Na zvýšení slev na jízdné chce Babiš poslat 1,6 miliardy z peněz na důchody",
@@ -233,52 +265,12 @@
       "importance_kind": "pending"
     },
     {
-      "title": "Sedm zemí EU žádá v dopise omezení cestování Rusů, zejména sportovců",
-      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
-      "source": "ČTK / České noviny",
-      "category": "svet",
-      "published_at": "2026-11-25T16:49:00+01:00",
-      "url": "https://www.ceskenoviny.cz/zpravy/sedm-zemi-eu-zada-v-dopise-omezeni-cestovani-rusu-zejmena-sportovcu/2906664",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
-      "title": "Izraelský úder v Gaze zabil vysokého představitele Hamásu včetně jeho rodiny",
-      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
-      "source": "ČTK / České noviny",
-      "category": "svet",
-      "published_at": "2026-11-25T16:12:00+01:00",
-      "url": "https://www.ceskenoviny.cz/zpravy/izraelsky-uder-v-gaze-zabil-vysokeho-predstavitele-hamasu-vcetne-jeho-rodiny/2906638",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
-      "title": "Babiš obvinil české europoslance z udavačství. Podle Klempíře není usnesení k ČT a ČRo závazné",
+      "title": "Babiš nařkl české europoslance z udavačství. Dle Klempíře není usnesení k ČT a ČRo závazné",
       "summary": "Usnesení Evropského parlamentu ke změnám ve financování českých veřejnoprávních médií nevytváří podle ministra kultury Oty Klempíře (za Motoristy) pro vládu žádnou povinnost. Jde pouze o…",
       "source": "CNN Prima NEWS",
       "category": "domaci",
       "published_at": "2026-11-25T15:35:21+01:00",
       "url": "https://cnn.iprima.cz/babis-obvinil-ceske-europoslance-z-udavactvi-podle-klempire-neni-usneseni-k-ct-a-cro-zavazne-528116",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
-      "title": "Bod obratu v Trumpově politice: Putin návnadu nespolknul, všechno je rázem úplně jinak",
-      "summary": "Administrativa amerického prezidenta Donalda Trumpa nenápadně pustila k vodě plány na využití obchodních dohod s Ruskem jako pobídky pro Moskvu k ukončení války proti Ukrajině.…",
-      "source": "CNN Prima NEWS",
-      "category": "svet",
-      "published_at": "2026-11-25T14:41:46+01:00",
-      "url": "https://cnn.iprima.cz/bod-obratu-v-trumpove-politice-putin-navnadu-nespolknul-vsechno-je-razem-uplne-jinak-528102",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
-      "title": "Americká armáda v Iowě detonovala tuny chemikálií, místní zalepovali okna",
-      "summary": "Americká armáda ve středu ve státě Iowa odpálila víc než čtyři tuny chemikálií, které se používaly k výrobě výbušnin, napsal server The New York Times.…",
-      "source": "ČT24",
-      "category": "svet",
-      "published_at": "2026-11-25T13:21:24+00:00",
-      "url": "https://ct24.ceskatelevize.cz/clanek/svet/vzorky-pudy-a-zalepit-okna-v-iowe-odpali-jedovate-chemikalie-379940",
       "importance": "Čeká na zpracování a ověření zdrojů.",
       "importance_kind": "pending"
     },
@@ -289,26 +281,6 @@
       "category": "svet",
       "published_at": "2026-11-25T14:00:00+01:00",
       "url": "https://www.denik.cz/evropa/kazde-ctyri-minuty-jeden-mrtvy-na-ukrajine-mohlo-padnout-pres-720-tisic-rusu/",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
-      "title": "Sněmovna schválila zdražení odběru podzemní vody a větší rovnost ve firmách",
-      "summary": "Dolní komora ve třetím čtení schválila novelu zákona o rostlinolékařské péči, kterou předřadila před naplánované body. Předloha mimo jiné skrze pozměňovací návrh poslance ANO Karla…",
-      "source": "ČT24",
-      "category": "domaci",
-      "published_at": "2026-11-25T11:53:13+00:00",
-      "url": "https://ct24.ceskatelevize.cz/clanek/domaci/snemovna-schvalila-zdrazeni-odberu-podzemni-vody-a-vetsi-rovnost-ve-firmach-379938",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
-      "title": "Babiš přiznal chyby u návrhů změn podpor v nezaměstnanosti a definice švarcsystému",
-      "summary": "Premiér Andrej Babiš (ANO) přiznal chyby v návrzích na změny podpor v nezaměstnanosti a zákonu o platformové práci. S ministrem práce a sociálních věcí Alešem…",
-      "source": "ČT24",
-      "category": "domaci",
-      "published_at": "2026-11-25T11:45:23+00:00",
-      "url": "https://ct24.ceskatelevize.cz/clanek/domaci/babis-priznal-chyby-u-navrhu-zmen-podpor-v-nezamestnanosti-379936",
       "importance": "Čeká na zpracování a ověření zdrojů.",
       "importance_kind": "pending"
     },
@@ -331,8 +303,8 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 15,
-      "selected": 6,
+      "candidates": 17,
+      "selected": 4,
       "free_articles_checked": 6
     },
     {
@@ -341,7 +313,7 @@
       "feeds_ok": 2,
       "feeds_total": 2,
       "status": "ok",
-      "candidates": 18,
+      "candidates": 17,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -351,7 +323,7 @@
       "feeds_ok": 2,
       "feeds_total": 2,
       "status": "ok",
-      "candidates": 24,
+      "candidates": 28,
       "selected": 6,
       "free_articles_checked": 8
     },
@@ -381,9 +353,9 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 10,
+      "candidates": 8,
       "selected": 6,
-      "free_articles_checked": 7
+      "free_articles_checked": 6
     },
     {
       "name": "Deník",
@@ -401,9 +373,9 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 21,
-      "selected": 6,
-      "free_articles_checked": 6
+      "candidates": 19,
+      "selected": 5,
+      "free_articles_checked": 5
     },
     {
       "name": "CNN Prima NEWS",
@@ -411,7 +383,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 13,
+      "candidates": 14,
       "selected": 2,
       "free_articles_checked": 2
     },
@@ -431,7 +403,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 15,
+      "candidates": 14,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -441,7 +413,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 12,
+      "candidates": 8,
       "selected": 1,
       "free_articles_checked": 1
     },
@@ -461,7 +433,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 7,
+      "candidates": 6,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -471,7 +443,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 10,
+      "candidates": 12,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -481,7 +453,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 19,
+      "candidates": 15,
       "selected": 0,
       "free_articles_checked": 0
     }
