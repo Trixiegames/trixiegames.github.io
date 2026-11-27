@@ -1,0 +1,451 @@
+{
+  "updated_at": "2026-11-27T08:26:14.416969+00:00",
+  "window_hours": 24,
+  "articles": [
+    {
+      "title": "EU summit přinesl další spor o rozpočet, dohoda o podpoře Ukrajiny se komplikuje",
+      "summary": "Mimořádný summit Evropské unie, který ve čtvrtek skončil podle očekávání bez dohody o dlouhodobém rozpočtu, se změnil v chaotický večer. V pátekto napsal německý magazín…",
+      "source": "Aktuálně.cz",
+      "category": "svet",
+      "published_at": "2026-11-27T09:07:00+01:00",
+      "url": "https://zpravy.aktualne.cz/zahranici/eu-summit-prinesl-dalsi-spor-o-rozpocet-dohoda-o-podpore-ukrajiny-se-komplikuje/r~aaa29c1a6f9bfcc643a2a2cb4fa6e2c6/",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Poslanci mají schvalovat zdanění rafinerií i jednorázový příspěvek důchodům",
+      "summary": "Zavedení mimořádné daně pro rafinerie pro letošní a příští rok budou schvalovat poslanci. Vláda ji zdůvodňuje růstem marží rafinerií kvůli situaci na světovém trhu s…",
+      "source": "iDNES.cz",
+      "category": "domaci",
+      "published_at": "2026-11-27T08:03:00+00:00",
+      "url": "https://www.idnes.cz/zpravy/domaci/konecne-schvalovani-mimoradneho-zdaneni-rafinerii.A261127_051950_domaci_kop",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Der Spiegel: Summit EU přerostl v chaos; Politico píše o šokovaných lídrech",
+      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
+      "source": "ČTK / České noviny",
+      "category": "svet",
+      "published_at": "2026-11-27T08:49:00+01:00",
+      "url": "https://www.ceskenoviny.cz/zpravy/der-spiegel-summit-eu-prerostl-v-chaos-politico-pise-o-sokovanych-lidrech/2907477",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Zahraniční AI by mohla vnutit Rusům cizí hodnoty, obává se Putin",
+      "summary": "Cizí modely umělé inteligence by mohly vnutit Rusům cizí hodnoty, obává se ruský prezident Vladimir Putin. Pro Rusko je důležité, aby modely AI byly v…",
+      "source": "iDNES.cz",
+      "category": "svet",
+      "published_at": "2026-11-27T07:32:00+00:00",
+      "url": "https://www.idnes.cz/zpravy/zahranicni/zahranicni-ai-by-mohla-vnutit-rusum-cizi-hodnoty-obava-se-putin.A261127_081857_zahranicni_bro",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "KOMENTÁŘ: Cui bono? Kolem jmenování nového šéfa ÚOHS se rozjela zvláštní hra",
+      "summary": "Jak pohodlné a jednoduché by pro premiéra bylo, kdyby o dalším působení Petra Mlsny v čele Úřadu pro ochranu hospodářské soutěže (ÚOHS), jedné z klíčových…",
+      "source": "iDNES.cz",
+      "category": "domaci",
+      "published_at": "2026-11-27T07:30:00+00:00",
+      "url": "https://www.idnes.cz/zpravy/domaci/komentar-uohs-petr-mlsna.A261126_154623_domaci_tof",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Ministerstvo zastavilo vymáhání dotace od pekárny Penamu. Úřad argumentuje promlčecí lhůtou",
+      "summary": "Ministerstvo průmyslu a obchodu (MPO) vedené Karlem Havlíčkem (ANO) zastavilo vymáhání stomilionové dotace od Pekárny Zelená louka ze skupiny Penam, která spadá pod Agrofert. Zdůvodnilo…",
+      "source": "CNN Prima NEWS",
+      "category": "domaci",
+      "published_at": "2026-11-27T08:22:27+01:00",
+      "url": "https://cnn.iprima.cz/havlicek-zastavil-vymahani-stomilionove-dotace-penamu-duvodem-je-konec-promlceci-lhuty-528262",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Rusko se brzy rozpadne, tvrdí armádní jestřáb. Putinovi radí, jak zabránit krveprolití",
+      "summary": "Vladimir Putin vede Rusko k zániku a měl by dobrovolně předat moc. Myslí si to třiaosmdesátiletý generálplukovník ve výslužbě Leonid Ivašov, který v minulosti zastával…",
+      "source": "Aktuálně.cz",
+      "category": "svet",
+      "published_at": "2026-11-27T07:58:00+01:00",
+      "url": "https://zpravy.aktualne.cz/zahranici/putin-vede-svou-zemi-k-zaniku-varuje-rusky-general-poradil-mu-jak-odejit-z-kremlu/r~aaa290bf4a302e27b698327b2abbe265/",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Na ruskou Tulskou oblast útočily drony, podle médií na elektrárnu a továrnu",
+      "summary": "Tulská oblast ležící jižně od Moskvy se v noci na pátek stala cílem ukrajinského dronového náletu, vyplývá z příspěvku gubernátora Dmitrije Miljajeva na telegramu. Z…",
+      "source": "ČT24",
+      "category": "svet",
+      "published_at": "2026-11-27T06:54:01+00:00",
+      "url": "https://ct24.ceskatelevize.cz/clanek/svet/na-ruskou-tulskou-oblast-utocily-drony-podle-medii-na-elektrarnu-a-tovarnu-379998",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Ukrajina udeřila drony na ruskou elektrárnu. Starlink funguje, říká Zelenskyj",
+      "summary": "Tulská oblast ležící jižně od Moskvy se v noci stala cílem ukrajinského dronového náletu, uvedl tamní gubernátor Dmitrij Miljajev. Z tepelné elektrárny a podniku na…",
+      "source": "iDNES.cz",
+      "category": "svet",
+      "published_at": "2026-11-27T06:33:00+00:00",
+      "url": "https://www.idnes.cz/zpravy/zahranicni/valka-na-ukrajine-drony-rusko-tepelna-elektrarna-starlink.A261127_064607_zahranicni_lupr",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Sikorski předstihl prezidenta Nawrockého v žebříčku důvěry Poláků",
+      "summary": "Polský ministr zahraničí Radoslaw Sikorski vystřídal prezidenta Karola Nawrockého v postavení politika, kterému jeho krajané nejvíce důvěřují. Vyplývá to z průzkumu veřejného mínění společnosti IBRiS…",
+      "source": "Deník",
+      "category": "svet",
+      "published_at": "2026-11-27T07:05:19+01:00",
+      "url": "https://www.denik.cz/evropa/sikorski-predstihl-prezidenta-nawrockeho-v-zebricku-duvery-polaku/",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "R5M: ČT a ČRo na zrušení poplatků vydělají, tvrdí Klempíř | Dluh za Babišův zámek ve Francii zmizel, úroky za 60 milionů nikdo nezaplatil",
+      "summary": "https://denikn.cz/newsletter/2271354/ct-a-cro-na-zruseni-poplatku-vydelaji-tvrdi-klempir-snih-a-ledovka-ve-ctvrtek-komplikovaly-dopravu-dluh-za-babisuv-zamek-ve-francii-zmizel-uroky-za-60-milionu-nikdo-neza/",
+      "source": "Deník N",
+      "category": "domaci",
+      "published_at": "2026-11-27T06:04:55+00:00",
+      "url": "https://denikn.cz/newsletter/2271354/ct-a-cro-na-zruseni-poplatku-vydelaji-tvrdi-klempir-snih-a-ledovka-ve-ctvrtek-komplikovaly-dopravu-dluh-za-babisuv-zamek-ve-francii-zmizel-uroky-za-60-milionu-nikdo-neza/",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Španělsko čekají předčasné volby. Vox může lidovcům pomoct zpět k moci",
+      "summary": "Španělé v neděli v předčasných volbách zvolí poslance a senátory. Premiér Pedro Sánchez volby vyhlásil poté, co Kongres poslanců odmítl vládní dekrety na ochranu nájemníků.…",
+      "source": "ČT24",
+      "category": "svet",
+      "published_at": "2026-11-27T06:00:00+00:00",
+      "url": "https://ct24.ceskatelevize.cz/clanek/svet/spanelsko-cekaji-predcasne-volby-vox-muze-lidovcum-pomoct-zpet-k-moci-379957",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Půjčku pro Ukrajinu ve výši 45 miliard eur podpořilo 24 zemí EU. Česko je proti",
+      "summary": "Novou půjčku pro Ukrajinu v hodnotě 45 miliard eur (kolem 1,1 bilionu korun) podpořilo na summitu EU 24 zemí, oznámil po skončení jednání v Bruselu…",
+      "source": "iDNES.cz",
+      "category": "svet",
+      "published_at": "2026-11-27T05:40:00+00:00",
+      "url": "https://www.idnes.cz/zpravy/zahranicni/costa-pujcku-pro-ukrajinu-45-miliard-eur-podporilo-24-zemi-eu.A261127_005439_zahranicni_air",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Konečné výsledky voleb na Novém Zélandu potvrdily, že většinu nemá žádný blok",
+      "summary": "Konečné výsledky parlamentních voleb na Novém Zélandu konaných začátkem tohoto měsíce potvrdily, že ani blok pravicových stran končící vlády, ani levicová opozice nemají v parlamentu…",
+      "source": "ČT24",
+      "category": "svet",
+      "published_at": "2026-11-27T05:00:07+00:00",
+      "url": "https://ct24.ceskatelevize.cz/clanek/svet/konecne-vysledky-voleb-na-novem-zelandu-potvrdily-ze-vetsinu-nema-zadny-blok-379997",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Maskovali jsme se za ruské vojáky a projeli jejich stanovištěm, vzpomíná ukrajinský obránce",
+      "summary": "Aby během obrany Mariupolu v roce 2022 projely ukrajinské jednotky ruským kontrolním stanovištěm, použily na svých vozidlech ruské vojenské označení a nasadily si pásky na…",
+      "source": "ČT24",
+      "category": "svet",
+      "published_at": "2026-11-27T05:00:00+00:00",
+      "url": "https://ct24.ceskatelevize.cz/clanek/svet/maskovali-jsme-se-za-ruske-vojaky-a-projeli-jejich-stanovistem-vzpomina-ukrajinsky-obrance-379982",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Velký přehled cen benzinu a nafty v Evropě: Jak si stojí Česko v porovnání se zahraničím",
+      "summary": "Při pohledu na evropské ceny pohonných hmot nemají Češi mnoho důvodů ke stížnostem. Zatímco v Dánsku či Finsku se litr benzinu a nafty blíží šedesátikorunové…",
+      "source": "Aktuálně.cz",
+      "category": "svet",
+      "published_at": "2026-11-27T05:41:00+01:00",
+      "url": "https://zpravy.aktualne.cz/ekonomika/auto/pro-ridice/velky-prehled-cen-benzinu-a-nafty-v-evrope-jak-si-stoji-cesko-v-porovnani-se-zahranicim/r~aaa29bf9a479d354d9441b58775e0904/",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Jste chytřejší než Trump? Dokažte si to v kvízu",
+      "summary": "Americký prezident Donald Trump často a rád provokuje svými výroky a komentáři na sociálních sítích. Některé z nich ovšem tak razantně překračují meze reality, až…",
+      "source": "Aktuálně.cz",
+      "category": "domaci",
+      "published_at": "2026-11-27T05:30:00+01:00",
+      "url": "https://zpravy.aktualne.cz/domaci/jste-chytrejsi-nez-trump-dokazte-si-to-v-kvizu/r~aaa29ef319a78b21c2bfd8d68870d6c3/",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Poslanci mají na programu návrh na zdanění rafinerií a změny v důchodech",
+      "summary": "Poslanci mají v pátek na programu schvalování návrhu na zavedení mimořádné daně na rafinerie a na změny v důchodech. V závěrečném kole je na programu…",
+      "source": "ČT24",
+      "category": "domaci",
+      "published_at": "2026-11-27T03:46:17+00:00",
+      "url": "https://ct24.ceskatelevize.cz/clanek/domaci/poslanci-maji-v-patek-schvalovat-zdaneni-rafinerii-a-zmeny-v-duchodech-379996",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Costa: Novou půjčku pro Ukrajinu podpořilo na summitu EU 24 zemí",
+      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
+      "source": "ČTK / České noviny",
+      "category": "svet",
+      "published_at": "2026-11-27T01:29:00+01:00",
+      "url": "https://www.ceskenoviny.cz/zpravy/costa-novou-pujcku-pro-ukrajinu-podporilo-na-summitu-eu-24-zemi/2907427",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Poslankyně dorazila k řečništi s boxem kurýrů s jídlem na zádech",
+      "summary": "Poslankyně Irena Ferčíková Konečná (Zelení) zvolená za Piráty dorazila k řečnickému pultu ve Sněmovně při druhém čtení vládního návrhu zákona o platformové práci na zádech…",
+      "source": "iDNES.cz",
+      "category": "domaci",
+      "published_at": "2026-11-26T23:56:00+00:00",
+      "url": "https://www.idnes.cz/zpravy/domaci/poslankyne-dorazila-k-recnisti-na-zadech-s-boxem-kuryru-s-jidlem.A261126_190142_domaci_kop",
+      "importance": "Podstatným výsledkem debaty není spor o kurýrní box, ale posun zákona o platformové práci druhým čtením a návrh koaličních představitelů vypustit změnu definice závislé práce. Ministr Juchelka potvrdil, že tuto změnu nyní prosazovat nebude. Návrh na vypuštění však není totéž co konečně schválený zákon. Pro kurýry a další pracovníky bude rozhodující výsledné pravidlo posuzování zaměstnaneckého postavení a ochrana při řízení práce digitální platformou.\n\nPodle popisu návrhu by se pracovník považoval za zaměstnance, pokud jeho činnost splní znaky závislé práce a platforma alespoň jeden nevyvrátí. Praktický dopad tak závisí na konkrétním pracovním vztahu, nikoli jen na používání aplikace. Čísla PAQ Research o rozsahu možné legalizace švarcsystému a odborové odhady výpadku příjmů jsou argumenty k ustupující změně definice, nikoli již vzniklé ztráty. Zákon má ještě projít konečným hlasováním, Senátem a prezidentem; zamýšlený začátek účinnosti proto nelze vydávat za jistotu. Stejně je třeba jako návrh označovat i související zmírnění poklesu podpor pro lidi nad 52 let.",
+      "importance_kind": "analysis",
+      "analysis_source": "iDNES.cz",
+      "analysis_url": "https://www.idnes.cz/zpravy/domaci/poslankyne-dorazila-k-recnisti-na-zadech-s-boxem-kuryru-s-jidlem.A261126_190142_domaci_kop"
+    },
+    {
+      "title": "Juchelka schytal kritiku za krok k legalizaci švarcsystému a vzal zpátečku",
+      "summary": "Ministr práce a sociálních věcí Aleš Juchelka vzdal pokus změnit definici závislé práce. Jeho návrh vyvolal ostrou kritiku odborů i části opozice, že by jeho…",
+      "source": "iDNES.cz",
+      "category": "domaci",
+      "published_at": "2026-11-26T23:56:00+00:00",
+      "url": "https://www.idnes.cz/zpravy/domaci/poslanci-se-utkaji-kvuli-svarcsystemu-a-podpore-v-nezamestnanosti-cekaji-je-interpelace.A261126_053326_domaci_kop",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Prezident Pavel se dnes na Hradě setká s monackým knížetem Albertem II.",
+      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
+      "source": "ČTK / České noviny",
+      "category": "domaci",
+      "published_at": "2026-11-27T00:20:00+01:00",
+      "url": "https://www.ceskenoviny.cz/zpravy/prezident-pavel-se-dnes-na-hrade-setka-s-monackym-knizetem-albertem-ii/2907418",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Červený dál hájí šéfa KRNAPu. Chce park vstřícnější obcím a podnikání",
+      "summary": "Ministr životního prostředí Igor Červený (Motoristé) se v Interview ČT24 znovu postavil za ředitele Krkonošského národního parku (KRNAPu) Petra Moravce. Kauzu cesty na Martinik považuje…",
+      "source": "ČT24",
+      "category": "domaci",
+      "published_at": "2026-11-26T20:09:05+00:00",
+      "url": "https://ct24.ceskatelevize.cz/clanek/domaci/cerveny-dal-haji-sefa-krnapu-kauzu-cesty-do-karibiku-povazuje-za-uzavrenou-379993",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Trump na Den díkůvzdání popřál patriotům, vrahům i drogovým dealerům",
+      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
+      "source": "ČTK / České noviny",
+      "category": "svet",
+      "published_at": "2026-11-26T20:49:00+01:00",
+      "url": "https://www.ceskenoviny.cz/zpravy/trump-na-den-dikuvzdani-popral-patriotum-vrahum-i-drogovym-dealerum/2907345",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Odvážné plány vítězů srbských voleb: Čtyřdenní pracovní týden, méně reality show",
+      "summary": "Čtyřdenní pracovní týden bez snížení mzdy, omezení přesčasů, reality show v televizi až po jedenácté hodině večer nebo posílení vztahů s Evropskou unií. To jsou…",
+      "source": "Deník",
+      "category": "svet",
+      "published_at": "2026-11-26T20:00:00+01:00",
+      "url": "https://www.denik.cz/evropa/volby-srbsko-vitez-studentske-hnuti-plany-ctyrdenni-pracovni-tyden-mene-reality-show/",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Formování izraelské vlády pokračuje. Eisenkot našel partnera",
+      "summary": "Izraelská centristická strana Jašar dnes uzavřela předběžnou koaliční dohodu s levicově orientovanou stranou Demokraté. Strany to podle agentury AFP oznámily ve společném prohlášení. Jde o…",
+      "source": "Deník",
+      "category": "svet",
+      "published_at": "2026-11-26T19:44:25+01:00",
+      "url": "https://www.denik.cz/svet/formovani-izraelske-vlady-pokracuje-eisenkot-nasel-partnera/",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Sto tisíc vojáků v záloze dostalo dopis. Británie chce být připravena na válku",
+      "summary": "Sto tisíc bývalých příslušníků britského námořnictva, letectva a armády dostalo v těchto dnech dopisy od svých velitelů. Mají aktualizovat své kontakty a přidat přehled dovedností…",
+      "source": "Deník",
+      "category": "svet",
+      "published_at": "2026-11-26T19:00:00+01:00",
+      "url": "https://www.denik.cz/evropa/britanie-vojaci-zalohy-dopis-pripravenost/",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Ve Slavjansku na jihozápadě Ruska po náletu ukrajinských dronů hoří rafinérie",
+      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
+      "source": "ČTK / České noviny",
+      "category": "svet",
+      "published_at": "2026-11-26T17:54:00+01:00",
+      "url": "https://www.ceskenoviny.cz/zpravy/ve-slavjansku-na-jihozapade-ruska-po-naletu-ukrajinskych-dronu-hori-rafinerie/2907281",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    }
+  ],
+  "unavailable_sources": [],
+  "sources": [
+    {
+      "name": "ČT24",
+      "site": "https://ct24.ceskatelevize.cz/",
+      "feeds_ok": 1,
+      "feeds_total": 1,
+      "status": "ok",
+      "candidates": 14,
+      "selected": 6,
+      "free_articles_checked": 8
+    },
+    {
+      "name": "iROZHLAS",
+      "site": "https://www.irozhlas.cz/",
+      "feeds_ok": 2,
+      "feeds_total": 2,
+      "status": "ok",
+      "candidates": 19,
+      "selected": 0,
+      "free_articles_checked": 0
+    },
+    {
+      "name": "ČTK / České noviny",
+      "site": "https://www.ceskenoviny.cz/",
+      "feeds_ok": 2,
+      "feeds_total": 2,
+      "status": "ok",
+      "candidates": 17,
+      "selected": 5,
+      "free_articles_checked": 8
+    },
+    {
+      "name": "Novinky.cz",
+      "site": "https://www.novinky.cz/",
+      "feeds_ok": 1,
+      "feeds_total": 1,
+      "status": "ok",
+      "candidates": 6,
+      "selected": 0,
+      "free_articles_checked": 0
+    },
+    {
+      "name": "Seznam Zprávy",
+      "site": "https://www.seznamzpravy.cz/",
+      "feeds_ok": 1,
+      "feeds_total": 1,
+      "status": "ok",
+      "candidates": 16,
+      "selected": 0,
+      "free_articles_checked": 0
+    },
+    {
+      "name": "Aktuálně.cz",
+      "site": "https://zpravy.aktualne.cz/",
+      "feeds_ok": 1,
+      "feeds_total": 1,
+      "status": "ok",
+      "candidates": 6,
+      "selected": 4,
+      "free_articles_checked": 4
+    },
+    {
+      "name": "Deník",
+      "site": "https://www.denik.cz/",
+      "feeds_ok": 1,
+      "feeds_total": 1,
+      "status": "ok",
+      "candidates": 8,
+      "selected": 4,
+      "free_articles_checked": 6
+    },
+    {
+      "name": "iDNES.cz",
+      "site": "https://www.idnes.cz/",
+      "feeds_ok": 1,
+      "feeds_total": 1,
+      "status": "ok",
+      "candidates": 18,
+      "selected": 7,
+      "free_articles_checked": 7
+    },
+    {
+      "name": "CNN Prima NEWS",
+      "site": "https://cnn.iprima.cz/",
+      "feeds_ok": 1,
+      "feeds_total": 1,
+      "status": "ok",
+      "candidates": 11,
+      "selected": 1,
+      "free_articles_checked": 1
+    },
+    {
+      "name": "E15",
+      "site": "https://www.e15.cz/",
+      "feeds_ok": 1,
+      "feeds_total": 1,
+      "status": "ok",
+      "candidates": 3,
+      "selected": 0,
+      "free_articles_checked": 0
+    },
+    {
+      "name": "Forum 24",
+      "site": "https://www.forum24.cz/",
+      "feeds_ok": 1,
+      "feeds_total": 1,
+      "status": "ok",
+      "candidates": 15,
+      "selected": 0,
+      "free_articles_checked": 0
+    },
+    {
+      "name": "Deník N",
+      "site": "https://denikn.cz/",
+      "feeds_ok": 1,
+      "feeds_total": 1,
+      "status": "ok",
+      "candidates": 8,
+      "selected": 1,
+      "free_articles_checked": 1
+    },
+    {
+      "name": "Respekt",
+      "site": "https://www.respekt.cz/",
+      "feeds_ok": 1,
+      "feeds_total": 1,
+      "status": "ok",
+      "candidates": 7,
+      "selected": 0,
+      "free_articles_checked": 0
+    },
+    {
+      "name": "Hospodářské noviny",
+      "site": "https://hn.cz/",
+      "feeds_ok": 1,
+      "feeds_total": 1,
+      "status": "ok",
+      "candidates": 7,
+      "selected": 0,
+      "free_articles_checked": 0
+    },
+    {
+      "name": "TN.cz",
+      "site": "https://tn.nova.cz/",
+      "feeds_ok": 1,
+      "feeds_total": 1,
+      "status": "ok",
+      "candidates": 8,
+      "selected": 0,
+      "free_articles_checked": 0
+    },
+    {
+      "name": "Blesk",
+      "site": "https://www.blesk.cz/",
+      "feeds_ok": 1,
+      "feeds_total": 1,
+      "status": "ok",
+      "candidates": 13,
+      "selected": 0,
+      "free_articles_checked": 0
+    }
+  ]
+}
