@@ -1,14 +1,64 @@
 {
-  "updated_at": "2026-11-27T18:56:42.111989+00:00",
+  "updated_at": "2026-11-28T01:57:49.850108+00:00",
   "window_hours": 24,
   "articles": [
     {
-      "title": "„Chtějí to na mě hodit,“ tvrdí lidovec Grolich. Proti němu stojí ministr za SPD a poslanec ANO",
-      "summary": "Když Aktuálně.cz mluvilo ve čtvrtek s předsedou lidovců, hejtmanem a senátorem v jedné osobě Janem Grolichem, byl ještě šéfem Rady Vinařského fondu. O několik hodin…",
-      "source": "Aktuálně.cz",
+      "title": "Superdávka nefunguje, kritizoval Kolář. „Soudruzi z ANO“ podle něj udělali klíčovou chybu",
+      "summary": "Je to hodně divoký návrh, okomentoval pro CNN Prima NEWS politolog Lukáš Jelínek jeden z plánů hnutí ANO. Poslanecká sněmovna ve druhém čtení o státním…",
+      "source": "CNN Prima NEWS",
       "category": "domaci",
-      "published_at": "2026-11-27T18:35:00+01:00",
-      "url": "https://zpravy.aktualne.cz/domaci/chteji-to-na-me-hodit-tvrdi-lidovec-grolich-proti-nemu-stoji-ministr-za-spd-a-poslanec-ano/r~aaa298c97953d60f28639d922316f56c/",
+      "published_at": "2026-11-27T23:06:33+01:00",
+      "url": "https://cnn.iprima.cz/soudruzi-z-hnuti-ano-udelali-chybu-tvrdi-kolar-vysvetlil-co-ministr-juchelka-nezvladl-528198",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Zelenskyj se podivil nad tím, že Trump nazval Putina přítelem",
+      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
+      "source": "ČTK / České noviny",
+      "category": "svet",
+      "published_at": "2026-11-27T22:51:00+01:00",
+      "url": "https://www.ceskenoviny.cz/zpravy/zelenskyj-se-podivil-nad-tim-ze-trump-nazval-putina-pritelem/2907881",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Štáb ČT natáčel ve frontovém Slavjansku během ruského bombardování",
+      "summary": "Za poslední dva měsíce se výrazně zhoršila situace ve Slavjansku v ukrajinské Doněcké oblasti. Město ležící blízko frontové linie pustoší masivní ruské bombardování, v centru…",
+      "source": "ČT24",
+      "category": "svet",
+      "published_at": "2026-11-27T20:01:00+00:00",
+      "url": "https://ct24.ceskatelevize.cz/clanek/svet/stab-ct-natacel-ve-frontovem-slavjansku-behem-ruskeho-bombardovani-380023",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Putin vztyčil vlajku na nové jaderné ponorce Perm. Slíbil další modernizaci",
+      "summary": "Rusko hodlá pokračovat v modernizaci svého vojenského námořnictva, prohlásil ruský prezident Vladimir Putin, který se dnes zúčastnil slavnostního vztyčení vlajky na nové jaderné ponorce Perm,…",
+      "source": "iDNES.cz",
+      "category": "svet",
+      "published_at": "2026-11-27T19:12:00+00:00",
+      "url": "https://www.idnes.cz/zpravy/zahranicni/rusko-rusky-prezident-vladimir-putin-vojenske-namornictvo.A261127_194457_zahranicni_sile",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Německý rozpočet počítá s miliardami na vysokorychlostní trať z Drážďan do Prahy",
+      "summary": "V německém parlamentu prošel rozpočet s výdaji 555,9 miliardy eur (13,6 bilionu korun). Jeho součástí jsou také peníze na vysokorychlostní železnici z Drážďan do Prahy.…",
+      "source": "ČT24",
+      "category": "domaci",
+      "published_at": "2026-11-27T19:05:35+00:00",
+      "url": "https://ct24.ceskatelevize.cz/clanek/domaci/nemecky-rozpocet-pocita-s-miliardami-na-vysokorychlostni-trat-z-drazdan-do-prahy-380022",
+      "importance": "Čeká na zpracování a ověření zdrojů.",
+      "importance_kind": "pending"
+    },
+    {
+      "title": "Dalších dvacet stíhaček pro Ukrajinu? Žádost se objevila v dosti napjaté chvíli",
+      "summary": "Je to jedna z nejobratnějších stíhaček současnosti. V souboji na blízko je postrach. Nepřítele detekuje až na 160 kilometrů. To jsou stíhačky Eurofighter. Až dvacet…",
+      "source": "Aktuálně.cz",
+      "category": "svet",
+      "published_at": "2026-11-27T19:56:00+01:00",
+      "url": "https://zpravy.aktualne.cz/zahranici/dalsich-dvacet-stihacek-pro-ukrajinu-zadost-se-objevila-v-dosti-napjate-chvili/r~aaa2945abc4126265e665908b10d39f4/",
       "importance": "Čeká na zpracování a ověření zdrojů.",
       "importance_kind": "pending"
     },
@@ -63,16 +113,6 @@
       "importance_kind": "pending"
     },
     {
-      "title": "Zelenskyj děkuje Trumpově manželce: Z Ruska se vrátilo devět dětí",
-      "summary": "Na Ukrajinu se z Ruska a z Ruskem okupovaných území vrátilo devět dětí, oznámili v pátek ukrajinský prezident Volodymyr Zelenskyj a ombudsman Dmytro Lubinec. Oba…",
-      "source": "Aktuálně.cz",
-      "category": "svet",
-      "published_at": "2026-11-27T16:33:00+01:00",
-      "url": "https://zpravy.aktualne.cz/zahranici/zelenskyj-dekuje-trumpove-manzelce-z-ruska-se-vratilo-devet-deti/r~aaa29dacbdfe6fc9242676d90badfed7/",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
       "title": "Prezident Pavel se na Hradě setkal s monackým knížetem Albertem II.",
       "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
       "source": "ČTK / České noviny",
@@ -89,16 +129,6 @@
       "category": "svet",
       "published_at": "2026-11-27T16:27:00+01:00",
       "url": "https://www.ceskenoviny.cz/zpravy/na-ukrajinu-se-z-okupovanych-uzemi-a-ruska-vratilo-devet-deti-oznamil-kyjev/2907725",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
-      "title": "Špatná zpráva pro Ukrajinu. V Německu nastal „znepokojivý“ obrat, zaskočil i vládu",
-      "summary": "Mezi Němci výrazně klesá podpora vojenské pomoci Ukrajině. Proti dodávkám zbraní se nyní vyslovuje většina obyvatel – a to přesto, že Rusko nadále považují za…",
-      "source": "Aktuálně.cz",
-      "category": "svet",
-      "published_at": "2026-11-27T16:22:00+01:00",
-      "url": "https://zpravy.aktualne.cz/zahranici/spatna-zprava-pro-ukrajinu-v-nemecku-nastal-znepokojivy-obrat-zaskocil-i-vladu/r~aaa299502d5ca497ab564b575f71f7cf/",
       "importance": "Čeká na zpracování a ověření zdrojů.",
       "importance_kind": "pending"
     },
@@ -123,16 +153,6 @@
       "importance_kind": "pending"
     },
     {
-      "title": "Ministerstvo zastavilo vymáhání dotace po Penamu. Kauzu si vymysleli v Bruselu, řekl Babiš",
-      "summary": "Ministerstvo průmyslu a obchodu vedené Karlem Havlíčkem (ANO) zastavilo vymáhání stomilionové dotace od Pekárny Zelená louka ze skupiny Penam, která spadá pod Agrofert. Podle resortu…",
-      "source": "iDNES.cz",
-      "category": "domaci",
-      "published_at": "2026-11-27T15:21:00+00:00",
-      "url": "https://www.idnes.cz/zpravy/domaci/vymahani-dotace-pekarna-penam-promlceni-stat.A261127_074333_domaci_fohl",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
       "title": "„Bílí andělé“ na Ukrajině nocují v zákopech a evakuují seniory či raněné",
       "summary": "Policejní speciální jednotka „Bílí andělé“ od začátku roku 2026 uskutečnila v Sumské oblasti více než 1700 výjezdů a evakuovala přes 2600 lidí z příhraničních obcí.…",
       "source": "ČT24",
@@ -149,16 +169,6 @@
       "category": "svet",
       "published_at": "2026-11-27T15:01:16+00:00",
       "url": "https://ct24.ceskatelevize.cz/clanek/svet/kandidatem-studentskeho-hnuti-na-srbskeho-prezidenta-je-profesor-chemie-saicic-380016",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
-      "title": "Merzova vláda dostala zelenou pro rekordní výdaje, Německo zvýší i zadlužení",
-      "summary": "Poslanci německého Spolkového sněmu v pátek schválili rozpočet na příští rok. Počítá s výdaji 555,9 miliardy eur (13,6 bilionu korun). Vláda kancléře Friedricha Merze tak…",
-      "source": "Aktuálně.cz",
-      "category": "svet",
-      "published_at": "2026-11-27T15:22:00+01:00",
-      "url": "https://zpravy.aktualne.cz/zahranici/merzova-vlada-dostala-zelenou-pro-rekordni-vydaje-nemecko-zvysi-i-zadluzeni/r~aaa296bad341e8d2961079ec536de1a9/",
       "importance": "Čeká na zpracování a ověření zdrojů.",
       "importance_kind": "pending"
     },
@@ -223,42 +233,12 @@
       "importance_kind": "pending"
     },
     {
-      "title": "Magyarova očista přináší první výsledky, ale i nové otázky",
-      "summary": "Péter Magyar před půl rokem vystřídal Viktora Orbána v čele maďarské vlády a slíbil zemi zbavit korupce i mocenských struktur vybudovaných za předchozího kabinetu. Nová…",
-      "source": "ČT24",
-      "category": "svet",
-      "published_at": "2026-11-27T11:20:00+00:00",
-      "url": "https://ct24.ceskatelevize.cz/clanek/svet/magyarova-ocista-prinasi-prvni-vysledky-ale-i-nove-otazky-379984",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
       "title": "Pavel bude v úterý se Steinmeierem v Praze jednat o ekonomice i bezpečnosti",
       "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
       "source": "ČTK / České noviny",
       "category": "svet",
       "published_at": "2026-11-27T12:07:00+01:00",
       "url": "https://www.ceskenoviny.cz/zpravy/pavel-bude-v-utery-se-steinmeierem-v-praze-jednat-o-ekonomice-i-bezpecnosti/2904166",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
-      "title": "Sněmovna ve čtvrtek projedná na mimořádné schůzi 16 novel z práva EU",
-      "summary": "Zpráva ČTK. Celý článek si přečtěte na webu České noviny.",
-      "source": "ČTK / České noviny",
-      "category": "domaci",
-      "published_at": "2026-11-27T11:51:00+01:00",
-      "url": "https://www.ceskenoviny.cz/zpravy/snemovna-ve-ctvrtek-projedna-na-mimoradne-schuzi-16-novel-z-prava-eu/2907572",
-      "importance": "Čeká na zpracování a ověření zdrojů.",
-      "importance_kind": "pending"
-    },
-    {
-      "title": "Kauzu kolem dotace pro pekárnu z Agrofertu si vymysleli v Bruselu, řekl Babiš",
-      "summary": "Kauzu kolem dotace pro pekárnu patřící Agrofertu si vymysleli v Bruselu, řekl dnes premiér Andrej Babiš (ANO). Jde o účelové poškozování jeho bývalé firmy, uvedl…",
-      "source": "Deník",
-      "category": "domaci",
-      "published_at": "2026-11-27T10:26:34+01:00",
-      "url": "https://www.denik.cz/cesko/andrej-babis-dotace-pro-pekarnu-agrofert-eu/",
       "importance": "Čeká na zpracování a ověření zdrojů.",
       "importance_kind": "pending"
     },
@@ -281,9 +261,9 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 17,
-      "selected": 6,
-      "free_articles_checked": 7
+      "candidates": 16,
+      "selected": 7,
+      "free_articles_checked": 8
     },
     {
       "name": "iROZHLAS",
@@ -291,7 +271,7 @@
       "feeds_ok": 2,
       "feeds_total": 2,
       "status": "ok",
-      "candidates": 16,
+      "candidates": 18,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -301,7 +281,7 @@
       "feeds_ok": 2,
       "feeds_total": 2,
       "status": "ok",
-      "candidates": 16,
+      "candidates": 15,
       "selected": 6,
       "free_articles_checked": 8
     },
@@ -311,7 +291,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 8,
+      "candidates": 7,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -321,7 +301,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 12,
+      "candidates": 11,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -331,9 +311,9 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 6,
-      "selected": 5,
-      "free_articles_checked": 5
+      "candidates": 3,
+      "selected": 2,
+      "free_articles_checked": 2
     },
     {
       "name": "Deník",
@@ -341,9 +321,9 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 7,
-      "selected": 5,
-      "free_articles_checked": 5
+      "candidates": 9,
+      "selected": 4,
+      "free_articles_checked": 4
     },
     {
       "name": "iDNES.cz",
@@ -351,9 +331,9 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 10,
+      "candidates": 11,
       "selected": 4,
-      "free_articles_checked": 5
+      "free_articles_checked": 4
     },
     {
       "name": "CNN Prima NEWS",
@@ -361,9 +341,9 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 10,
-      "selected": 0,
-      "free_articles_checked": 0
+      "candidates": 9,
+      "selected": 1,
+      "free_articles_checked": 1
     },
     {
       "name": "E15",
@@ -381,7 +361,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 12,
+      "candidates": 13,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -411,7 +391,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 2,
+      "candidates": 1,
       "selected": 0,
       "free_articles_checked": 0
     },
@@ -421,7 +401,7 @@
       "feeds_ok": 1,
       "feeds_total": 1,
       "status": "ok",
-      "candidates": 9,
+      "candidates": 11,
       "selected": 0,
       "free_articles_checked": 0
     },
